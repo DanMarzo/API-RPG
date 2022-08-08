@@ -1,0 +1,15 @@
+D:\dan\dsIDan\aula03Colecoes\bin\Debug\net6.0\aula03Colecoes.exe
+D:\dan\dsIDan\aula03Colecoes\bin\Debug\net6.0\aula03Colecoes.deps.json
+D:\dan\dsIDan\aula03Colecoes\bin\Debug\net6.0\aula03Colecoes.runtimeconfig.json
+D:\dan\dsIDan\aula03Colecoes\bin\Debug\net6.0\aula03Colecoes.dll
+D:\dan\dsIDan\aula03Colecoes\bin\Debug\net6.0\aula03Colecoes.pdb
+D:\dan\dsIDan\aula03Colecoes\obj\Debug\net6.0\aula03Colecoes.csproj.AssemblyReference.cache
+D:\dan\dsIDan\aula03Colecoes\obj\Debug\net6.0\aula03Colecoes.GeneratedMSBuildEditorConfig.editorconfig
+D:\dan\dsIDan\aula03Colecoes\obj\Debug\net6.0\aula03Colecoes.AssemblyInfoInputs.cache
+D:\dan\dsIDan\aula03Colecoes\obj\Debug\net6.0\aula03Colecoes.AssemblyInfo.cs
+D:\dan\dsIDan\aula03Colecoes\obj\Debug\net6.0\aula03Colecoes.csproj.CoreCompileInputs.cache
+D:\dan\dsIDan\aula03Colecoes\obj\Debug\net6.0\aula03Colecoes.dll
+D:\dan\dsIDan\aula03Colecoes\obj\Debug\net6.0\refint\aula03Colecoes.dll
+D:\dan\dsIDan\aula03Colecoes\obj\Debug\net6.0\aula03Colecoes.pdb
+D:\dan\dsIDan\aula03Colecoes\obj\Debug\net6.0\aula03Colecoes.genruntimeconfig.cache
+D:\dan\dsIDan\aula03Colecoes\obj\Debug\net6.0\ref\aula03Colecoes.dll
