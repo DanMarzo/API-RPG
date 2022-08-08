@@ -10,7 +10,17 @@ namespace Aula03Colecoes
         static void Main(string[] args)
         {
             Criarlista();
+                
         }
+        public static void ExibirLista()
+        {
+            string dados = "";
+            for (int i = 0; i < lista.Count; i++)
+            {
+                dados += "===================================================\n";
+            }
+        } 
+
         public static void Criarlista()
         {
             Funcionario f1 = new Funcionario();
@@ -67,6 +77,5 @@ namespace Aula03Colecoes
             f6.TipoFuncionario = TipoFuncionarioEnum.CLT;
             lista.Add(f6);
         }
-
     }
 }
