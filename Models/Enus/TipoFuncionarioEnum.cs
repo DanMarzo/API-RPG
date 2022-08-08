@@ -1,4 +1,4 @@
-namespace Aula02Rh.Models.Enuns
+namespace Aula03Colecoes.Models.Enuns
 {
     public enum TipoFuncionarioEnum
     {

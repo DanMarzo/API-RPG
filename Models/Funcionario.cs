@@ -1,5 +1,5 @@
-using Aula02Rh.Models.Enuns;
-namespace Aula02Rh.Models; //NameSpace é o nome da pasta, e atravaes dos '.' se define os diretorios
+using Aula03Colecoes.Models.Enuns;
+namespace Aula03Colecoes.Models; //NameSpace é o nome da pasta, e atravaes dos '.' se define os diretorios
 
 public class Funcionario
 {
