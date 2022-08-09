@@ -17,7 +17,7 @@ namespace Aula03Colecoes
             ContarFuncionarios();
             ExibirLista();
             SomarSalario();
-
+            ExibirAprendizes();
 
         }
         public static void Ordenar()
@@ -28,6 +28,10 @@ namespace Aula03Colecoes
         public static void ContarFuncionarios(){
             int qtd = lista.Count();
             Console.WriteLine($"Existem {qtd} funcionários");
+        }
+        public static void ExibirAprendizes(){
+            lista = lista.FindAll(x => x.TipoFuncionario == TipoFuncionarioEnum.Aprendiz);
+            ExibirLista();
         }
         public static void ExibirLista()
         {
