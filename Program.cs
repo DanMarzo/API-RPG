@@ -1,4 +1,5 @@
 ﻿using System;
+using Aula03Colecoes;
 using Aula03Colecoes.Models;
 using Aula03Colecoes.Models.Enuns;
 
@@ -10,7 +11,7 @@ namespace Aula03Colecoes
         static void Main(string[] args)
         {
             Criarlista();
-                
+            ExibirLista();
         }
         public static void ExibirLista()
         {
@@ -18,7 +19,15 @@ namespace Aula03Colecoes
             for (int i = 0; i < lista.Count; i++)
             {
                 dados += "===================================================\n";
+                dados += string.Format("Id: {0} \n", lista[i].Id);
+                dados += string.Format("Nome: {0} \n", lista[i].Nome);
+                dados += string.Format("CPF: {0} \n", lista[i].Cpf);
+                dados += string.Format("Admissão: {0: dd/MM/yyyy} \n", lista[i].DataAdmissao);
+                dados += string.Format("Salário: {0:c2} \n", lista[i].Salario);
+                dados += string.Format("Tipo: {0} \n", lista[i].TipoFuncionario);
+                dados += "===================================================\n";
             }
+            Console.WriteLine(dados);
         } 
 
         public static void Criarlista()
