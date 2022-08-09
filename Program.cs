@@ -11,9 +11,17 @@ namespace Aula03Colecoes
         static void Main(string[] args)
         {
             Criarlista();// no main importa a sequência no resto não
-            ObterPorId();
+            // ExibirLista();
+            Ordenar();
+            //ObterPorId();
             ExibirLista();
         }
+        public static void Ordenar()
+        {
+            lista = lista.OrderBy(x => x.Nome).ToList();
+            ExibirLista();
+        }
+
         public static void ExibirLista()
         {
             string dados = "";
@@ -33,7 +41,7 @@ namespace Aula03Colecoes
         } 
         public static void ObterPorId()
         {
-            lista = lista.FindAll(x => x.Id == 1);
+            lista = lista.FindAll(x => x.Id == 6);
         }
         
         public static void Criarlista()
