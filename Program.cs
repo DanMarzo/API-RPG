@@ -10,7 +10,8 @@ namespace Aula03Colecoes
         static List<Funcionario> lista = new List<Funcionario>();
         static void Main(string[] args)
         {
-            Criarlista();
+            Criarlista();// no main importa a sequência no resto não
+            ObterPorId();
             ExibirLista();
         }
         public static void ExibirLista()
@@ -29,11 +30,16 @@ namespace Aula03Colecoes
             }
             Console.WriteLine(dados);
         } 
-
+        public static void ObterPorId()
+        {
+            lista = lista.FindAll(x => x.Id == 1);
+          //   Console.WriteLine(lista);
+        }
+        
         public static void Criarlista()
         {
             Funcionario f1 = new Funcionario();
-            f1.Id = 10;
+            f1.Id = 1;
             f1.Nome = "Neymar";
             f1.Cpf = "12345678910";
             f1.DataAdmissao = DateTime.Parse("01/01/2000");
