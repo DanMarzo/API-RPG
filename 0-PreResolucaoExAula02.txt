@@ -1,0 +1,103 @@
+using System;
+using Aula02RH.Models;
+using Aula02RH.Models.Enuns;
+
+namespace Aula02RH
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+           CadastrarFuncionario(); 
+        }
+
+        public static void CadastrarFuncionario()
+        {
+            Console.WriteLine("====================================================================");
+            Console.WriteLine("********************** Exercícios - Aula 02 RH *********************");
+            Console.WriteLine("====================================================================");
+
+            Funcionario func = new Funcionario();
+
+            Console.WriteLine("Digite o Id do funcionário: ");
+            func.Id = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("Digite o nome do funcionário: ");
+            func.Nome = Console.ReadLine();
+            
+            Console.WriteLine("Digite o CPF: ");
+            func.Cpf = Console.ReadLine();
+
+            Console.WriteLine("Digite a data de Admissão: ");
+            func.DataAdmissao = DateTime.Parse(Console.ReadLine());
+
+            Console.WriteLine("Digite o Salário: ");
+            func.Salario = decimal.Parse(Console.ReadLine());
+
+            Console.WriteLine("Escolha o tipo de Funcionário (1 - CLT / 2 - Aprendiz): ");
+            int opcao = int.Parse(Console.ReadLine());
+
+            //Operador Ternário - Interpretação: Se a condição do parenteses for verdadeira,
+            //escolhe o que está depois da "?", Caso contrário, escolhe o que está de pois dos ":"
+            func.TipoFuncionario = (opcao == 1) ? TipoFuncionarioEnum.CLT : TipoFuncionarioEnum.Aprendiz;
+
+            int opcaoEscolhida = 0;
+
+            do
+            {
+                Console.WriteLine("");
+                Console.WriteLine("");                
+                Console.WriteLine("Observe o menu abaixo e digite o número referente a opção desejada: ");
+                Console.WriteLine("1 - Reajustar Salário");
+                Console.WriteLine("2 - Exibir período de experiência");
+                Console.WriteLine("3 - Calcular Desconto do VT");
+                Console.WriteLine("4 - Validar CPF");                
+                Console.WriteLine("====================================================================");
+                Console.WriteLine("---------------Ou tecle qualquer outro número para sair ------------");
+                Console.WriteLine("====================================================================");
+                Console.WriteLine("");
+                Console.WriteLine("");
+
+                opcaoEscolhida = int.Parse(Console.ReadLine());
+                string mensagem = string.Empty;
+
+                switch (opcaoEscolhida)
+                {
+                    case 1:
+                        func.ReajustarSalario();  
+                        mensagem = string.Format("O Salário reajustado é {0:c2}", func.Salario);
+                        Console.WriteLine(mensagem);          
+                        break;
+                    case 2:
+                        mensagem = func.ExibirPeriodoExperiencia();                        
+                        Console.WriteLine(mensagem);
+                        break;
+                    case 3:
+                        Console.WriteLine("Digite o percentual de desconto:");
+                        decimal percentual = decimal.Parse(Console.ReadLine());
+                        decimal desconto = func.CalcularDescontoVT(percentual);                        
+                        mensagem = string.Format("O desconto é de {0:c2}", desconto);
+                        Console.WriteLine(mensagem);
+                        break;
+                    case 4:
+                        Console.WriteLine("O CPF é Valido?");
+                        bool resposta = func.ValidarCpf();
+                        Console.WriteLine(resposta ? "Sim" : "Não");
+                        break;                    
+                    default:
+                        Console.WriteLine("Saindo do sistema....");
+                        break;
+                }
+            } while (opcaoEscolhida >= 1 && opcaoEscolhida <= 6);
+
+            Console.WriteLine("====================================================================");
+            Console.WriteLine("********** Obrigado por utilizar o sistema e volte sempre **********");
+            Console.WriteLine("====================================================================");
+            Console.WriteLine("");Console.WriteLine("");            
+            
+        }
+
+    }
+}
+
+
