@@ -17,23 +17,23 @@ namespace Aula03Colecoes
         public static void ExibirLista()
         {
             string dados = "";
+            string tracos = "===================================================\n";
             for (int i = 0; i < lista.Count; i++)
             {
-                dados += "===================================================\n";
+                dados += tracos;
                 dados += string.Format("Id: {0} \n", lista[i].Id);
                 dados += string.Format("Nome: {0} \n", lista[i].Nome);
                 dados += string.Format("CPF: {0} \n", lista[i].Cpf);
                 dados += string.Format("Admissão: {0: dd/MM/yyyy} \n", lista[i].DataAdmissao);
                 dados += string.Format("Salário: {0:c2} \n", lista[i].Salario);
                 dados += string.Format("Tipo: {0} \n", lista[i].TipoFuncionario);
-                dados += "===================================================\n";
+                dados += tracos;
             }
             Console.WriteLine(dados);
         } 
         public static void ObterPorId()
         {
             lista = lista.FindAll(x => x.Id == 1);
-          //   Console.WriteLine(lista);
         }
         
         public static void Criarlista()
