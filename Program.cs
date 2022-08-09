@@ -16,6 +16,9 @@ namespace Aula03Colecoes
             //ObterPorId();
             ContarFuncionarios();
             ExibirLista();
+            SomarSalario();
+
+
         }
         public static void Ordenar()
         {
@@ -37,12 +40,17 @@ namespace Aula03Colecoes
                 dados += string.Format("Nome: {0} \n", lista[i].Nome);
                 dados += string.Format("CPF: {0} \n", lista[i].Cpf);
                 dados += string.Format("Admissão: {0: dd/MM/yyyy} \n", lista[i].DataAdmissao);
-                dados += string.Format("Salário: {0:c2} \n", lista[i].Salario);
+                dados += string.Format("Salário: {0:c2} \n", lista[i].Salario);//{0:c2} O cs é para exibir em Moeda local
                 dados += string.Format("Tipo: {0} \n", lista[i].TipoFuncionario);
                 dados += tracos;
             }
             Console.WriteLine(dados);
         } 
+        public static void SomarSalario()
+        {
+            decimal somatorio = lista.Sum(x => x.Salario);
+            Console.WriteLine(string.Format("A soma dos salários é {0:c2}", somatorio));
+        }
         public static void ObterPorId()
         {
             lista = lista.FindAll(x => x.Id == 6);
