@@ -14,14 +14,18 @@ namespace Aula03Colecoes
             // ExibirLista();
             Ordenar();
             //ObterPorId();
+            ContarFuncionarios();
             ExibirLista();
         }
         public static void Ordenar()
         {
-            lista = lista.OrderBy(x => x.Nome).ToList();
+            lista = lista.OrderBy(x => x.Cpf).ToList();
             ExibirLista();
         }
-
+        public static void ContarFuncionarios(){
+            int qtd = lista.Count();
+            Console.WriteLine($"Existem {qtd} funcionários");
+        }
         public static void ExibirLista()
         {
             string dados = "";
