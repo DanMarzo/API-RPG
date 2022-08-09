@@ -18,6 +18,8 @@ namespace Aula03Colecoes
             ExibirLista();
             SomarSalario();
             ExibirAprendizes();
+            AdicionarItem();
+            ExibirLista();
 
         }
         public static void Ordenar()
@@ -33,6 +35,7 @@ namespace Aula03Colecoes
             lista = lista.FindAll(x => x.TipoFuncionario == TipoFuncionarioEnum.Aprendiz);
             ExibirLista();
         }
+
         public static void ExibirLista()
         {
             string dados = "";
@@ -115,6 +118,17 @@ namespace Aula03Colecoes
             f6.Salario = 300.000M;
             f6.TipoFuncionario = TipoFuncionarioEnum.CLT;
             lista.Add(f6);
+        }
+        public static void AdicionarItem()
+        {
+            Funcionario fnovo = new Funcionario();
+            fnovo.Id = 9;
+            fnovo.Nome = "Ronaldo";
+            fnovo.Cpf = "11111111110";
+            fnovo.DataAdmissao = DateTime.Parse("17/05/1997");
+            fnovo.Salario = 300.000M;
+            fnovo.TipoFuncionario = TipoFuncionarioEnum.CLT;
+            lista.Add(fnovo);           
         }
     }
 }
