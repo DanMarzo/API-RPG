@@ -137,9 +137,9 @@ namespace Aula03Colecoes
         public static void BuscaPorNomeAproximado()
         {
             AdicionarItem();
-            lista = lista.FindAll(x => x.Nome.ToLower().Contains("ronaldo"));
+            lista = lista.FindAll(x => x.Nome.ToLower().Contains("ronaldo"));//Adiciona nos valores da lista os itens achados
             ExibirLista();
         }
-        
+
     }
 }
