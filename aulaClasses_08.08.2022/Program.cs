@@ -11,20 +11,22 @@ namespace Aula03Colecoes
         static void Main(string[] args)
         {
             Criarlista();// no main importa a sequência no resto não
-
-            BuscaPorNomeAproximado();
-            // ExibirLista(); //permanece inativo
+            
+            //BuscaPorNomeAproximado();
+            //ExibirLista(); //permanece inativo
 
             // Ordenar();
 
             //ObterPorId(); //permanece inativo
 
             // ContarFuncionarios();
-            // ExibirLista();
+            
             // SomarSalario();
             // ExibirAprendizes();
-            // AdicionarItem();
-            // ExibirLista();
+            
+            AdicionarItem();
+            //ExibirLista();
+            BuscaPorCpfRemover();
 
         }
         public static void ExibirLista()
@@ -106,7 +108,7 @@ namespace Aula03Colecoes
             Funcionario fnovo = new Funcionario();
             fnovo.Id = 9;
             fnovo.Nome = "Ronaldo";
-            fnovo.Cpf = "11111111110";
+            fnovo.Cpf = "01987654321";
             fnovo.DataAdmissao = DateTime.Parse("17/05/1997");
             fnovo.Salario = 300.000M;
             fnovo.TipoFuncionario = TipoFuncionarioEnum.CLT;
@@ -140,6 +142,15 @@ namespace Aula03Colecoes
             lista = lista.FindAll(x => x.Nome.ToLower().Contains("ronaldo"));//Adiciona nos valores da lista os itens achados
             ExibirLista();
         }
+        public static void BuscaPorCpfRemover()
+        {
+            Funcionario fBusca = lista.Find( x => x.Cpf == "01987654321");
+            lista.Remove(fBusca);
 
+            Console.WriteLine($"Personagem removido {fBusca.Nome}");
+
+            ExibirLista();
+        }
+        
     }
 }
