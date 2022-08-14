@@ -1,0 +1,30 @@
+E:\has\DS_2022-2\Aula01Variaveis\bin\Debug\net6.0\Aula01Variaveis.exe
+E:\has\DS_2022-2\Aula01Variaveis\bin\Debug\net6.0\Aula01Variaveis.deps.json
+E:\has\DS_2022-2\Aula01Variaveis\bin\Debug\net6.0\Aula01Variaveis.runtimeconfig.json
+E:\has\DS_2022-2\Aula01Variaveis\bin\Debug\net6.0\Aula01Variaveis.dll
+E:\has\DS_2022-2\Aula01Variaveis\bin\Debug\net6.0\ref\Aula01Variaveis.dll
+E:\has\DS_2022-2\Aula01Variaveis\bin\Debug\net6.0\Aula01Variaveis.pdb
+E:\has\DS_2022-2\Aula01Variaveis\obj\Debug\net6.0\Aula01Variaveis.csproj.AssemblyReference.cache
+E:\has\DS_2022-2\Aula01Variaveis\obj\Debug\net6.0\Aula01Variaveis.GeneratedMSBuildEditorConfig.editorconfig
+E:\has\DS_2022-2\Aula01Variaveis\obj\Debug\net6.0\Aula01Variaveis.AssemblyInfoInputs.cache
+E:\has\DS_2022-2\Aula01Variaveis\obj\Debug\net6.0\Aula01Variaveis.AssemblyInfo.cs
+E:\has\DS_2022-2\Aula01Variaveis\obj\Debug\net6.0\Aula01Variaveis.csproj.CoreCompileInputs.cache
+E:\has\DS_2022-2\Aula01Variaveis\obj\Debug\net6.0\Aula01Variaveis.dll
+E:\has\DS_2022-2\Aula01Variaveis\obj\Debug\net6.0\ref\Aula01Variaveis.dll
+E:\has\DS_2022-2\Aula01Variaveis\obj\Debug\net6.0\Aula01Variaveis.pdb
+E:\has\DS_2022-2\Aula01Variaveis\obj\Debug\net6.0\Aula01Variaveis.genruntimeconfig.cache
+D:\Materiais Locais\2DS_LuizQuiteria\Aula02\Aula01Variaveis\bin\Debug\net6.0\Aula01Variaveis.exe
+D:\Materiais Locais\2DS_LuizQuiteria\Aula02\Aula01Variaveis\bin\Debug\net6.0\Aula01Variaveis.deps.json
+D:\Materiais Locais\2DS_LuizQuiteria\Aula02\Aula01Variaveis\bin\Debug\net6.0\Aula01Variaveis.runtimeconfig.json
+D:\Materiais Locais\2DS_LuizQuiteria\Aula02\Aula01Variaveis\bin\Debug\net6.0\Aula01Variaveis.dll
+D:\Materiais Locais\2DS_LuizQuiteria\Aula02\Aula01Variaveis\bin\Debug\net6.0\Aula01Variaveis.pdb
+D:\Materiais Locais\2DS_LuizQuiteria\Aula02\Aula01Variaveis\obj\Debug\net6.0\Aula01Variaveis.csproj.AssemblyReference.cache
+D:\Materiais Locais\2DS_LuizQuiteria\Aula02\Aula01Variaveis\obj\Debug\net6.0\Aula01Variaveis.GeneratedMSBuildEditorConfig.editorconfig
+D:\Materiais Locais\2DS_LuizQuiteria\Aula02\Aula01Variaveis\obj\Debug\net6.0\Aula01Variaveis.AssemblyInfoInputs.cache
+D:\Materiais Locais\2DS_LuizQuiteria\Aula02\Aula01Variaveis\obj\Debug\net6.0\Aula01Variaveis.AssemblyInfo.cs
+D:\Materiais Locais\2DS_LuizQuiteria\Aula02\Aula01Variaveis\obj\Debug\net6.0\Aula01Variaveis.csproj.CoreCompileInputs.cache
+D:\Materiais Locais\2DS_LuizQuiteria\Aula02\Aula01Variaveis\obj\Debug\net6.0\Aula01Variaveis.dll
+D:\Materiais Locais\2DS_LuizQuiteria\Aula02\Aula01Variaveis\obj\Debug\net6.0\refint\Aula01Variaveis.dll
+D:\Materiais Locais\2DS_LuizQuiteria\Aula02\Aula01Variaveis\obj\Debug\net6.0\Aula01Variaveis.pdb
+D:\Materiais Locais\2DS_LuizQuiteria\Aula02\Aula01Variaveis\obj\Debug\net6.0\Aula01Variaveis.genruntimeconfig.cache
+D:\Materiais Locais\2DS_LuizQuiteria\Aula02\Aula01Variaveis\obj\Debug\net6.0\ref\Aula01Variaveis.dll
