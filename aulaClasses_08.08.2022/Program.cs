@@ -11,15 +11,20 @@ namespace Aula03Colecoes
         static void Main(string[] args)
         {
             Criarlista();// no main importa a sequência no resto não
+
+            BuscaPorNomeAproximado();
+            // ExibirLista(); //permanece inativo
+
+            // Ordenar();
+
+            //ObterPorId(); //permanece inativo
+
+            // ContarFuncionarios();
             // ExibirLista();
-            Ordenar();
-            //ObterPorId();
-            ContarFuncionarios();
-            ExibirLista();
-            SomarSalario();
-            ExibirAprendizes();
-            AdicionarItem();
-            ExibirLista();
+            // SomarSalario();
+            // ExibirAprendizes();
+            // AdicionarItem();
+            // ExibirLista();
 
         }
         public static void ExibirLista()
@@ -129,5 +134,12 @@ namespace Aula03Colecoes
             lista = lista.FindAll(x => x.TipoFuncionario == TipoFuncionarioEnum.Aprendiz);
             ExibirLista();
         }
+        public static void BuscaPorNomeAproximado()
+        {
+            AdicionarItem();
+            lista = lista.FindAll(x => x.Nome.ToLower().Contains("ronaldo"));
+            ExibirLista();
+        }
+        
     }
 }
