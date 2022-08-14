@@ -11,23 +11,24 @@ namespace Aula03Colecoes
         static void Main(string[] args)
         {
             Criarlista();// no main importa a sequência no resto não
-            
+            Console.WriteLine("Digite o salario para buscar todos acima deste valor: ");
+            decimal salarioDigitado = decimal.Parse(Console.ReadLine());
+            ObterPorSalario(salarioDigitado);
+            //Console.WriteLine("Digite o ID do funcionario ue você quer buscar");
+            //int idDigitado = int.Parse(Console.ReadLine());
+
+            //ObterPorId(idDigitado);
             //BuscaPorNomeAproximado();
             //ExibirLista(); //permanece inativo
-
             // Ordenar();
-
             //ObterPorId(); //permanece inativo
-
             // ContarFuncionarios();
-            
             // SomarSalario();
             // ExibirAprendizes();
-            
-            AdicionarItem();
+            //AdicionarItem();
             //ExibirLista();
-            BuscaPorCpfRemover();
-
+            //BuscaPorCpfRemover();
+            //RemoverIdMenor4();
         }
         public static void ExibirLista()
         {
@@ -46,6 +47,12 @@ namespace Aula03Colecoes
             }
             Console.WriteLine(dados);
         } 
+        public static void ObterPorSalario(decimal valor)
+        {
+            lista = lista.FindAll(x => x.Salario >= valor);
+            ExibirLista();
+        }
+
         
         public static void Criarlista()
         {
@@ -119,9 +126,11 @@ namespace Aula03Colecoes
             decimal somatorio = lista.Sum(x => x.Salario);
             Console.WriteLine(string.Format("A soma dos salários é {0:c2}", somatorio));
         }
-        public static void ObterPorId()
+        public static void ObterPorId(int id)
         {
-            lista = lista.FindAll(x => x.Id == 6);
+            Funcionario fBusca = lista.Find(x => x.Id ==id);
+            //lista = lista.FindAll(x => x.Id == 6);
+            Console.WriteLine($"Personagem encontrado: {fBusca.Nome}");
         }
         public static void Ordenar()
         {
@@ -151,6 +160,11 @@ namespace Aula03Colecoes
 
             ExibirLista();
         }
-        
+        public static void RemoverIdMenor4()
+        {
+            lista.RemoveAll(x => x.Id < 4);
+            ExibirLista();
+        }
+
     }
 }
