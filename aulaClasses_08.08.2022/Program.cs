@@ -22,20 +22,6 @@ namespace Aula03Colecoes
             ExibirLista();
 
         }
-        public static void Ordenar()
-        {
-            lista = lista.OrderBy(x => x.Cpf).ToList();
-            ExibirLista();
-        }
-        public static void ContarFuncionarios(){
-            int qtd = lista.Count();
-            Console.WriteLine($"Existem {qtd} funcionários");
-        }
-        public static void ExibirAprendizes(){
-            lista = lista.FindAll(x => x.TipoFuncionario == TipoFuncionarioEnum.Aprendiz);
-            ExibirLista();
-        }
-
         public static void ExibirLista()
         {
             string dados = "";
@@ -53,15 +39,6 @@ namespace Aula03Colecoes
             }
             Console.WriteLine(dados);
         } 
-        public static void SomarSalario()
-        {
-            decimal somatorio = lista.Sum(x => x.Salario);
-            Console.WriteLine(string.Format("A soma dos salários é {0:c2}", somatorio));
-        }
-        public static void ObterPorId()
-        {
-            lista = lista.FindAll(x => x.Id == 6);
-        }
         
         public static void Criarlista()
         {
@@ -129,6 +106,28 @@ namespace Aula03Colecoes
             fnovo.Salario = 300.000M;
             fnovo.TipoFuncionario = TipoFuncionarioEnum.CLT;
             lista.Add(fnovo);           
+        }
+        public static void SomarSalario()
+        {
+            decimal somatorio = lista.Sum(x => x.Salario);
+            Console.WriteLine(string.Format("A soma dos salários é {0:c2}", somatorio));
+        }
+        public static void ObterPorId()
+        {
+            lista = lista.FindAll(x => x.Id == 6);
+        }
+        public static void Ordenar()
+        {
+            lista = lista.OrderBy(x => x.Cpf).ToList();
+            ExibirLista();
+        }
+        public static void ContarFuncionarios(){
+            int qtd = lista.Count();
+            Console.WriteLine($"Existem {qtd} funcionários");
+        }
+        public static void ExibirAprendizes(){
+            lista = lista.FindAll(x => x.TipoFuncionario == TipoFuncionarioEnum.Aprendiz);
+            ExibirLista();
         }
     }
 }

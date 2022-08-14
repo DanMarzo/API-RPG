@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "D:\\dan\\dsIDan\\aula03Colecoes\\aula03Colecoes.csproj": {}
+    "D:\\ETEC\\etec2\\desenvolvimento_de_sistemas_I\\aulaClasses_08.08.2022\\aula03Colecoes.csproj": {}
   },
   "projects": {
-    "D:\\dan\\dsIDan\\aula03Colecoes\\aula03Colecoes.csproj": {
+    "D:\\ETEC\\etec2\\desenvolvimento_de_sistemas_I\\aulaClasses_08.08.2022\\aula03Colecoes.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\dan\\dsIDan\\aula03Colecoes\\aula03Colecoes.csproj",
+        "projectUniqueName": "D:\\ETEC\\etec2\\desenvolvimento_de_sistemas_I\\aulaClasses_08.08.2022\\aula03Colecoes.csproj",
         "projectName": "aula03Colecoes",
-        "projectPath": "D:\\dan\\dsIDan\\aula03Colecoes\\aula03Colecoes.csproj",
-        "packagesPath": "C:\\Users\\EtecHAS\\.nuget\\packages\\",
-        "outputPath": "D:\\dan\\dsIDan\\aula03Colecoes\\obj\\",
+        "projectPath": "D:\\ETEC\\etec2\\desenvolvimento_de_sistemas_I\\aulaClasses_08.08.2022\\aula03Colecoes.csproj",
+        "packagesPath": "C:\\Users\\marzo\\.nuget\\packages\\",
+        "outputPath": "D:\\ETEC\\etec2\\desenvolvimento_de_sistemas_I\\aulaClasses_08.08.2022\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\EtecHAS\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\marzo\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -54,7 +52,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }
