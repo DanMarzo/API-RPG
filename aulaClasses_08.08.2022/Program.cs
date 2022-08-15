@@ -31,6 +31,7 @@ namespace Aula03Colecoes
                 Console.WriteLine("Digite a data de admissao: ");
                 f.DataAdmissao = DateTime.Parse(Console.ReadLine());
 
+                
                 fAdicionando = AdicionarFuncionario(f);
             }
             ExibirLista();
