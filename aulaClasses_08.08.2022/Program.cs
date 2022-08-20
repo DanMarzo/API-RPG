@@ -132,11 +132,6 @@ namespace Aula03Colecoes
                 case 2:ExibirAprendizes();break;
                 default:
                 Console.WriteLine($"O valor '{buscarFuncionario} é invalido digite um valor valido'");break;
-                // case 1: lista = lista.FindAll(x => x.TipoFuncionario == TipoFuncionarioEnum.CLT);
-                // ExibirLista();break;
-                // case 2: lista = lista.FindAll(x => x.TipoFuncionario == TipoFuncionarioEnum.Aprendiz);
-                // ExibirLista();break;
-                // default:Console.WriteLine($"O valor {buscarFuncionario} é invalido por favor digite valores validos");break;
             }
         }
         public static void ExibirAprendizes()
