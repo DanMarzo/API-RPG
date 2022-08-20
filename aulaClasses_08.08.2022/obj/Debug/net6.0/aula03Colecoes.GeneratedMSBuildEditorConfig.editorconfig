@@ -7,4 +7,8 @@ build_property.InvariantGlobalization =
 build_property.PlatformNeutralAssembly = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = aula03Colecoes
+<<<<<<< HEAD
 build_property.ProjectDir = d:\ETEC\etec2\desenvolvimento_de_sistemas_I\aulaClasses_08.08.2022\
+=======
+build_property.ProjectDir = d:\Dan\aulas-desenvolvimento-de-sistemas-etec\aulaClasses_08.08.2022\
+>>>>>>> 0ab38d376a1f31050b096a31faff4c531e54b211
