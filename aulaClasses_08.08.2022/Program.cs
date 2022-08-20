@@ -117,6 +117,11 @@ namespace Aula03Colecoes
             lista = lista.OrderBy(x => x.Salario).ToList();
             ExibirLista();
         }
+        public static void RemoverIdMenor4()
+        {
+            lista.RemoveAll(x => x.Id < 4);
+            //ExibirLista();
+        }
         public static void ObterPorNome(string nomeRequisitado)
         {
             AdicionarItem();
@@ -167,8 +172,7 @@ namespace Aula03Colecoes
             lista = lista.FindAll(x => x.Salario >= valor);
             ExibirLista();
         }
-        
-        
+             
         public static void Criarlista()
         {
             Funcionario f1 = new Funcionario();
@@ -271,11 +275,6 @@ namespace Aula03Colecoes
             Console.WriteLine($"Personagem removido {fBusca.Nome}");
 
             ExibirLista();
-        }
-        public static void RemoverIdMenor4()
-        {
-            lista.RemoveAll(x => x.Id < 4);
-            //ExibirLista();
         }
 
     }
