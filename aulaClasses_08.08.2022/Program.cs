@@ -13,7 +13,25 @@ namespace Aula03Colecoes
         
             Criarlista();
 
-            ObterEstatisticas();
+            bool fAdicionando = false;
+
+            while(fAdicionando == false)
+            {
+                Funcionario f = new Funcionario();
+
+                Console.WriteLine("Digite seu nome: ");
+                f.Nome = Console.ReadLine();
+
+                Console.WriteLine("Digite o salário: ");
+                f.Salario = decimal.Parse(Console.ReadLine());
+
+                Console.WriteLine("Digite a data de admissao: ");
+                f.DataAdmissao = DateTime.Parse(Console.ReadLine());
+
+                fAdicionando = AdicionarFuncionario(f);
+            }
+
+            //ObterEstatisticas();
 
             // ObterFuncionariosRecentes();
 
