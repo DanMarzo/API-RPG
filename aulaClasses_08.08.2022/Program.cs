@@ -20,36 +20,37 @@ namespace Aula03Colecoes
                 Funcionario f = new Funcionario();
 
                 Console.WriteLine("Digite seu nome: ");
-                f.Nome = Console.ReadLine();
+                    f.Nome = Console.ReadLine();
 
                 Console.WriteLine("Digite o salário: ");
-                f.Salario = decimal.Parse(Console.ReadLine());
+                    f.Salario = decimal.Parse(Console.ReadLine());
 
                 Console.WriteLine("Digite a data de admissao: ");
-                f.DataAdmissao = DateTime.Parse(Console.ReadLine());
+                    f.DataAdmissao = DateTime.Parse(Console.ReadLine());
                 
                 fAdicionando = ValidarNome(f);
                 if(fAdicionando == true)
                     fAdicionando = AdicionarFuncionario(f);
             }
 
-            //ObterEstatisticas();
+            ObterEstatisticas();
 
-            // ObterFuncionariosRecentes();
+            ObterFuncionariosRecentes();
 
-            // string tracos = "--------------------------------------------------------------";
+            string tracos = "--------------------------------------------------------------";
             
-            // Console.WriteLine("Digita ai o nome :D");
-            // string nomeMain = Console.ReadLine();
-            // ObterPorNome(nomeMain);
+            Console.WriteLine("Digita ai o nome :D");
+                string nomeMain = Console.ReadLine();
+            ObterPorNome(nomeMain);
             
-            
-            // Console.WriteLine(tracos);
-            // Console.WriteLine("Digite a opção desejada para buscar os Funcionários;");
-            // Console.WriteLine("1 = CLT; \n2= APprendiz;");
-            // int busca = int.Parse(Console.ReadLine());
-            // ObterPorTipo(busca);
-            // Console.WriteLine(tracos);
+            Console.WriteLine(tracos);
+
+            Console.WriteLine("Digite a opção desejada para buscar os Funcionários;");
+            Console.WriteLine("1 = CLT; \n2= APprendiz;");
+                int busca = int.Parse(Console.ReadLine());
+            ObterPorTipo(busca);
+
+            Console.WriteLine(tracos);
 
         }
         public static bool AdicionarFuncionario(Funcionario fNovo)
