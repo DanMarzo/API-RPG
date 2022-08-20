@@ -13,24 +13,31 @@ namespace Aula03Colecoes
         
             Criarlista();
 
-            
+            ObterEstatisticas();
 
-            ObterFuncionariosRecentes();
+            // ObterFuncionariosRecentes();
 
-            string tracos = "--------------------------------------------------------------";
+            // string tracos = "--------------------------------------------------------------";
             
-            Console.WriteLine("Digita ai o nome :D");
-            string nomeMain = Console.ReadLine();
-            ObterPorNome(nomeMain);
+            // Console.WriteLine("Digita ai o nome :D");
+            // string nomeMain = Console.ReadLine();
+            // ObterPorNome(nomeMain);
             
             
-            Console.WriteLine(tracos);
-            Console.WriteLine("Digite a opção desejada para buscar os Funcionários;");
-            Console.WriteLine("1 = CLT; \n2= APprendiz;");
-            int busca = int.Parse(Console.ReadLine());
-            ObterPorTipo(busca);
-            Console.WriteLine(tracos);
+            // Console.WriteLine(tracos);
+            // Console.WriteLine("Digite a opção desejada para buscar os Funcionários;");
+            // Console.WriteLine("1 = CLT; \n2= APprendiz;");
+            // int busca = int.Parse(Console.ReadLine());
+            // ObterPorTipo(busca);
+            // Console.WriteLine(tracos);
 
+        }
+        public static void ObterEstatisticas()
+        {
+            Console.WriteLine("Segue abaixo as estatisticas dos Funcionarios:");
+            RemoverIdMenor4();
+            SomarSalario();
+            ContarFuncionarios();
         }
 
         public static void ObterFuncionariosRecentes()
@@ -214,7 +221,7 @@ namespace Aula03Colecoes
         public static void RemoverIdMenor4()
         {
             lista.RemoveAll(x => x.Id < 4);
-            ExibirLista();
+            //ExibirLista();
         }
 
     }
