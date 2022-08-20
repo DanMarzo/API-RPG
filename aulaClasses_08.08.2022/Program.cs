@@ -12,46 +12,72 @@ namespace Aula03Colecoes
         {
         
             Criarlista();
-
-            bool fAdicionando = false;
-
-            while(fAdicionando == false)
+            bool opcaoValidado = false;
+            while(opcaoValidado == false)
             {
-                Funcionario f = new Funcionario();
+                string[] frase = new string[3]{"Obter", "dado(s)","funcionario(s)"};
+                Console.WriteLine("Selecione a opção:"); 
+                Console.WriteLine($"1 - {frase[0]} {frase[1]} pelo tipo de funcionario");
+                Console.WriteLine($"2 - {frase[0]} {frase[1]} pelo nome do funcionario");
+                Console.WriteLine($"3 - {frase[0]} lista dos {frase[2]} recentes");
+                Console.WriteLine($"4 - Obter estatisca dos {frase[2]}");
+                Console.WriteLine($"5 - Adicionar {frase[2]}");
+                    int opcaoEscolhida = int.Parse(Console.ReadLine());
 
-                Console.WriteLine("Digite seu nome: ");
-                    f.Nome = Console.ReadLine();
+                switch(opcaoEscolhida)
+                {
+                    case 1:
+                        Console.WriteLine("Digite a opção desejada para buscar os Funcionários;");
+                        Console.WriteLine("1 = CLT; \n2= Aprendiz;");
+                            int busca = int.Parse(Console.ReadLine());
+                        ObterPorTipo(busca);
+                        opcaoValidado = true;
+                    ;break;
+                    case 2:
+                        Console.WriteLine("Digita ai o nome :D");
+                            string nomeMain = Console.ReadLine();
+                        ObterPorNome(nomeMain);
+                        opcaoValidado = true;
+                    ;break;
+                    case 3:
+                        ObterFuncionariosRecentes();
+                        opcaoValidado = true;
+                    ;break;
+                    case 4:
+                        ObterEstatisticas();
+                        opcaoValidado = true;
+                    ;break;
+                    case 5:
+                        bool fAdicionando = false;
 
-                Console.WriteLine("Digite o salário: ");
-                    f.Salario = decimal.Parse(Console.ReadLine());
+                        while(fAdicionando == false)
+                        {
+                            Funcionario f = new Funcionario();
 
-                Console.WriteLine("Digite a data de admissao: ");
-                    f.DataAdmissao = DateTime.Parse(Console.ReadLine());
+                            Console.WriteLine("Digite seu nome: ");
+                                f.Nome = Console.ReadLine();
+
+                            Console.WriteLine("Digite o salário: ");
+                                f.Salario = decimal.Parse(Console.ReadLine());
+
+                            Console.WriteLine("Digite a data de admissao: ");
+                                f.DataAdmissao = DateTime.Parse(Console.ReadLine());
                 
-                fAdicionando = ValidarNome(f);
-                if(fAdicionando == true)
-                    fAdicionando = AdicionarFuncionario(f);
+                            fAdicionando = ValidarNome(f);
+                            if(fAdicionando == true)
+                                fAdicionando = AdicionarFuncionario(f);
+                                    if(fAdicionando == true)
+                                        Console.WriteLine("User adicionado com sucesso");
+                        }
+                        opcaoValidado = true;
+                    ;break;
+                    default:
+                        Console.WriteLine("valor invalido!");
+                    opcaoValidado = false;break;
+
+                }
+
             }
-
-            ObterEstatisticas();
-
-            ObterFuncionariosRecentes();
-
-            string tracos = "--------------------------------------------------------------";
-            
-            Console.WriteLine("Digita ai o nome :D");
-                string nomeMain = Console.ReadLine();
-            ObterPorNome(nomeMain);
-            
-            Console.WriteLine(tracos);
-
-            Console.WriteLine("Digite a opção desejada para buscar os Funcionários;");
-            Console.WriteLine("1 = CLT; \n2= APprendiz;");
-                int busca = int.Parse(Console.ReadLine());
-            ObterPorTipo(busca);
-
-            Console.WriteLine(tracos);
-
         }
         public static bool AdicionarFuncionario(Funcionario fNovo)
         {
@@ -70,7 +96,7 @@ namespace Aula03Colecoes
         {
             if(validarNome.Nome.Length < 3)
             {
-                Console.WriteLine($"O nome = {validarNome.Nome} é invalido!");
+                Console.WriteLine($"O nome: '{validarNome.Nome}' é invalido!");
                 return false;
             }
             else
@@ -81,7 +107,6 @@ namespace Aula03Colecoes
         public static void ObterEstatisticas()
         {
             Console.WriteLine("Segue abaixo as estatisticas dos Funcionarios:");
-            RemoverIdMenor4();
             SomarSalario();
             ContarFuncionarios();
         }
@@ -95,7 +120,7 @@ namespace Aula03Colecoes
         public static void ObterPorNome(string nomeRequisitado)
         {
             AdicionarItem();
-            lista = lista.FindAll(x => x.Nome.Contains(nomeRequisitado));//Adiciona nos valores da lista os itens achados
+            lista = lista.FindAll(x => x.Nome.ToLower().Contains(nomeRequisitado));//Adiciona nos valores da lista os itens achados
             ExibirLista();
         }
 
