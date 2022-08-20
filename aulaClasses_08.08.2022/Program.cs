@@ -1,5 +1,4 @@
 ﻿using System;
-using Aula03Colecoes;
 using Aula03Colecoes.Models;
 using Aula03Colecoes.Models.Enuns;
 
@@ -7,9 +6,20 @@ namespace Aula03Colecoes
 {
     class Program
     {
+        private const int V = 1;
         static List<Funcionario> lista = new List<Funcionario>();
         static void Main(string[] args)
         {
+            Criarlista();
+            string tracos = "--------------------------------------------------------------";
+            
+            Console.WriteLine(tracos);
+            Console.WriteLine("Digite a opção desejada para buscar os Funcionários;");
+            Console.WriteLine("1 = CLT; \n2= APprendiz;");
+            int busca = int.Parse(Console.ReadLine());
+            ObterPorTipo(busca);
+            Console.WriteLine(tracos);
+
             // Criarlista();// no main importa a sequência no resto não
 
             // Console.WriteLine("Digite o salario para buscar todos acima deste valor: ");
@@ -51,6 +61,33 @@ namespace Aula03Colecoes
             // BuscaPorCpfRemover();
             // RemoverIdMenor4();
         }
+
+        public static void ObterPorTipo(int buscarFuncionario)
+        {
+            switch(buscarFuncionario)
+            {
+                case 1:ExibirCLT();break;
+                case 2:ExibirAprendizes();break;
+                default:
+                Console.WriteLine($"O valor '{buscarFuncionario} é invalido digite um valor valido'");break;
+                // case 1: lista = lista.FindAll(x => x.TipoFuncionario == TipoFuncionarioEnum.CLT);
+                // ExibirLista();break;
+                // case 2: lista = lista.FindAll(x => x.TipoFuncionario == TipoFuncionarioEnum.Aprendiz);
+                // ExibirLista();break;
+                // default:Console.WriteLine($"O valor {buscarFuncionario} é invalido por favor digite valores validos");break;
+            }
+        }
+        public static void ExibirAprendizes()
+        {
+            lista = lista.FindAll(x => x.TipoFuncionario == TipoFuncionarioEnum.Aprendiz);
+            ExibirLista();
+        }
+        public static void ExibirCLT()
+        {
+            lista = lista.FindAll(x => x.TipoFuncionario == TipoFuncionarioEnum.CLT);
+            ExibirLista();
+        }
+
         public static void ExibirLista()
         {
             string dados = "";
@@ -161,7 +198,7 @@ namespace Aula03Colecoes
         }
         public static void ObterPorId(int id)
         {
-            Funcionario fBusca = lista.Find(x => x.Id ==id);
+            Funcionario fBusca = lista.Find(x => x.Id == id);
             //lista = lista.FindAll(x => x.Id == 6);
             Console.WriteLine($"Personagem encontrado: {fBusca.Nome}");
         }
@@ -173,10 +210,6 @@ namespace Aula03Colecoes
         public static void ContarFuncionarios(){
             int qtd = lista.Count();
             Console.WriteLine($"Existem {qtd} funcionários");
-        }
-        public static void ExibirAprendizes(){
-            lista = lista.FindAll(x => x.TipoFuncionario == TipoFuncionarioEnum.Aprendiz);
-            ExibirLista();
         }
         public static void BuscaPorNomeAproximado()
         {

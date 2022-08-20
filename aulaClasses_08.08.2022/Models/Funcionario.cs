@@ -41,4 +41,9 @@ public class Funcionario
         else
             return false;
     }
+
+    internal Funcionario FindAll(Func<object, bool> value)
+    {
+        throw new NotImplementedException();
+    }
 }
