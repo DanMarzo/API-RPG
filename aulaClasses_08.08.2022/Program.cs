@@ -27,8 +27,10 @@ namespace Aula03Colecoes
 
                 Console.WriteLine("Digite a data de admissao: ");
                 f.DataAdmissao = DateTime.Parse(Console.ReadLine());
-
-                fAdicionando = AdicionarFuncionario(f);
+                
+                fAdicionando = ValidarNome(f);
+                if(fAdicionando == true)
+                    fAdicionando = AdicionarFuncionario(f);
             }
 
             //ObterEstatisticas();
@@ -49,6 +51,31 @@ namespace Aula03Colecoes
             // ObterPorTipo(busca);
             // Console.WriteLine(tracos);
 
+        }
+        public static bool AdicionarFuncionario(Funcionario fNovo)
+        {
+            if(fNovo.Salario == 0)
+            {
+                Console.WriteLine("Valor do salario nao pode ser 0");
+                return false;
+            }
+            else
+            {
+                lista.Add(fNovo);
+                return true;
+            }
+        }
+        public static bool ValidarNome(Funcionario validarNome)
+        {
+            if(validarNome.Nome.Length < 3)
+            {
+                Console.WriteLine($"O nome = {validarNome.Nome} é invalido!");
+                return false;
+            }
+            else
+            {
+                return true;
+            }
         }
         public static void ObterEstatisticas()
         {
@@ -119,19 +146,7 @@ namespace Aula03Colecoes
             lista = lista.FindAll(x => x.Salario >= valor);
             ExibirLista();
         }
-        public static bool AdicionarFuncionario(Funcionario fNovo)
-        {
-            if(fNovo.Salario == 0)
-            {
-                Console.WriteLine("Valor do salario nao pode ser 0");
-                return false;
-            }
-            else
-            {
-                lista.Add(fNovo);
-                return true;
-            }
-        }
+        
         
         public static void Criarlista()
         {
