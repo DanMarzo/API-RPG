@@ -131,7 +131,7 @@ namespace Aula03Colecoes
                 case 1:ExibirCLT();break;
                 case 2:ExibirAprendizes();break;
                 default:
-                Console.WriteLine($"O valor '{buscarFuncionario} é invalido digite um valor valido'");break;
+                Console.WriteLine($"O valor '{buscarFuncionario}' é invalido digite um valor valido'");break;
             }
         }
         public static void ExibirAprendizes()
