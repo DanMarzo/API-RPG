@@ -10,47 +10,46 @@ namespace Aula03Colecoes
         static List<Funcionario> lista = new List<Funcionario>();
         static void Main(string[] args)
         {
-            Criarlista();// no main importa a sequência no resto não
+            // Criarlista();// no main importa a sequência no resto não
 
-            //Console.WriteLine("Digite o salario para buscar todos acima deste valor: ");
-            //decimal salarioDigitado = decimal.Parse(Console.ReadLine());
-            //ObterPorSalario(salarioDigitado);
+            // Console.WriteLine("Digite o salario para buscar todos acima deste valor: ");
+            // decimal salarioDigitado = decimal.Parse(Console.ReadLine());
+            // ObterPorSalario(salarioDigitado);
 
-            bool fAdicionando = false;
+            // bool fAdicionando = false;
 
-            while(fAdicionando == false)
-            {
-                Funcionario f = new Funcionario();
+            // while(fAdicionando == false)
+            // {
+            //     Funcionario f = new Funcionario();
 
-                Console.WriteLine("Digite seu nome: ");
-                f.Nome = Console.ReadLine();
+            //     Console.WriteLine("Digite seu nome: ");
+            //     f.Nome = Console.ReadLine();
 
-                Console.WriteLine("Digite o salário: ");
-                f.Salario = decimal.Parse(Console.ReadLine());
+            //     Console.WriteLine("Digite o salário: ");
+            //     f.Salario = decimal.Parse(Console.ReadLine());
 
-                Console.WriteLine("Digite a data de admissao: ");
-                f.DataAdmissao = DateTime.Parse(Console.ReadLine());
+            //     Console.WriteLine("Digite a data de admissao: ");
+            //     f.DataAdmissao = DateTime.Parse(Console.ReadLine());
 
                 
-                fAdicionando = AdicionarFuncionario(f);
-            }
-            ExibirLista();
+            //     fAdicionando = AdicionarFuncionario(f);
+            // }
+            // ExibirLista();
 
-            //Console.WriteLine("Digite o ID do funcionario ue você quer buscar");
-            //int idDigitado = int.Parse(Console.ReadLine());
-            //ObterPorId(idDigitado);
+            // Console.WriteLine("Digite o ID do funcionario ue você quer buscar");
+            // int idDigitado = int.Parse(Console.ReadLine());
+            // ObterPorId(idDigitado);
 
-            //BuscaPorNomeAproximado();
-            //ExibirLista(); //permanece inativo
+            // BuscaPorNomeAproximado();
+            // ExibirLista(); //permanece inativo
             // Ordenar();
-            //ObterPorId(); //permanece inativo
             // ContarFuncionarios();
             // SomarSalario();
             // ExibirAprendizes();
-            //AdicionarItem();
-            //ExibirLista();
-            //BuscaPorCpfRemover();
-            //RemoverIdMenor4();
+            // AdicionarItem();
+            // ExibirLista();
+            // BuscaPorCpfRemover();
+            // RemoverIdMenor4();
         }
         public static void ExibirLista()
         {
