@@ -10,7 +10,13 @@ namespace Aula03Colecoes
         static List<Funcionario> lista = new List<Funcionario>();
         static void Main(string[] args)
         {
+        
             Criarlista();
+
+            
+
+            ObterFuncionariosRecentes();
+
             string tracos = "--------------------------------------------------------------";
             
             Console.WriteLine("Digita ai o nome :D");
@@ -25,6 +31,13 @@ namespace Aula03Colecoes
             ObterPorTipo(busca);
             Console.WriteLine(tracos);
 
+        }
+
+        public static void ObterFuncionariosRecentes()
+        {
+            RemoverIdMenor4();
+            lista = lista.OrderBy(x => x.Salario).ToList();
+            ExibirLista();
         }
         public static void ObterPorNome(string nomeRequisitado)
         {
