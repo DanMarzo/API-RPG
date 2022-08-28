@@ -48,6 +48,10 @@ namespace RpgApi.Controllers
             List<Personagem> listaFinal = personagens.OrderBy(p => p.Forca).ToList();
             return Ok(listaFinal);
         }
-
+        [HttpGet("GetContagem")]
+        public IActionResult GetQuantidade()
+        {
+            return Ok($"Quantidade de personagens: {personagens.Count}");
+        }
     }
 }
