@@ -33,5 +33,21 @@ namespace RpgApi.Controllers
         {
             return Ok(personagens.FirstOrDefault(pe => pe.Id == id));
         }
+        // Continuação metodo POST
+
+        [HttpPost]
+        public IActionResult AddPersonagem(Personagem novoPersonagem)
+        {
+            personagens.Add(novoPersonagem);
+            return Ok(personagens);
+        }
+
+        [HttpGet("GetOrdenado")]
+        public IActionResult GetOrdem()
+        {
+            List<Personagem> listaFinal = personagens.OrderBy(p => p.Forca).ToList();
+            return Ok(listaFinal);
+        }
+
     }
 }
