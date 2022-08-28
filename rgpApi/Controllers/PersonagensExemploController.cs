@@ -78,5 +78,11 @@ namespace RpgApi.Controllers
             personagens.Remove(pRemove);
             return Ok($"Os seguintes personagens foram removidos {pRemove.Nome}");
         }
+        [HttpGet("GetByForca/{forca}")]
+        public IActionResult Get(int forca) //Atentar-se pois so com o get funciona
+        {
+            List <Personagem> listaFinal = personagens.FindAll(p => p.Forca == forca);
+            return Ok(listaFinal);
+        }
     }
 }
