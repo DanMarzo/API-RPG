@@ -53,5 +53,10 @@ namespace RpgApi.Controllers
         {
             return Ok($"Quantidade de personagens: {personagens.Count}");
         }
+        [HttpGet("GetSomaForca")]
+        public IActionResult GetSomaForca()
+        {
+            return Ok($"A soma total da forca é {personagens.Sum(x => x.Forca)}");
+        }
     }
 }
