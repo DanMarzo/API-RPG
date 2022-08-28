@@ -35,12 +35,12 @@ namespace RpgApi.Controllers
         }
         // Continuação metodo POST
 
-        [HttpPost]
-        public IActionResult AddPersonagem(Personagem novoPersonagem)
-        {
-            personagens.Add(novoPersonagem);
-            return Ok(personagens);
-        }
+        // [HttpPost]
+        // public IActionResult AddPersonagem(Personagem novoPersonagem)
+        // {
+        //     personagens.Add(novoPersonagem);
+        //     return Ok(personagens);
+        // }
 
         [HttpGet("GetOrdenado")]
         public IActionResult GetOrdem()
@@ -83,6 +83,16 @@ namespace RpgApi.Controllers
         {
             List <Personagem> listaFinal = personagens.FindAll(p => p.Forca == forca);
             return Ok(listaFinal);
+        }
+        [HttpPost]
+        public IActionResult AddPersonagem(Personagem novoPersonagem)
+        {
+            personagens.Add(novoPersonagem);
+            
+            if(novoPersonagem.Inteligencia == 0)
+                return BadRequest("Inteligencia não pode ter o valor igual a 0");
+            
+            return Ok(personagens);
         }
     }
 }
