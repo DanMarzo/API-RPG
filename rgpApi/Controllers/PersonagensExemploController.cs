@@ -71,5 +71,12 @@ namespace RpgApi.Controllers
             List <Personagem> listaBusca = personagens.FindAll(p => p.Nome.Contains(nome));
             return Ok(listaBusca);
         }
+        [HttpGet("GetRemovendoMago")]
+        public IActionResult GetRemovendoMago()
+        {
+            Personagem pRemove = personagens.Find(p => p.Classe == ClasseEnum.Mago);
+            personagens.Remove(pRemove);
+            return Ok($"Os seguintes personagens foram removidos {pRemove.Nome}");
+        }
     }
 }
