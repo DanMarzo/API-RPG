@@ -58,5 +58,11 @@ namespace RpgApi.Controllers
         {
             return Ok($"A soma total da forca é {personagens.Sum(x => x.Forca)}");
         }
+        [HttpGet("GetSemCavaleiro")]
+        public IActionResult GetSemCavaleiro()
+        {
+            List <Personagem> listaBusca = personagens.FindAll(p => p.Classe != ClasseEnum.Cavaleiro);
+            return Ok(listaBusca);
+        }
     }
 }
