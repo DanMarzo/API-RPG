@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "aG8Yydu+4ZILz9/fLPRI/pf1h2LppJhJjNrf8cE4OcA4D9pYyKBVDT0T2fdtyM8TUGaF9UQDlGDTK4upPRgPwg==",
+  "dgSpecHash": "DFf+9ym645WOkeeTAU/SVVkOywFM+quAooKTRzFi3QKCRCgYEZ3dGnWzKo0O9sDP+WK8acC7ZuiCHDfatFU5Bw==",
   "success": true,
-  "projectFilePath": "D:\\ETEC\\etec2\\desenvolvimento_de_sistemas_I\\rgpApi\\rgpApi.csproj",
+  "projectFilePath": "D:\\ETEC\\etec2\\desenvolvimento_de_sistemas_I\\RgpApi\\rgpApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\marzo\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\marzo\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",

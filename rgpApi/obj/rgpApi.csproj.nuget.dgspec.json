@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\ETEC\\etec2\\desenvolvimento_de_sistemas_I\\rgpApi\\rgpApi.csproj": {}
+    "D:\\ETEC\\etec2\\desenvolvimento_de_sistemas_I\\RgpApi\\rgpApi.csproj": {}
   },
   "projects": {
-    "D:\\ETEC\\etec2\\desenvolvimento_de_sistemas_I\\rgpApi\\rgpApi.csproj": {
+    "D:\\ETEC\\etec2\\desenvolvimento_de_sistemas_I\\RgpApi\\rgpApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ETEC\\etec2\\desenvolvimento_de_sistemas_I\\rgpApi\\rgpApi.csproj",
+        "projectUniqueName": "D:\\ETEC\\etec2\\desenvolvimento_de_sistemas_I\\RgpApi\\rgpApi.csproj",
         "projectName": "rgpApi",
-        "projectPath": "D:\\ETEC\\etec2\\desenvolvimento_de_sistemas_I\\rgpApi\\rgpApi.csproj",
+        "projectPath": "D:\\ETEC\\etec2\\desenvolvimento_de_sistemas_I\\RgpApi\\rgpApi.csproj",
         "packagesPath": "C:\\Users\\marzo\\.nuget\\packages\\",
-        "outputPath": "D:\\ETEC\\etec2\\desenvolvimento_de_sistemas_I\\rgpApi\\obj\\",
+        "outputPath": "D:\\ETEC\\etec2\\desenvolvimento_de_sistemas_I\\RgpApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\marzo\\AppData\\Roaming\\NuGet\\NuGet.Config"
