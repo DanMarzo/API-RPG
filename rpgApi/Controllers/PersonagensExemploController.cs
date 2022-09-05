@@ -67,8 +67,8 @@ namespace RpgApi.Controllers
         [HttpGet("GetByNameAproximado/{nome}")]
         public IActionResult GetByNameAproximado(string nome)
         {
-            // List <Personagem> listaBusca = personagens.FindAll(p => p.Nome.ToLower().Contains(nome));
-            List <Personagem> listaBusca = personagens.FindAll(p => p.Nome.Contains(nome));
+            List <Personagem> listaBusca = personagens.FindAll(p => p.Nome.ToLower().Contains(nome.ToLower()));
+            //List <Personagem> listaBusca = personagens.FindAll(p => p.Nome.Contains(nome));
             return Ok(listaBusca);
         }
         [HttpGet("GetRemovendoMago")]
