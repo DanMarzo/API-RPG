@@ -105,7 +105,6 @@ namespace RpgApi.Controllers
             alterarPersonagem.Inteligencia = p.Inteligencia;
             alterarPersonagem.Classe = p.Classe;
 
-
             return Ok(personagens);
         }
     }
