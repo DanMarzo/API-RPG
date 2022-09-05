@@ -10,7 +10,7 @@ namespace RpgApi.Controllers
 {
     [ApiController]
     [Route("[Controller]")]
-    public class PersonagemExemploController : ControllerBase
+    public class PersonagemExemploController : ControllerBase //Sempre o nome do controler deve ser mencionado na barra de busca
     {
         private static List<Personagem> personagens = new List<Personagem>()
         {
