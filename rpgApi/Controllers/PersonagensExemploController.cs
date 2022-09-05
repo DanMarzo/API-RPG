@@ -94,5 +94,19 @@ namespace RpgApi.Controllers
             
             return Ok(personagens);
         }
+        [HttpPut]
+        public IActionResult UpdatePersonagem(Personagem p)
+        {
+            Personagem alterarPersonagem = personagens.Find(x => x.Id == p.Id);
+            alterarPersonagem.Nome = p.Nome;
+            alterarPersonagem.PontosVida = p.PontosVida;
+            alterarPersonagem.Forca = p.Forca;
+            alterarPersonagem.Defesa = p.Defesa;
+            alterarPersonagem.Inteligencia = p.Inteligencia;
+            alterarPersonagem.Classe = p.Classe;
+
+
+            return Ok(personagens);
+        }
     }
 }
