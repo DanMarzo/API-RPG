@@ -208,24 +208,26 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\marzo\\.nuget\\packages\\": {}
+    "C:\\Users\\EtecHAS\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\ETEC\\etec2\\desenvolvimento_de_sistemas_I\\rgpApi\\rgpApi.csproj",
-      "projectName": "rgpApi",
-      "projectPath": "D:\\ETEC\\etec2\\desenvolvimento_de_sistemas_I\\rgpApi\\rgpApi.csproj",
-      "packagesPath": "C:\\Users\\marzo\\.nuget\\packages\\",
-      "outputPath": "D:\\ETEC\\etec2\\desenvolvimento_de_sistemas_I\\rgpApi\\obj\\",
+      "projectUniqueName": "D:\\Dan\\aulas-desenvolvimento-de-sistemas-etec\\rpgApi\\rpgApi.csproj",
+      "projectName": "rpgApi",
+      "projectPath": "D:\\Dan\\aulas-desenvolvimento-de-sistemas-etec\\rpgApi\\rpgApi.csproj",
+      "packagesPath": "C:\\Users\\EtecHAS\\.nuget\\packages\\",
+      "outputPath": "D:\\Dan\\aulas-desenvolvimento-de-sistemas-etec\\rpgApi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\marzo\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\EtecHAS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -267,7 +269,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
       }
     }
   }

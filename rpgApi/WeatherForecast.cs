@@ -1,4 +1,4 @@
-namespace rgpApi;
+namespace rpgApi;
 
 public class WeatherForecast
 {

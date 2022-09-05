@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Dan\\aulas-desenvolvimento-de-sistemas-etec\\rpgApi\\rgpApi.csproj": {}
+    "D:\\Dan\\aulas-desenvolvimento-de-sistemas-etec\\rpgApi\\rpgApi.csproj": {}
   },
   "projects": {
-    "D:\\Dan\\aulas-desenvolvimento-de-sistemas-etec\\rpgApi\\rgpApi.csproj": {
+    "D:\\Dan\\aulas-desenvolvimento-de-sistemas-etec\\rpgApi\\rpgApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Dan\\aulas-desenvolvimento-de-sistemas-etec\\rpgApi\\rgpApi.csproj",
-        "projectName": "rgpApi",
-        "projectPath": "D:\\Dan\\aulas-desenvolvimento-de-sistemas-etec\\rpgApi\\rgpApi.csproj",
+        "projectUniqueName": "D:\\Dan\\aulas-desenvolvimento-de-sistemas-etec\\rpgApi\\rpgApi.csproj",
+        "projectName": "rpgApi",
+        "projectPath": "D:\\Dan\\aulas-desenvolvimento-de-sistemas-etec\\rpgApi\\rpgApi.csproj",
         "packagesPath": "C:\\Users\\EtecHAS\\.nuget\\packages\\",
         "outputPath": "D:\\Dan\\aulas-desenvolvimento-de-sistemas-etec\\rpgApi\\obj\\",
         "projectStyle": "PackageReference",
