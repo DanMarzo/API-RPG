@@ -1,0 +1,8 @@
+protected override void OnModelCreating(ModelBuilder modelbuilder)
+        {
+           modelbuilder.Entity<Personagem>().HasData
+           (
+                
+           );
+
+        }
