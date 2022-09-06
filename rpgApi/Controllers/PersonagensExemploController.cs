@@ -23,6 +23,13 @@ namespace RpgApi.Controllers
             new Personagem() { Id = 7, Nome = "Radagast", PontosVida=100, Forca=25, Defesa=11, Inteligencia=35, Classe=ClasseEnum.Mago }
         };
 
+        [HttpDelete("{Id}")]
+        public IActionResult Delete(int id)
+        {
+            personagens.RemoveAll(x => x.Id == id);
+            return Ok(personagens);
+        }
+
         [HttpGet("GetAll")]
         public IActionResult Get()
         {
