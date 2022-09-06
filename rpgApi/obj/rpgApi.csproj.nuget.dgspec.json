@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Dan\\aulas-desenvolvimento-de-sistemas-etec\\rpgApi\\rpgApi.csproj": {}
+    "D:\\cursoPessoal\\aulas-desenvolvimento-de-sistemas-etec\\rpgApi\\rpgApi.csproj": {}
   },
   "projects": {
-    "D:\\Dan\\aulas-desenvolvimento-de-sistemas-etec\\rpgApi\\rpgApi.csproj": {
+    "D:\\cursoPessoal\\aulas-desenvolvimento-de-sistemas-etec\\rpgApi\\rpgApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Dan\\aulas-desenvolvimento-de-sistemas-etec\\rpgApi\\rpgApi.csproj",
+        "projectUniqueName": "D:\\cursoPessoal\\aulas-desenvolvimento-de-sistemas-etec\\rpgApi\\rpgApi.csproj",
         "projectName": "rpgApi",
-        "projectPath": "D:\\Dan\\aulas-desenvolvimento-de-sistemas-etec\\rpgApi\\rpgApi.csproj",
-        "packagesPath": "C:\\Users\\EtecHAS\\.nuget\\packages\\",
-        "outputPath": "D:\\Dan\\aulas-desenvolvimento-de-sistemas-etec\\rpgApi\\obj\\",
+        "projectPath": "D:\\cursoPessoal\\aulas-desenvolvimento-de-sistemas-etec\\rpgApi\\rpgApi.csproj",
+        "packagesPath": "C:\\Users\\Dan Suporte\\.nuget\\packages\\",
+        "outputPath": "D:\\cursoPessoal\\aulas-desenvolvimento-de-sistemas-etec\\rpgApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\EtecHAS\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Dan Suporte\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -61,7 +59,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -73,7 +72,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

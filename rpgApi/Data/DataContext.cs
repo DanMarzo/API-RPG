@@ -2,7 +2,7 @@ using Microsoft.EntityFrameworkCore;
 using RpgApi.Models;
 using RpgApi.Models.Enuns;
 
-namespace rpgApi.Data
+namespace RpgApi.Data
 {
     public class DataContext : DbContext
     {
