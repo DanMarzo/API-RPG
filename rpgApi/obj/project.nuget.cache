@@ -1,15 +1,17 @@
 {
   "version": 2,
-  "dgSpecHash": "Dl2ntsaX3wQNyohfsPiscb3NtQQ/JuTSXLXVarPRoA8AXrRMv3PUyw/63zGJYQC1hazZWXyefAzPPYnobkjlZw==",
+  "dgSpecHash": "ZpntcfkmVS0zMKz5QYPr54V9MyFz+BD/MIQQ2SUb/HLdWyDnxzizfeRHNzbH6VZfPStdMqS0D2HorXUo3vs//w==",
   "success": true,
   "projectFilePath": "D:\\Dan\\aulas-desenvolvimento-de-sistemas-etec\\rpgApi\\rpgApi.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\EtecHAS\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\EtecHAS\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\EtecHAS\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.4\\microsoft.data.sqlclient.2.1.4.nupkg.sha512",
     "C:\\Users\\EtecHAS\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\2.1.1\\microsoft.data.sqlclient.sni.runtime.2.1.1.nupkg.sha512",
     "C:\\Users\\EtecHAS\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.8\\microsoft.entityframeworkcore.6.0.8.nupkg.sha512",
     "C:\\Users\\EtecHAS\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\6.0.8\\microsoft.entityframeworkcore.abstractions.6.0.8.nupkg.sha512",
     "C:\\Users\\EtecHAS\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\6.0.8\\microsoft.entityframeworkcore.analyzers.6.0.8.nupkg.sha512",
+    "C:\\Users\\EtecHAS\\.nuget\\packages\\microsoft.entityframeworkcore.design\\6.0.8\\microsoft.entityframeworkcore.design.6.0.8.nupkg.sha512",
     "C:\\Users\\EtecHAS\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\6.0.8\\microsoft.entityframeworkcore.relational.6.0.8.nupkg.sha512",
     "C:\\Users\\EtecHAS\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\6.0.8\\microsoft.entityframeworkcore.sqlserver.6.0.8.nupkg.sha512",
     "C:\\Users\\EtecHAS\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
