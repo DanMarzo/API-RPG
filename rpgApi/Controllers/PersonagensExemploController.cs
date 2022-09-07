@@ -22,6 +22,18 @@ namespace RpgApi.Controllers
             new Personagem() { Id = 6, Nome = "Celeborn", PontosVida=100, Forca=21, Defesa=13, Inteligencia=34, Classe=ClasseEnum.Clerigo },
             new Personagem() { Id = 7, Nome = "Radagast", PontosVida=100, Forca=25, Defesa=11, Inteligencia=35, Classe=ClasseEnum.Mago }
         };
+
+        [HttpGet("GetByName/{nomeProcurado}")]
+        public IActionResult SearchByName(string nomeProcurado)
+        {
+            
+            List <Personagem> searchName = personagens.FindAll(x => x.Nome.ToLower().Contains(nomeProcurado.ToLower()));
+
+            if(searchName.Count == 0)
+                return BadRequest($"O nome: {nomeProcurado} é invalido");
+            return Ok(searchName);
+        }
+
         [HttpGet("GetByClass/{tipoClasse}")]
         public IActionResult SearchByClass(int tipoClasse)
         {
