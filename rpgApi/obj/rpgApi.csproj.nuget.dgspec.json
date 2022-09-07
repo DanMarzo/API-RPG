@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\cursoPessoal\\aulas-desenvolvimento-de-sistemas-etec\\rpgApi\\rpgApi.csproj": {}
+    "D:\\ETEC\\etec2\\desenvolvimento_de_sistemas_I\\RpgApi\\RpgApi.csproj": {}
   },
   "projects": {
-    "D:\\cursoPessoal\\aulas-desenvolvimento-de-sistemas-etec\\rpgApi\\rpgApi.csproj": {
+    "D:\\ETEC\\etec2\\desenvolvimento_de_sistemas_I\\RpgApi\\RpgApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\cursoPessoal\\aulas-desenvolvimento-de-sistemas-etec\\rpgApi\\rpgApi.csproj",
-        "projectName": "rpgApi",
-        "projectPath": "D:\\cursoPessoal\\aulas-desenvolvimento-de-sistemas-etec\\rpgApi\\rpgApi.csproj",
-        "packagesPath": "C:\\Users\\Dan Suporte\\.nuget\\packages\\",
-        "outputPath": "D:\\cursoPessoal\\aulas-desenvolvimento-de-sistemas-etec\\rpgApi\\obj\\",
+        "projectUniqueName": "D:\\ETEC\\etec2\\desenvolvimento_de_sistemas_I\\RpgApi\\RpgApi.csproj",
+        "projectName": "RpgApi",
+        "projectPath": "D:\\ETEC\\etec2\\desenvolvimento_de_sistemas_I\\RpgApi\\RpgApi.csproj",
+        "packagesPath": "C:\\Users\\marzo\\.nuget\\packages\\",
+        "outputPath": "D:\\ETEC\\etec2\\desenvolvimento_de_sistemas_I\\RpgApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Dan Suporte\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\marzo\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -59,8 +59,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -72,7 +71,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }
