@@ -27,7 +27,6 @@ namespace RpgApi.Controllers
         [HttpGet("GetByName/{nomeProcurado}")]
         public IActionResult SearchByName(string nomeProcurado)
         {
-            
             List <Personagem> searchName = personagens.FindAll(x => x.Nome.ToLower().Contains(nomeProcurado.ToLower()));
 
             if(searchName.Count == 0)
@@ -58,8 +57,10 @@ namespace RpgApi.Controllers
         [HttpPost("PostValidacao")]
         public IActionResult ValidarNovoPersonagem(Personagem atribuindoNovoPersonagem)
         {
-            if(atribuindoNovoPersonagem.Defesa < 10 || atribuindoNovoPersonagem.Inteligencia > 30)
-                return BadRequest("Usuário não atende aos requisitos");
+            if(atribuindoNovoPersonagem.Defesa < 10)
+                return BadRequest("Personagem não pode ter defesa menor que 10");
+            if(atribuindoNovoPersonagem.Inteligencia > 30)
+                return BadRequest("Personagem não pode ter inteligencia maior que 30 - (exceto magos)");
             return Ok(AddPersonagem(atribuindoNovoPersonagem));
         }
         [HttpPost("PostValidacaoMago")]
@@ -68,7 +69,7 @@ namespace RpgApi.Controllers
             if(ValidarMago.Classe == ClasseEnum.Mago)
             {
                 if(ValidarMago.Inteligencia < 35)
-                    return BadRequest("inteligencia em mago menor que 35 invalido");
+                    return BadRequest("inteligencia do mago não pode ser menor que 35 - invalido");
             }
              return(AddPersonagem(ValidarMago));
         }
@@ -86,7 +87,7 @@ namespace RpgApi.Controllers
             return Ok($"Qtde de personagens: {personagens.Count()}, e a soma da inteligencia: {somaInteligencia}");
         }
 
-// ----------------------- Atividade ----------------------
+// ----------------------- Atividade- Fim ----------------------
 
         [HttpDelete("{Id}")]
         public IActionResult Delete(int id)
