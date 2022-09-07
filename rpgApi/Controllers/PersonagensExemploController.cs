@@ -23,7 +23,7 @@ namespace RpgApi.Controllers
             new Personagem() { Id = 7, Nome = "Radagast", PontosVida=100, Forca=25, Defesa=11, Inteligencia=35, Classe=ClasseEnum.Mago }
         };
 
-
+// ----------------------- Atividade ----------------------
         [HttpGet("GetByName/{nomeProcurado}")]
         public IActionResult SearchByName(string nomeProcurado)
         {
@@ -35,7 +35,7 @@ namespace RpgApi.Controllers
             return Ok(searchName);
         }
 
-        [HttpGet("GetByClass/{tipoClasse}")]
+        [HttpGet("GetByClasse/{tipoClasse}")]
         public IActionResult SearchByClass(int tipoClasse)
         {
             List <Personagem> pBuscaClasse;
@@ -54,6 +54,39 @@ namespace RpgApi.Controllers
             }
             return Ok(pBuscaClasse);
         }
+
+        [HttpPost("PostValidacao")]
+        public IActionResult ValidarNovoPersonagem(Personagem atribuindoNovoPersonagem)
+        {
+            if(atribuindoNovoPersonagem.Defesa < 10 || atribuindoNovoPersonagem.Inteligencia > 30)
+                return BadRequest("Usuário não atende aos requisitos");
+            return Ok(AddPersonagem(atribuindoNovoPersonagem));
+        }
+        [HttpPost("PostValidacaoMago")]
+        public IActionResult MagoValidado(Personagem ValidarMago)
+        {
+            if(ValidarMago.Classe == ClasseEnum.Mago)
+            {
+                if(ValidarMago.Inteligencia < 35)
+                    return BadRequest("inteligencia em mago menor que 35 invalido");
+            }
+             return(AddPersonagem(ValidarMago));
+        }
+        [HttpGet("GetClerigoMago")]
+        public IActionResult ClerigoMago()
+        {
+            personagens.RemoveAll(x => x.Classe == ClasseEnum.Cavaleiro);
+            return Ok(personagens);
+        }
+
+        [HttpGet("GetEstatisticas")]
+        public IActionResult EstatisticasPersonagens()
+        {
+            int somaInteligencia = personagens.Sum(x => x.Inteligencia);
+            return Ok($"Qtde de personagens: {personagens.Count()}, e a soma da inteligencia: {somaInteligencia}");
+        }
+
+// ----------------------- Atividade ----------------------
 
         [HttpDelete("{Id}")]
         public IActionResult Delete(int id)
@@ -132,24 +165,6 @@ namespace RpgApi.Controllers
                 return BadRequest("Inteligencia não pode ter o valor igual a 0");
             return Ok(personagens);
         }
-        [HttpPost("PostValidacao")]
-        public IActionResult ValidarNovoPersonagem(Personagem atribuindoNovoPersonagem)
-        {
-            if(atribuindoNovoPersonagem.Defesa < 10 || atribuindoNovoPersonagem.Inteligencia > 30)
-                return BadRequest("Usuário não atende aos requisitos");
-            return Ok(AddPersonagem(atribuindoNovoPersonagem));
-        }
-        [HttpPost("ValidarMago")]
-        public IActionResult MagoValidado(Personagem ValidarMago)
-        {
-            if(ValidarMago.Classe == ClasseEnum.Mago)
-            {
-                if(ValidarMago.Inteligencia < 35)
-                    return BadRequest("inteligencia em mago menor que 35 invalido");
-            }
-             return(AddPersonagem(ValidarMago));
-        }
-
         [HttpPut]
         public IActionResult UpdatePersonagem(Personagem p)
         {
@@ -163,11 +178,7 @@ namespace RpgApi.Controllers
 
             return Ok(personagens);
         }
-        [HttpGet("GetClerigoMago")]
-        public IActionResult ClerigoMago()
-        {
-            personagens.RemoveAll(x => x.Classe == ClasseEnum.Cavaleiro);
-            return Ok(personagens);
-        }
+        
+
     }
 }
