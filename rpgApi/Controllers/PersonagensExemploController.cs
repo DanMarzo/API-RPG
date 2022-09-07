@@ -23,6 +23,7 @@ namespace RpgApi.Controllers
             new Personagem() { Id = 7, Nome = "Radagast", PontosVida=100, Forca=25, Defesa=11, Inteligencia=35, Classe=ClasseEnum.Mago }
         };
 
+
         [HttpGet("GetByName/{nomeProcurado}")]
         public IActionResult SearchByName(string nomeProcurado)
         {
@@ -122,15 +123,21 @@ namespace RpgApi.Controllers
             List <Personagem> listaFinal = personagens.FindAll(p => p.Forca == forca);
             return Ok(listaFinal);
         }
-        [HttpPost]
+        [HttpPost("novoPersonagem")]
         public IActionResult AddPersonagem(Personagem novoPersonagem)
         {
             personagens.Add(novoPersonagem);
             
             if(novoPersonagem.Inteligencia == 0)
                 return BadRequest("Inteligencia não pode ter o valor igual a 0");
-            
             return Ok(personagens);
+        }
+        [HttpPost("PostValidacao")]
+        public IActionResult ValidarNovoPersonagem(Personagem atribuindoNovoPersonagem)
+        {
+            if(atribuindoNovoPersonagem.Defesa < 10 || atribuindoNovoPersonagem.Inteligencia > 30)
+                return BadRequest("Usuário não atende aos requisitos");
+            return Ok(AddPersonagem(atribuindoNovoPersonagem));
         }
         [HttpPut]
         public IActionResult UpdatePersonagem(Personagem p)
@@ -145,5 +152,6 @@ namespace RpgApi.Controllers
 
             return Ok(personagens);
         }
+        
     }
 }
