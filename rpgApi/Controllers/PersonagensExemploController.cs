@@ -22,6 +22,25 @@ namespace RpgApi.Controllers
             new Personagem() { Id = 6, Nome = "Celeborn", PontosVida=100, Forca=21, Defesa=13, Inteligencia=34, Classe=ClasseEnum.Clerigo },
             new Personagem() { Id = 7, Nome = "Radagast", PontosVida=100, Forca=25, Defesa=11, Inteligencia=35, Classe=ClasseEnum.Mago }
         };
+        [HttpGet("GetByClass/{tipoClasse}")]
+        public IActionResult SearchByClass(int tipoClasse)
+        {
+            List <Personagem> pBuscaClasse;
+
+            switch(tipoClasse)
+            {
+                case 1: pBuscaClasse = personagens.FindAll(x => x.Classe == ClasseEnum.Cavaleiro);
+                ;break;
+                case 2: pBuscaClasse = personagens.FindAll(x => x.Classe == ClasseEnum.Mago);
+                ;break;
+                case 3: pBuscaClasse = personagens.FindAll(x => x.Classe == ClasseEnum.Clerigo);
+                ;break;
+                default:
+                return BadRequest($"O item {tipoClasse}, não existe");
+                
+            }
+            return Ok(pBuscaClasse);
+        }
 
         [HttpDelete("{Id}")]
         public IActionResult Delete(int id)
