@@ -163,6 +163,11 @@ namespace RpgApi.Controllers
 
             return Ok(personagens);
         }
-        
+        [HttpGet("GetClerigoMago")]
+        public IActionResult ClerigoMago()
+        {
+            personagens.RemoveAll(x => x.Classe == ClasseEnum.Cavaleiro);
+            return Ok(personagens);
+        }
     }
 }
