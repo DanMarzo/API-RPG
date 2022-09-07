@@ -139,6 +139,17 @@ namespace RpgApi.Controllers
                 return BadRequest("Usuário não atende aos requisitos");
             return Ok(AddPersonagem(atribuindoNovoPersonagem));
         }
+        [HttpPost("ValidarMago")]
+        public IActionResult MagoValidado(Personagem ValidarMago)
+        {
+            if(ValidarMago.Classe == ClasseEnum.Mago)
+            {
+                if(ValidarMago.Inteligencia < 35)
+                    return BadRequest("inteligencia em mago menor que 35 invalido");
+            }
+             return(AddPersonagem(ValidarMago));
+        }
+
         [HttpPut]
         public IActionResult UpdatePersonagem(Personagem p)
         {
