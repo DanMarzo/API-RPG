@@ -1,0 +1,15 @@
+D:\ETEC\etec2\desenvolvimento_de_sistemas_I\AulasExternas\PraticasCSharp\bin\Debug\net6.0\PraticasCSharp.exe
+D:\ETEC\etec2\desenvolvimento_de_sistemas_I\AulasExternas\PraticasCSharp\bin\Debug\net6.0\PraticasCSharp.deps.json
+D:\ETEC\etec2\desenvolvimento_de_sistemas_I\AulasExternas\PraticasCSharp\bin\Debug\net6.0\PraticasCSharp.runtimeconfig.json
+D:\ETEC\etec2\desenvolvimento_de_sistemas_I\AulasExternas\PraticasCSharp\bin\Debug\net6.0\PraticasCSharp.dll
+D:\ETEC\etec2\desenvolvimento_de_sistemas_I\AulasExternas\PraticasCSharp\bin\Debug\net6.0\PraticasCSharp.pdb
+D:\ETEC\etec2\desenvolvimento_de_sistemas_I\AulasExternas\PraticasCSharp\obj\Debug\net6.0\PraticasCSharp.csproj.AssemblyReference.cache
+D:\ETEC\etec2\desenvolvimento_de_sistemas_I\AulasExternas\PraticasCSharp\obj\Debug\net6.0\PraticasCSharp.GeneratedMSBuildEditorConfig.editorconfig
+D:\ETEC\etec2\desenvolvimento_de_sistemas_I\AulasExternas\PraticasCSharp\obj\Debug\net6.0\PraticasCSharp.AssemblyInfoInputs.cache
+D:\ETEC\etec2\desenvolvimento_de_sistemas_I\AulasExternas\PraticasCSharp\obj\Debug\net6.0\PraticasCSharp.AssemblyInfo.cs
+D:\ETEC\etec2\desenvolvimento_de_sistemas_I\AulasExternas\PraticasCSharp\obj\Debug\net6.0\PraticasCSharp.csproj.CoreCompileInputs.cache
+D:\ETEC\etec2\desenvolvimento_de_sistemas_I\AulasExternas\PraticasCSharp\obj\Debug\net6.0\PraticasCSharp.dll
+D:\ETEC\etec2\desenvolvimento_de_sistemas_I\AulasExternas\PraticasCSharp\obj\Debug\net6.0\refint\PraticasCSharp.dll
+D:\ETEC\etec2\desenvolvimento_de_sistemas_I\AulasExternas\PraticasCSharp\obj\Debug\net6.0\PraticasCSharp.pdb
+D:\ETEC\etec2\desenvolvimento_de_sistemas_I\AulasExternas\PraticasCSharp\obj\Debug\net6.0\PraticasCSharp.genruntimeconfig.cache
+D:\ETEC\etec2\desenvolvimento_de_sistemas_I\AulasExternas\PraticasCSharp\obj\Debug\net6.0\ref\PraticasCSharp.dll
