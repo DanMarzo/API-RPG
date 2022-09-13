@@ -6,7 +6,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddDbContext<DataContext>(options =>
 {
-   options.UseSqlServer(builder.Configuration.GetConnectionString("ConexaoLocal"));
+   options.UseSqlServer(builder.Configuration.GetConnectionString("ConexaoLocal")); //no ConexaoLocal é onde eu escolho o banco de dados
 });
 
 // Add services to the container.

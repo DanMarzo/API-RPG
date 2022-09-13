@@ -4,6 +4,7 @@
 
 3. dotnet add package Microsoft.EntityFrameworkCore.Design
 
+// Sempre ligar o serviço do SQL no services.msc
 
 
 
