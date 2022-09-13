@@ -1,1 +1,6 @@
-server=localhost,1433;database=DB-DS-LUIZSOUZA;User ID=sa;Password=*123456*
+ERRADDDDAAAAAAAA:
+server=localhost,1433;database=DB-DS-XYZ;User ID=sa;Password=123456
+
+
+CORRETAAAAA:
+Data Source=localhost; Initial Catalog=DB-DS-NOME; User Id=sa; Password=SENHA
