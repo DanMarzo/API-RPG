@@ -10,7 +10,7 @@ namespace RpgApi.Data
         {
             
         }
-        public DbSet<Personagem> personagens { get; set; }
+        public DbSet<Personagem> Personagens { get; set; }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Personagem>().HasData
