@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Dan\\aulas-desenvolvimento-de-sistemas-etec\\APIs\\RpgApi\\RpgApi.csproj": {}
+    "D:\\dan\\aulas-desenvolvimento-de-sistemas-etec\\APIs\\RpgApi\\RpgApi.csproj": {}
   },
   "projects": {
-    "D:\\Dan\\aulas-desenvolvimento-de-sistemas-etec\\APIs\\RpgApi\\RpgApi.csproj": {
+    "D:\\dan\\aulas-desenvolvimento-de-sistemas-etec\\APIs\\RpgApi\\RpgApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Dan\\aulas-desenvolvimento-de-sistemas-etec\\APIs\\RpgApi\\RpgApi.csproj",
+        "projectUniqueName": "D:\\dan\\aulas-desenvolvimento-de-sistemas-etec\\APIs\\RpgApi\\RpgApi.csproj",
         "projectName": "RpgApi",
-        "projectPath": "D:\\Dan\\aulas-desenvolvimento-de-sistemas-etec\\APIs\\RpgApi\\RpgApi.csproj",
+        "projectPath": "D:\\dan\\aulas-desenvolvimento-de-sistemas-etec\\APIs\\RpgApi\\RpgApi.csproj",
         "packagesPath": "C:\\Users\\EtecHAS\\.nuget\\packages\\",
-        "outputPath": "D:\\Dan\\aulas-desenvolvimento-de-sistemas-etec\\APIs\\RpgApi\\obj\\",
+        "outputPath": "D:\\dan\\aulas-desenvolvimento-de-sistemas-etec\\APIs\\RpgApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\EtecHAS\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -44,11 +44,11 @@
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[6.0.8, )"
+              "version": "[6.0.9, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[6.0.8, )"
+              "version": "[6.0.9, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",

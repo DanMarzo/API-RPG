@@ -8,7 +8,7 @@ using System;
 namespace RpgApi.Controllers
 {
     [ApiController]
-    [Route("Controller")]
+    [Route("[Controller]")]//Nunca ESQUEÇA dos colchete entre o controller
     public class PersonagensController : ControllerBase
     {
         private readonly DataContext _context;
