@@ -8,7 +8,7 @@ using System;
 namespace RpgApi.Controllers
 {
     [ApiController]
-    [Route("[Controller]")]//Nunca ESQUEÇA dos colchete entre o controller
+    [Route("[Controller]")]//Nunca ESQUEÇA dos colchete entre o controller 
     public class PersonagensController : ControllerBase
     {
         private readonly DataContext _context;
@@ -26,7 +26,7 @@ namespace RpgApi.Controllers
             try
             {
                 Personagem p = await _context.Personagens
-                    .FirstOrDefaultAsync(pBusca => pBusca.Id ==id);
+                    .FirstOrDefaultAsync(pBusca => pBusca.Id == id);
                 return Ok(p);
             }
             catch(Exception ex)
@@ -34,11 +34,12 @@ namespace RpgApi.Controllers
                 return BadRequest(ex.Message);
             }
         }
+
         [HttpGet("GetAll")]
         public async Task<IActionResult> Get()
         {
             try 
-            {
+            { 
                 List<Personagem> lista = await _context.Personagens.ToListAsync();
                 return Ok(lista);
             }
@@ -63,6 +64,43 @@ namespace RpgApi.Controllers
                 return Ok(novoPersonagem.Id);
             }
             catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+        }
+        
+        [HttpPut]
+        public async Task<IActionResult> Update(Personagem novoPersonagem)
+        {
+            try
+            {
+                if(novoPersonagem.PontosVida > 100){
+                    throw new Exception("Pontos de vida não pode ser maior que 100.");
+                }
+                _context.Personagens.Update(novoPersonagem);
+                int linhasAfetadas = await _context.SaveChangesAsync();
+
+                return Ok(linhasAfetadas);
+            }
+            catch(Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+        }
+
+        [HttpDelete ("{id}")]
+        public async Task<IActionResult> Delete(int id)
+        {
+            try
+            {
+                Personagem pRemover = await _context.Personagens.FirstOrDefaultAsync(p => p.Id ==id);
+
+                _context.Personagens.Remove(pRemover);
+                int linhasAfetadas = await _context.SaveChangesAsync();
+
+                return Ok(linhasAfetadas);
+            }
+            catch(Exception ex)
             {
                 return BadRequest(ex.Message);
             }
