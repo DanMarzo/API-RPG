@@ -401,7 +401,8 @@
         },
         "runtime": {
           "lib/netstandard2.0/System.Runtime.Caching.dll": {
-            "fileVersion": "0.0.0.0"
+            "assemblyVersion": "4.0.1.0",
+            "fileVersion": "4.700.19.56404"
           }
         },
         "runtimeTargets": {

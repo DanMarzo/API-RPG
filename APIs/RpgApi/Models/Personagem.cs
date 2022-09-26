@@ -14,7 +14,12 @@ namespace RpgApi.Models
         public int Forca { get; set; }
         public int Defesa { get; set; }
         public int Inteligencia { get; set; }
-
         public ClasseEnum Classe { get; set; }
+    }
+    public class Armas//Cria Tabela arma
+    {
+        public int Id { get; set; }
+        public string Nome { get; set; }
+        public int Dano { get; set; }
     }
 }

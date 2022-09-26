@@ -7,8 +7,19 @@ using System;
 
 namespace RpgApi.Controllers
 {
-    public class ArmaController
+    [ApiController]
+
+    [Route("[Controller]")]
+    public class ArmaController :  ControllerBase
     {
-        
+        private readonly DataContext _context;
+
+        public ArmaController(DataContext context) //deixa o banco publico
+        {
+            _context = context;
+        }
+
+        []
     }
+
 }
