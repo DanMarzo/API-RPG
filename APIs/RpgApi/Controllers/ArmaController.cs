@@ -19,7 +19,18 @@ namespace RpgApi.Controllers
             _context = context;
         }
 
-        []
+        [HttpGet("GetAll")]
+        public async Task<IActionResult> GetAll()
+        {
+            try{
+                List<Armas> armasFull = await _context.Armas.ToListAsync();
+                return Ok(armasFull);
+            }
+            catch(Exception ex)
+            {   
+                return BadRequest(ex.Message);
+            }
+        }
     }
 
 }

@@ -49,7 +49,7 @@ namespace RpgApi.Controllers
                 return BadRequest(ex.Message);
             }
         }
-
+//dotnet ef migrations add <nome>
         [HttpPost("PostAdd")]
         public async Task<IActionResult> Add(Personagem novoPersonagem)
         {
