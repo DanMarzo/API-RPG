@@ -8,7 +8,7 @@ using System;
 namespace RpgApi.Controllers
 {
     [ApiController]
-    [Route("Controller")]
+    [Route("[Controller]")]
     public class PersonagensController : ControllerBase
     {
         private readonly DataContext _context;
@@ -19,7 +19,6 @@ namespace RpgApi.Controllers
         }
 
         //Primeira função
-
         [HttpGet("{Id}")]
         public async Task<IActionResult> GetSingle(int id)
         {
@@ -34,6 +33,7 @@ namespace RpgApi.Controllers
                 return BadRequest(ex.Message);
             }
         }
+
         [HttpGet("GetAll")]
         public async Task<IActionResult> Get()
         {
@@ -61,6 +61,25 @@ namespace RpgApi.Controllers
                 await _context.SaveChangesAsync();
 
                 return Ok(novoPersonagem.Id);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+        }
+
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> Delete(int id)
+        {
+            try
+            {
+                Personagem pRemover = await _context.Personagens
+                    .FirstOrDefaultAsync(pRemover => pRemover.Id == id);
+
+                _context.Personagens.Remove(pRemover);
+                int linhasAfetadas = await _context.SaveChangesAsync();
+
+                return Ok(linhasAfetadas);
             }
             catch (Exception ex)
             {
