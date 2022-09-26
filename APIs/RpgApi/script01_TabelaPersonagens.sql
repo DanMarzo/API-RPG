@@ -38,7 +38,11 @@ IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Clas
 GO
 
 INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+<<<<<<< HEAD
 VALUES (N'20220913002154_InitialCreate', N'6.0.8');
+=======
+VALUES (N'20220913002154_InitialCreate', N'6.0.9');
+>>>>>>> 089d1138792cdf9506d7ac8dcb633259b5360505
 GO
 
 COMMIT;

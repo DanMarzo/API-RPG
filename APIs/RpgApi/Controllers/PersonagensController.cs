@@ -8,7 +8,9 @@ using System;
 namespace RpgApi.Controllers
 {
     [ApiController]
-    [Route("[Controller]")]
+
+    [Route("[Controller]")]//Nunca ESQUEÇA dos colchete entre o controller 
+
     public class PersonagensController : ControllerBase
     {
         private readonly DataContext _context;
@@ -25,7 +27,7 @@ namespace RpgApi.Controllers
             try
             {
                 Personagem p = await _context.Personagens
-                    .FirstOrDefaultAsync(pBusca => pBusca.Id ==id);
+                    .FirstOrDefaultAsync(pBusca => pBusca.Id == id);
                 return Ok(p);
             }
             catch(Exception ex)
@@ -38,7 +40,7 @@ namespace RpgApi.Controllers
         public async Task<IActionResult> Get()
         {
             try 
-            {
+            { 
                 List<Personagem> lista = await _context.Personagens.ToListAsync();
                 return Ok(lista);
             }
