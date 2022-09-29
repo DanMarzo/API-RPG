@@ -243,11 +243,6 @@ D:\Dan\aulas-desenvolvimento-de-sistemas-etec\APIs\RpgApi\obj\Debug\net6.0\RpgAp
 D:\Dan\aulas-desenvolvimento-de-sistemas-etec\APIs\RpgApi\obj\Debug\net6.0\RpgApi.genruntimeconfig.cache
 D:\Dan\aulas-desenvolvimento-de-sistemas-etec\APIs\RpgApi\obj\Debug\net6.0\ref\RpgApi.dll
 <<<<<<< HEAD
-D:\Dan\aulas-desenvolvimento-de-sistemas-etec\APIs\RpgApi\bin\Debug\net6.0\publish\web.config
-D:\Dan\aulas-desenvolvimento-de-sistemas-etec\APIs\RpgApi\bin\Debug\net6.0\publish\appsettings.Development.json
-D:\Dan\aulas-desenvolvimento-de-sistemas-etec\APIs\RpgApi\bin\Debug\net6.0\publish\appsettings.json
-D:\Dan\aulas-desenvolvimento-de-sistemas-etec\APIs\RpgApi\bin\Debug\net6.0\publish\RpgApi.deps.json
-D:\Dan\aulas-desenvolvimento-de-sistemas-etec\APIs\RpgApi\bin\Debug\net6.0\publish\RpgApi.runtimeconfig.json
 =======
 D:\CursoPessoal\aulas-desenvolvimento-de-sistemas-etec\APIs\RpgApi\bin\Debug\net6.0\appsettings.Development.json
 D:\CursoPessoal\aulas-desenvolvimento-de-sistemas-etec\APIs\RpgApi\bin\Debug\net6.0\publish\web.config
