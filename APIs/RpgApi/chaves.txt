@@ -1,0 +1,14 @@
+"ConexaoSomee" : "",
+    "ConexaoLocal" : "Server=localhost;Database=master;Trusted_Connection=True;"
+
+
+instalar ENTITY frameWork : dotnet add package Microsoft.EntityFrameworkCore.SqlServer
+
+instalar ef migrations? : dotnet tool install --global dotnet-ef
+ 
+instalar design framework : dotnet add package Microsoft.EntityFrameworkCore.Design
+
+
+Server=localhost;Database=master;Trusted_Connection=True; dev
+
+Server=localhost\SQLEXPRESS;Database=master;Trusted_Connection=True;
