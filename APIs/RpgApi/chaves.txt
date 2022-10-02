@@ -8,6 +8,8 @@ instalar ef migrations? : dotnet tool install --global dotnet-ef
  
 instalar design framework : dotnet add package Microsoft.EntityFrameworkCore.Design
 
+Adicionar Migrations : dotnet ef migrations add Armas
+
 
 Server=localhost;Database=master;Trusted_Connection=True; dev
 
