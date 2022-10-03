@@ -11,7 +11,7 @@ using RpgApi.Data;
 namespace RpgApi.Migrations
 {
     [DbContext(typeof(DataContext))]
-    [Migration("20221002005534_Armas")]
+    [Migration("20221002010718_Armas")]
     partial class Armas
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -83,12 +83,6 @@ namespace RpgApi.Migrations
                             Id = 7,
                             Dano = 25,
                             Nome = "Livro de invocação"
-                        },
-                        new
-                        {
-                            Id = 8,
-                            Dano = 29,
-                            Nome = "Sabre de Luz"
                         });
                 });
 

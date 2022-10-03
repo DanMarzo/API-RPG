@@ -81,12 +81,6 @@ namespace RpgApi.Migrations
                             Id = 7,
                             Dano = 25,
                             Nome = "Livro de invocação"
-                        },
-                        new
-                        {
-                            Id = 8,
-                            Dano = 29,
-                            Nome = "Sabre de Luz"
                         });
                 });
 

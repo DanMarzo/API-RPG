@@ -33,8 +33,7 @@ namespace RpgApi.Data
                 new Armas(){Id = 4, Nome = "Glimorio Tinhoso", Dano = 30},
                 new Armas(){Id = 5, Nome = "Espada Comum", Dano = 20},
                 new Armas(){Id = 6, Nome = "Varinha Azkan", Dano = 10},
-                new Armas(){Id = 7, Nome = "Livro de invocação", Dano = 25},
-                new Armas(){Id = 8, Nome = "Sabre de Luz", Dano = 29}
+                new Armas(){Id = 7, Nome = "Livro de invocação", Dano = 25}
             );
         }
     }
