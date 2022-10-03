@@ -28,6 +28,7 @@ namespace RpgApi.Controllers
             {
                 Personagem p = await _context.Personagens
                     .FirstOrDefaultAsync(pBusca => pBusca.Id == id);
+                
                 return Ok(p);
             }
             catch(Exception ex)
