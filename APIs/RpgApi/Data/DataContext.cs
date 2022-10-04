@@ -28,13 +28,13 @@ namespace RpgApi.Data
             );
             
             modelBuilder.Entity<Armas>().HasData(
-                new Armas(){Id = 1, Nome = "Cajado Assis", Dano = 48},
-                new Armas(){Id = 2, Nome = "Espada Z", Dano = 58},
-                new Armas(){Id = 3, Nome = "Machado Leviatã", Dano = 55},
-                new Armas(){Id = 4, Nome = "Glimorio Tinhoso", Dano = 30},
-                new Armas(){Id = 5, Nome = "Espada Comum", Dano = 20},
-                new Armas(){Id = 6, Nome = "Varinha Azkan", Dano = 10},
-                new Armas(){Id = 7, Nome = "Livro de invocação", Dano = 25}
+                new Armas(){Id = 1, Nome = "Cajado Assis", Dano = 48, PersonagemId = 1},
+                new Armas(){Id = 2, Nome = "Espada Z", Dano = 58, PersonagemId = 2},
+                new Armas(){Id = 3, Nome = "Machado Leviatã", Dano = 55, PersonagemId = 3},
+                new Armas(){Id = 4, Nome = "Glimorio Tinhoso", Dano = 30, PersonagemId = 4},
+                new Armas(){Id = 5, Nome = "Espada Comum", Dano = 20, PersonagemId = 5},
+                new Armas(){Id = 6, Nome = "Varinha Azkan", Dano = 10, PersonagemId = 6},
+                new Armas(){Id = 7, Nome = "Livro de invocação", Dano = 25, PersonagemId = 7}
             );
             //Início da criação do usuário padrão.
             Usuario user = new Usuario();
