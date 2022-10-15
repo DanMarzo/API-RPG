@@ -25,4 +25,8 @@ public class DataContext : DbContext {}
 => construtor é como um metodo que roda quando a esta classe for instanciada em memoria, assim gerando um objeto. O CONSTRUTOR sempre tem o mesmo nome da classe instanciada;
 
 
+15. O Comando abaixo pode ser usado para criar um script SQL para ser executado caso o banco se perca ou tenha que ser criado em outro computador
+	dotnet ef migrations script -o ./script01_TabelaPersonagens.sql 
+
+
  

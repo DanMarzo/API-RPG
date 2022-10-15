@@ -13,7 +13,7 @@ namespace RpgApi.Models
         public byte[] PasswordHash { get; set; }
         public byte[] PasswordSalt { get; set; }
         public byte[] Foto { get; set; }
-        public double? Latitude { get; set; }
+        public double? Latitude { get; set; }// a '?' permite que o valor seja nulo
         public double? Longitude { get; set; }
         public DateTime? DataAcesso { get; set; }
         
