@@ -1,5 +1,5 @@
 using RpgApi.Data; //chamando o NameSpace
-using Microsoft.EntityFrameworkCore; 
+using Microsoft.EntityFrameworkCore; //Entity para SQLSERVER
 using Microsoft.Extensions.Configuration;
 
 var builder = WebApplication.CreateBuilder(args);

@@ -1,0 +1,28 @@
+-----------------CHAVE DE CONEXÃO SOMEE----------------------
+"ConexaoSomee" : "workstation id=DB-DS-MARZO.mssql.somee.com;packet size=4096;user id=DanMarzo_SQLLogin_1;pwd=28d4lgnbli;data source=DB-DS-MARZO.mssql.somee.com;persist security info=False;initial catalog=DB-DS-MARZO
+"
+-----------------CHAVE DE CONEXÃO LOCAL----------------------
+"ConexaoLocal" : "Data Source=localhost; Initial Catalog=DB-DS-DanMarzo; User Id=sa; Password=123456"
+
+
+INSTALAR ENTITY FRAMEWORK: 
+	dotnet add package Microsoft.EntityFrameworkCore.SqlServer
+
+INSTALAR EF MIGRATIONS: 
+	dotnet tool install --global dotnet-ef
+ 
+INSTALAR DESIGN FRAMEWORK, permite customização das tabelas: 
+	dotnet add package Microsoft.EntityFrameworkCore.Design
+
+Adicionar MIGRATIONS
+	dotnet ef migrations add Armas
+
+-- Usando Herança a classe DbContext utilizando o : DbContext
+
+public class DataContext : DbContext {}
+
+---Criando construtor dentro da classe  = *Dica de atalho: ctor + 'tab'* 
+=> construtor é como um metodo que roda quando a esta classe for instanciada em memoria, assim gerando um objeto. O CONSTRUTOR sempre tem o mesmo nome da classe instanciada;
+
+
+ 
