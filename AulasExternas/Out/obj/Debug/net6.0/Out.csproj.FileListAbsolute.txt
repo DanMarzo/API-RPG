@@ -1,0 +1,15 @@
+D:\ETEC\etec2\DS-I\AulasExternas\Out\bin\Debug\net6.0\Out.exe
+D:\ETEC\etec2\DS-I\AulasExternas\Out\bin\Debug\net6.0\Out.deps.json
+D:\ETEC\etec2\DS-I\AulasExternas\Out\bin\Debug\net6.0\Out.runtimeconfig.json
+D:\ETEC\etec2\DS-I\AulasExternas\Out\bin\Debug\net6.0\Out.dll
+D:\ETEC\etec2\DS-I\AulasExternas\Out\bin\Debug\net6.0\Out.pdb
+D:\ETEC\etec2\DS-I\AulasExternas\Out\obj\Debug\net6.0\Out.csproj.AssemblyReference.cache
+D:\ETEC\etec2\DS-I\AulasExternas\Out\obj\Debug\net6.0\Out.GeneratedMSBuildEditorConfig.editorconfig
+D:\ETEC\etec2\DS-I\AulasExternas\Out\obj\Debug\net6.0\Out.AssemblyInfoInputs.cache
+D:\ETEC\etec2\DS-I\AulasExternas\Out\obj\Debug\net6.0\Out.AssemblyInfo.cs
+D:\ETEC\etec2\DS-I\AulasExternas\Out\obj\Debug\net6.0\Out.csproj.CoreCompileInputs.cache
+D:\ETEC\etec2\DS-I\AulasExternas\Out\obj\Debug\net6.0\Out.dll
+D:\ETEC\etec2\DS-I\AulasExternas\Out\obj\Debug\net6.0\refint\Out.dll
+D:\ETEC\etec2\DS-I\AulasExternas\Out\obj\Debug\net6.0\Out.pdb
+D:\ETEC\etec2\DS-I\AulasExternas\Out\obj\Debug\net6.0\Out.genruntimeconfig.cache
+D:\ETEC\etec2\DS-I\AulasExternas\Out\obj\Debug\net6.0\ref\Out.dll
