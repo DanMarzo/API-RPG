@@ -14,6 +14,8 @@ namespace RpgApi.Data
         public DbSet<Personagem> Personagens { get; set; }
         public DbSet<Armas> Armas { get ;set; }
         public DbSet<Usuario> Usuarios{get;set;}
+        public DbSet<Habilidade> Habilidade { get; set; }
+        public DbSet<PersonagemHabilidade> PersonagemHabilidades { get; set; }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Personagem>().HasData
@@ -53,6 +55,26 @@ namespace RpgApi.Data
             //Fim da criação do usuário padrão.
             //Define que se o Perfil não for informado, o valor padrão será jogador
             modelBuilder.Entity<Usuario>().Property(u => u.Perfil).HasDefaultValue("Jogador");
-        }
+
+            modelBuilder.Entity<PersonagemHabilidade>()
+            .HasKey(ph => new { ph.PersonagemId, ph.HabilidadeId });
+
+            modelBuilder.Entity<Habilidade>().HasData(
+                new Habilidade() { Id = 1, Nome = "Adormecer",  Dano = 39 },
+                new Habilidade() { Id = 2, Nome = "Congelar",   Dano = 41 },
+                new Habilidade() { Id = 3, Nome = "Hipnotizar", Dano = 37 }
+            );
+            modelBuilder.Entity<PersonagemHabilidade>().HasData(
+                new PersonagemHabilidade() { PersonagemId = 1, HabilidadeId =1 }, 
+                new PersonagemHabilidade() { PersonagemId = 1, HabilidadeId =2 }, 
+                new PersonagemHabilidade() { PersonagemId = 2, HabilidadeId =2 }, 
+                new PersonagemHabilidade() { PersonagemId = 3, HabilidadeId =2 }, 
+                new PersonagemHabilidade() { PersonagemId = 3, HabilidadeId =3 }, 
+                new PersonagemHabilidade() { PersonagemId = 4, HabilidadeId =3 }, 
+                new PersonagemHabilidade() { PersonagemId = 5, HabilidadeId =1 }, 
+                new PersonagemHabilidade() { PersonagemId = 6, HabilidadeId =2 }, 
+                new PersonagemHabilidade() { PersonagemId = 7, HabilidadeId =3 } 
+            );
+        } 
     }
 }

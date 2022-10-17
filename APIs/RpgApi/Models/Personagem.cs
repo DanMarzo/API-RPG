@@ -23,6 +23,11 @@ namespace RpgApi.Models
 
         [JsonIgnore]
         public Armas Armas { get; set; }
+
+        public List<PersonagemHabilidade> PersonagemHabilidades { get; set; }
+        public int Disputas { get; set; }
+        public int Vitorias { get; set; }
+        public int Derrotas { get; set; }
     }
     public class Armas//Cria Tabela arma
     {
