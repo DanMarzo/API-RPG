@@ -16,9 +16,10 @@ namespace RpgApi.Models
         public double? Latitude { get; set; }// a '?' permite que o valor seja nulo
         public double? Longitude { get; set; }
         public DateTime? DataAcesso { get; set; }
-        
+
         [NotMapped]
         public string PasswordString { get; set; }
+        
         public List<Personagem> Personagens { get; set; }
         public string Perfil { get; set; }
         public string Email { get; set; }

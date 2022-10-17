@@ -449,3 +449,4 @@ D:\ETEC\etec2\DS-I\APIs\RpgApi\obj\Debug\net6.0\RpgApi.pdb
 D:\ETEC\etec2\DS-I\APIs\RpgApi\obj\Debug\net6.0\RpgApi.genruntimeconfig.cache
 D:\ETEC\etec2\DS-I\APIs\RpgApi\obj\Debug\net6.0\ref\RpgApi.dll
 D:\ETEC\etec2\DS-I\APIs\RpgApi\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+D:\Dan\aulas-desenvolvimento-de-sistemas-etec\APIs\RpgApi\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll

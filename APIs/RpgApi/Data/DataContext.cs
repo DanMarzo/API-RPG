@@ -40,11 +40,14 @@ namespace RpgApi.Data
             Usuario user = new Usuario();
             Criptografia.CriarPasswordHash("123456", out byte[] hash, out byte[]salt);
             user.Id = 1;
-            user.Username = "UsuarioAdmin";
+            user.Username       = "UsuarioAdmin";
             user.PasswordString = string.Empty;
-            user.PasswordHash = hash;
-            user.PasswordSalt = salt;
-            user.Perfil = "Admin";
+            user.PasswordHash   = hash;
+            user.PasswordSalt   = salt;
+            user.Perfil         = "Admin";
+            user.Email          = "seuEmail@gmail.com";
+            user.Latitude       = -23.5200241;
+            user.Longitude      = -46.596498;
 
             modelBuilder.Entity<Usuario>().HasData(user);            
             //Fim da criação do usuário padrão.
