@@ -31,6 +31,20 @@ namespace RpgApi.Controllers
                 return BadRequest(ex.Message);
             }
         }
+        [HttpPost]
+        public async Task<IActionResult> RegistrarArma(Armas arma) {
+            try {
+
+                await _context.Armas.AddAsync (arma);
+                await _context.SaveChangesAsync();
+
+                return Ok("Adicionado amigão!");
+
+            }
+            catch (System.Exception ex) {
+                return BadRequest ("LASCOU!");
+            }
+        }
     }
 
 }

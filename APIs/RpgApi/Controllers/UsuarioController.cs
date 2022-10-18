@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
+using System.Security.Cryptography;
 using RpgApi.Data;
 using RpgApi.Models;
 using RpgApi.Utils;
@@ -41,6 +42,27 @@ namespace RpgApi.Controllers
             }catch (System.Exception ex) {
                 return BadRequest(ex.Message);
             }
+        } 
+       [HttpPost("Autenticar")]
+       public async Task<IActionResult> AutenticarUsuario(Usuario credenciais) {
+        try {
+            Usuario usuario = await _context.Usuarios.FirstOrDefaultAsync(x => x.Username.ToLower().Equals(credenciais.Username.ToLower()));
+
+            if(usuario == null) {
+                throw new System.Exception("Usuário não encontrado"); // throw espera que aconteça um erro, se o mesmo for detectado ele pula para o CATCH
+            }
+            else if (!Criptografia.VerificarPasswordHash(credenciais.PasswordString, usuario.PasswordHash, usuario.PasswordSalt)) {
+                throw new System.Exception("Senha incorreta");
+            }
+            else {
+                return Ok(usuario.Id);
+            }
         }
+        catch (System.Exception ex)
+        {
+            return BadRequest (ex.Message);
+        }
+
+       }
     }
 }
