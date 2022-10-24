@@ -76,19 +76,24 @@ namespace RpgApi.Controllers
         }
         [HttpPost("AlterarSenha/{id}")]
 
-        public async Task<IActionResult> AlterarSenha(int idTroca) { 
+        public async Task<IActionResult> AlterarSenha(int idTroca, Usuario dadosUse) { 
             try {
                 Usuario senhaTroca = await _context.Usuarios.FirstOrDefaultAsync(x => x.Id == idTroca);
                 if (senhaTroca == null) 
                     throw new Exception("O Usuario não exite");
                     
-                Criptografia.CriarPasswordHash(senhaTroca.PasswordString,out byte[] hash, out byte[] salt);
+                Criptografia.CriarPasswordHash(dadosUse.PasswordString,out byte[] hash, out byte[] salt);
                 senhaTroca.PasswordString = string.Empty; 
                 senhaTroca.PasswordHash = hash;
                 senhaTroca.PasswordSalt = salt;
+
                 _context.Usuarios.Update(senhaTroca);
                 int valLinhas = await _context.SaveChangesAsync();
+                
                 return Ok($"Informações do usuario");
+            }
+            catch (Exception ex) {
+                return BadRequest(ex.Message);
             }
         }
 
