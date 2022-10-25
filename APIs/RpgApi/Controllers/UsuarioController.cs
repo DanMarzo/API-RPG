@@ -12,13 +12,13 @@ namespace RpgApi.Controllers
     [Route("[Controller]")]
     public class UsuarioController : ControllerBase
     {
-        private readonly DataContext _context;
+        private readonly DataContext _context; //
         public UsuarioController(DataContext context) { _context = context; }
 
-        public async Task<bool> UsuarioExistente(string username)
+        public async Task<bool> UsuarioExistente(string userName)
         {
             if (await _context.Usuarios.AnyAsync(
-                x => x.Username.ToLower() == username.ToLower()))
+                x => x.UserName.ToLower() == userName.ToLower()))
             {
 
                 return (true);
@@ -31,7 +31,7 @@ namespace RpgApi.Controllers
         {
             try
             {
-                if (await UsuarioExistente(user.Username))
+                if (await UsuarioExistente(user.UserName))
                     throw new System.Exception("Nome de usuário já existe");
 
                 Criptografia.CriarPasswordHash(user.PasswordString, out byte[] hash, out byte[] salt);
@@ -53,20 +53,14 @@ namespace RpgApi.Controllers
         {
             try
             {
-                Usuario usuario = await _context.Usuarios.FirstOrDefaultAsync(x => x.Username.ToLower().Equals(credenciais.Username.ToLower()));
+                Usuario usuario = await _context.Usuarios.FirstOrDefaultAsync(x => x.UserName.ToLower().Equals(credenciais.UserName.ToLower()));
 
                 if (usuario == null)
-                {
                     throw new System.Exception("Usuário não encontrado"); // throw espera que aconteça um erro, se o mesmo for detectado ele pula para o CATCH
-                }
                 else if (!Criptografia.VerificarPasswordHash(credenciais.PasswordString, usuario.PasswordHash, usuario.PasswordSalt))
-                {
                     throw new System.Exception("Senha incorreta");
-                }
                 else
-                {
                     return Ok(usuario.Id);
-                }
             }
             catch (System.Exception ex)
             {
@@ -74,11 +68,12 @@ namespace RpgApi.Controllers
             }
             
         }
-        [HttpPost("AlterarSenha/{id}")]
+        [HttpPost("AlterarSenha")]
 
-        public async Task<IActionResult> AlterarSenha(int idTroca, Usuario dadosUse) { 
+        public async Task<IActionResult> AlterarSenha(Usuario dadosUse) { 
+            
             try {
-                Usuario senhaTroca = await _context.Usuarios.FirstOrDefaultAsync(x => x.Id == idTroca);
+                Usuario senhaTroca = await _context.Usuarios.FirstOrDefaultAsync(x => x.UserName.ToLower().Equals(dadosUse.UserName.ToLower()));
                 if (senhaTroca == null) 
                     throw new Exception("O Usuario não exite");
                     
@@ -90,12 +85,14 @@ namespace RpgApi.Controllers
                 _context.Usuarios.Update(senhaTroca);
                 int valLinhas = await _context.SaveChangesAsync();
                 
-                return Ok($"Informações do usuario");
+                return Ok($"{valLinhas} ALTERADAS");
             }
             catch (Exception ex) {
                 return BadRequest(ex.Message);
             }
         }
+
+        
 
     }
 }
