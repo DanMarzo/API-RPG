@@ -113,13 +113,14 @@ namespace RpgApi.Controllers
                 else if(!Criptografia.VerificarPasswordHash(validaDados.PasswordString, pesquisaDados.PasswordHash, pesquisaDados.PasswordSalt))
                     throw new Exception("Senha Incorreta");
                 else {
-                    
+                    pesquisaDados.DataAcesso = DateTime.Now;
+                    _context.Usuarios.Update(pesquisaDados);
+                    _context.SaveChangesAsync();//confirmar a alteração no banco de dados
+                    return Ok(pesquisaDados.Id);
                 }
             }catch (System.Exception ex) {
                 return BadRequest(ex.Message);
             }
-
-
         }
     }
 }
