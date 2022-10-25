@@ -92,7 +92,34 @@ namespace RpgApi.Controllers
             }
         }
 
-        
+        [HttpGet("GetAll")]
+        public async Task<IActionResult> ListarTodos() {
+            try {
+            List<Usuario> lista = await _context.Usuarios.ToListAsync();
+            if (lista == null )
+                throw new Exception ("Não foi encontrado nenhuma informação");
+            return Ok(lista);
+            }catch (System.Exception e) {
+                return BadRequest(e.Message);
+            }         
+        }
+        [HttpPost("AutenticarUsuario")]
+        public async Task<IActionResult> ValidarUsuario (Usuario validaDados) {
+            try {
+                Usuario pesquisaDados = await _context.Usuarios.FirstOrDefaultAsync(ps => ps.UserName.ToLower().Equals(validaDados.UserName.ToLower()));
+                //Use o equals
+                if(pesquisaDados == null)
+                    throw new Exception("Nenhum Usuario encontrado");
+                else if(!Criptografia.VerificarPasswordHash(validaDados.PasswordString, pesquisaDados.PasswordHash, pesquisaDados.PasswordSalt))
+                    throw new Exception("Senha Incorreta");
+                else {
+                    
+                }
+            }catch (System.Exception ex) {
+                return BadRequest(ex.Message);
+            }
 
+
+        }
     }
 }
