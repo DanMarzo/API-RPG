@@ -16,6 +16,7 @@ namespace RpgApi.Data
         public DbSet<Usuario> Usuarios{get;set;}
         public DbSet<Habilidade> Habilidade { get; set; }
         public DbSet<PersonagemHabilidade> PersonagemHabilidades { get; set; }
+        public DbSet<Disputas> Disputas {get;set;}
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Personagem>().HasData
@@ -42,7 +43,7 @@ namespace RpgApi.Data
             Usuario user = new Usuario();
             Criptografia.CriarPasswordHash("123456", out byte[] hash, out byte[]salt);
             user.Id = 1;
-            user.Username       = "UsuarioAdmin";
+            user.UserName       = "UsuarioAdmin";
             user.PasswordString = string.Empty;
             user.PasswordHash   = hash;
             user.PasswordSalt   = salt;
