@@ -1,47 +1,32 @@
 {
   "format": 1,
   "restore": {
-<<<<<<< HEAD
-    "D:\\DanMarzo\\aulas-desenvolvimento-de-sistemas-etec\\APIs\\RpgApi\\RpgApi.csproj": {}
+    "D:\\ETEC\\etec2\\DS-I\\APIs\\RpgApi\\RpgApi.csproj": {}
   },
   "projects": {
-    "D:\\DanMarzo\\aulas-desenvolvimento-de-sistemas-etec\\APIs\\RpgApi\\RpgApi.csproj": {
+    "D:\\ETEC\\etec2\\DS-I\\APIs\\RpgApi\\RpgApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\DanMarzo\\aulas-desenvolvimento-de-sistemas-etec\\APIs\\RpgApi\\RpgApi.csproj",
+        "projectUniqueName": "D:\\ETEC\\etec2\\DS-I\\APIs\\RpgApi\\RpgApi.csproj",
         "projectName": "RpgApi",
-        "projectPath": "D:\\DanMarzo\\aulas-desenvolvimento-de-sistemas-etec\\APIs\\RpgApi\\RpgApi.csproj",
-        "packagesPath": "C:\\Users\\Dan Suporte\\.nuget\\packages\\",
-        "outputPath": "D:\\DanMarzo\\aulas-desenvolvimento-de-sistemas-etec\\APIs\\RpgApi\\obj\\",
+        "projectPath": "D:\\ETEC\\etec2\\DS-I\\APIs\\RpgApi\\RpgApi.csproj",
+        "packagesPath": "C:\\Users\\DanMarzoGil\\.nuget\\packages\\",
+        "outputPath": "D:\\ETEC\\etec2\\DS-I\\APIs\\RpgApi\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Dan Suporte\\AppData\\Roaming\\NuGet\\NuGet.Config"
-=======
-    "D:\\Dan\\aulas-desenvolvimento-de-sistemas-etec\\APIs\\RpgApi\\RpgApi.csproj": {}
-  },
-  "projects": {
-    "D:\\Dan\\aulas-desenvolvimento-de-sistemas-etec\\APIs\\RpgApi\\RpgApi.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "D:\\Dan\\aulas-desenvolvimento-de-sistemas-etec\\APIs\\RpgApi\\RpgApi.csproj",
-        "projectName": "RpgApi",
-        "projectPath": "D:\\Dan\\aulas-desenvolvimento-de-sistemas-etec\\APIs\\RpgApi\\RpgApi.csproj",
-        "packagesPath": "C:\\Users\\EtecHAS\\.nuget\\packages\\",
-        "outputPath": "D:\\Dan\\aulas-desenvolvimento-de-sistemas-etec\\APIs\\RpgApi\\obj\\",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "C:\\Users\\EtecHAS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\DanMarzoGil\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
->>>>>>> 82149c1c72da7f8c6b6b3a659c9ac3830f858d8d
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-<<<<<<< HEAD
-=======
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
->>>>>>> 82149c1c72da7f8c6b6b3a659c9ac3830f858d8d
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -81,7 +66,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -93,11 +79,7 @@
               "privateAssets": "all"
             }
           },
-<<<<<<< HEAD
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
-=======
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
->>>>>>> 82149c1c72da7f8c6b6b3a659c9ac3830f858d8d
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }
