@@ -5,6 +5,7 @@ using System.Security.Cryptography;
 using RpgApi.Data;
 using RpgApi.Models;
 using RpgApi.Utils;
+using System;
 
 namespace RpgApi.Controllers
 {
@@ -115,10 +116,55 @@ namespace RpgApi.Controllers
                 else {
                     pesquisaDados.DataAcesso = DateTime.Now;
                     _context.Usuarios.Update(pesquisaDados);
-                    _context.SaveChangesAsync();//confirmar a alteração no banco de dados
+                    await _context.SaveChangesAsync();//confirmar a alteração no banco de dados
                     return Ok(pesquisaDados.Id);
                 }
             }catch (System.Exception ex) {
+                return BadRequest(ex.Message);
+            }
+        }
+        [HttpGet("{id}")]
+        public async Task<IActionResult> GetSingle(int id) {
+            try {
+                Personagem findId = await _context.Personagens
+                .Include(ar => ar.Armas) //o .Include faz a inclusao de outro objeto tipo inner join 
+                .Include(us => us.Usuario)
+                .Include(ps => ps.PersonagemHabilidades)
+                    .ThenInclude(h => h.Habilidade)
+                .FirstOrDefaultAsync(pBusca => pBusca.Id == id);
+
+                return Ok(findId);
+
+            }catch (System.Exception ex) {
+                return BadRequest(ex.Message);
+            }
+        }
+        [HttpGet("personagemId/{personagemId}")]
+        public async Task<IActionResult> GetHabilidadesPersonagem(int persoId) {
+            try{
+                List<PersonagemHabilidade> persoLista = new List<PersonagemHabilidade>();
+                persoLista = await _context.PersonagemHabilidades
+                .Include(p => p.Personagem)
+                .Include(p => p.Habilidade)
+                .Where(p => p.PersonagemId == persoId).ToListAsync();
+                return Ok(persoLista);
+            }
+            catch(System.Exception ex) {
+                return BadRequest(ex.Message);
+            }
+        }
+        [HttpGet("GetHabilidades")]
+
+        public async Task<IActionResult> ListarHabilidades() 
+        {
+            try
+            {
+                List<Habilidade> listaHab = new List<Habilidade>();
+                listaHab = await _context.Habilidade.ToListAsync();
+                return Ok(listaHab);
+            }
+            catch (System.Exception ex)
+            {
                 return BadRequest(ex.Message);
             }
         }
