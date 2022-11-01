@@ -168,5 +168,25 @@ namespace RpgApi.Controllers
                 return BadRequest(ex.Message);
             }
         }
+        [HttpPost("DeletePersonagemHabilidade")]
+        public async Task<IActionResult> DeletarPersonagemHabilidade(PersonagemHabilidade ph) 
+        {
+            try
+            {
+                PersonagemHabilidade removePH = new PersonagemHabilidade();
+                removePH = await _context.PersonagemHabilidades.FirstOrDefaultAsync(x => x.PersonagemId == ph.PersonagemId && x.HabilidadeId == ph.HabilidadeId);
+                if(removePH == null)
+                    throw new System.Exception("Nenhum item encontrado");
+                
+                _context.PersonagemHabilidades.Remove(removePH);
+                int linhasAfetadas = await _context.SaveChangesAsync();
+                return Ok(linhasAfetadas);  
+            }
+            catch (System.Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+        }
+
     }
 }
