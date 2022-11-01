@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using RpgApi.Data;
 using RpgApi.Models;
 
@@ -17,10 +18,17 @@ namespace RpgApi.Controllers
         public async Task<IActionResult> AtaqueComArmaAsync(Disputas d)
         {
             try {
+                Personagem atacante = await _context.Personagens
+                .Include(p => p.Armas)
+                .FirstOrDefaultAsync(ps => ps.Id == d.AtacanteId);
+                Personagem oponente = await _context.Personagens.FirstOrDefaultAsync(po => po.Id == d.OponenteId);
+                
+
                 return Ok(d);
             } catch (System.Exception ex) {
                 return BadRequest(ex.Message);
             }
         }
+
     }
 }

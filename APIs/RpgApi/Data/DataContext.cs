@@ -11,12 +11,12 @@ namespace RpgApi.Data
         {
             
         }
-        public DbSet<Personagem> Personagens { get; set; }
-        public DbSet<Armas> Armas { get ;set; }
-        public DbSet<Usuario> Usuarios{get;set;}
-        public DbSet<Habilidade> Habilidade { get; set; }
-        public DbSet<PersonagemHabilidade> PersonagemHabilidades { get; set; }
-        public DbSet<Disputas> Disputas {get;set;}
+        public DbSet<Personagem>           Personagens {get;set;}
+        public DbSet<Armas>                Armas {get;set;}
+        public DbSet<Usuario>              Usuarios {get;set;}
+        public DbSet<Habilidade>           Habilidade {get;set;}
+        public DbSet<PersonagemHabilidade> PersonagemHabilidades {get;set;}
+        public DbSet<Disputas>             Disputas {get;set;}
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Personagem>().HasData
