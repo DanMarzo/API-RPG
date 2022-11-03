@@ -8,12 +8,11 @@ namespace RpgApi.Controllers
 {
     [ApiController]
     [Route("[controller]")]
-        
     public class DisputasController : ControllerBase
     {
-        
         private readonly DataContext _context;
-        public DisputasController (DataContext context) {
+        public DisputasController (DataContext context) 
+        {
             _context = context;
         }
         [HttpPost("Arma")]
@@ -44,7 +43,7 @@ namespace RpgApi.Controllers
                 dados.AppendFormat($"Arma utilizada: {atacante.Armas.Nome}");
                 dados.AppendFormat($"Dano: {dano}");
                 
-                d.Narracao    += dados.ToString();
+                d.Narracao += dados.ToString();
                 d.DataDisputa = DateTime.Now;
                 _context.Disputas.Add(d);
                 _context.SaveChanges(); 
