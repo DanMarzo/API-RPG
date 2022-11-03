@@ -5,7 +5,7 @@ using RpgApi.Models;
 namespace RpgApi.Models
 {
     [Table("TB_Disputas")]
-    public class Disputas
+    public class Disputa
     {
         [Key]
         [Column("Id")]

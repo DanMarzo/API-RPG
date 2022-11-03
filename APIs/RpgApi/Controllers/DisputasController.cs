@@ -16,7 +16,7 @@ namespace RpgApi.Controllers
             _context = context;
         }
         [HttpPost("Arma")]
-        public async Task<IActionResult> AtaqueComArmaAsync(Disputas d)
+        public async Task<IActionResult> AtaqueComArmaAsync(Disputa d)
         {
             try {
                 Personagem atacante = await _context.Personagens
@@ -53,5 +53,6 @@ namespace RpgApi.Controllers
                 return BadRequest(ex.Message);
             }
         }
+
     }
 }
