@@ -4,7 +4,7 @@ using RpgApi.Models;
 
 namespace RpgApi.Models
 {
-    [Table("TB_Disputas")]
+    [Table("TB_Disputas")] //não esquecer de criar migrações
     public class Disputa
     {
         [Key]
