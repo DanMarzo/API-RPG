@@ -85,7 +85,7 @@ namespace RpgApi.Controllers
                         d.Narracao += $"O {oponente.Nome} foi eliminado ahahah";
                     _context.Personagens.Update(oponente);
                     await _context.SaveChangesAsync();
-
+                    
                     StringBuilder dados = new StringBuilder();
                     dados.AppendFormat($"Atacante: {atacante.Nome}");
                     dados.AppendFormat($"Oponente: {oponente.Nome}");
@@ -106,6 +106,18 @@ namespace RpgApi.Controllers
             {
                 return BadRequest(ex.Message);
             }
+        }
+
+        [HttpGet("PersonagemRandom")]
+        public async Task<IActionResult> Sorteio()
+        {
+            List<Personagem> ps = await _context.Personagens.ToListAsync();
+            int sorteio = new Random().Next(ps.Count);
+            Personagem pIndice = ps[sorteio];
+
+            string msg = $"O numero sorteado foi {sorteio}, e o personagem selecionado foi {pIndice.Nome}";
+
+            return Ok(msg);
         }
     }
 }
