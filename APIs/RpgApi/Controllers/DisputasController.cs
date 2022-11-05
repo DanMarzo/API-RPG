@@ -1,4 +1,5 @@
 using System.Text;
+using System.Collections.Generic;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using RpgApi.Data;
@@ -107,7 +108,6 @@ namespace RpgApi.Controllers
                 return BadRequest(ex.Message);
             }
         }
-
         [HttpGet("PersonagemRandom")]
         public async Task<IActionResult> Sorteio()
         {
