@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using RpgApi.Data;
 using RpgApi.Models;
+using System.Runtime.Intrinsics.Arm;
 
 namespace RpgApi.Controllers
 {
@@ -118,6 +119,52 @@ namespace RpgApi.Controllers
             string msg = $"O numero sorteado foi {sorteio}, e o personagem selecionado foi {pIndice.Nome}";
 
             return Ok(msg);
+        }
+        [HttpPost("DisputaEmGrupo")]
+        public async Task<IActionResult> DisputaEmGrupoAsync(Disputa d)
+        {
+            try
+            {
+                d.Resultados = new List<string>();
+                List<Personagem> ps = await _context.Personagens
+                    .Include(p => p.Armas)
+                    .Include(p => p.PersonagemHabilidades).ThenInclude(p => p.Habilidade)
+                    .Where(p => d.ListaPersonagens.Contains(p.Id)).ToListAsync();
+                //o INCLUDE é como uma ligação INNER JOIN o THENINCLUDE É como entrar em outra tabela
+                int qtdePersonagemVivos = ps.FindAll(p => ps.PontosVida > 0).Count;
+                while(qtdePersonagemVivos > 1)
+                {
+                    List<Personagem> atacantes = ps.Where(p => p.PontosVida > 0).ToList();
+                    Personagem atacante = atacante[new Random().Next(atacantes.Count)];
+                    d.AtacanteId = atacante.Id;
+                    
+                    List<Personagem> oponentes = ps.Where(p => p.Id != atacante.Id && p.PontosVida > 0).ToList();
+                    Personagem atacante = atacante[new Random().Next(atacantes.Count)];
+                    d.AtacanteId = atacante.Id;
+
+                    int dano = 0;
+                    string ataqueUsado = string.Empty;
+                    string resultado = string.Empty;
+
+                    bool ataqueUsaArma = (new Random().Next(1) == 0);
+                    if(ataqueUsaArma && atacante.Armas != null)
+                    {
+
+                    }
+                    else if(atacante.PersonagemHabilidades.Count != 0)
+                    {
+
+                    }
+                    
+                }
+                _context.Personagens.UpdateRange(ps);
+                await _context.SaveChangesAsync();
+                return Ok(d);
+            }
+            catch(System.Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
         }
     }
 }
