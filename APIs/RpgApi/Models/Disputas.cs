@@ -26,7 +26,7 @@ namespace RpgApi.Models
         [NotMapped]
         public int HabilidadeId { get; set; }
         [NotMapped]
-        public List<int> ListaPersonagens { get; set;}
+        public List<int> ListaIdPersonagens { get; set;}
         [NotMapped]
         public List<string> Resultados { get; set; }
         

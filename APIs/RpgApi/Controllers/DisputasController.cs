@@ -1,10 +1,8 @@
 using System.Text;
-using System.Collections.Generic;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using RpgApi.Data;
 using RpgApi.Models;
-using System.Runtime.Intrinsics.Arm;
 
 namespace RpgApi.Controllers
 {
@@ -126,21 +124,23 @@ namespace RpgApi.Controllers
             try
             {
                 d.Resultados = new List<string>();
+                
                 List<Personagem> ps = await _context.Personagens
                     .Include(p => p.Armas)
                     .Include(p => p.PersonagemHabilidades).ThenInclude(p => p.Habilidade)
-                    .Where(p => d.ListaPersonagens.Contains(p.Id)).ToListAsync();
+                    .Where(p => d.ListaIdPersonagens.Contains(p.Id)).ToListAsync();
                 //o INCLUDE é como uma ligação INNER JOIN o THENINCLUDE É como entrar em outra tabela
-                int qtdePersonagemVivos = ps.FindAll(p => ps.PontosVida > 0).Count;
+                int qtdePersonagemVivos = ps.FindAll(p => p.PontosVida > 0).Count;
+
                 while(qtdePersonagemVivos > 1)
                 {
                     List<Personagem> atacantes = ps.Where(p => p.PontosVida > 0).ToList();
-                    Personagem atacante = atacante[new Random().Next(atacantes.Count)];
+                    Personagem atacante = atacantes[new Random().Next(atacantes.Count)];
                     d.AtacanteId = atacante.Id;
                     
                     List<Personagem> oponentes = ps.Where(p => p.Id != atacante.Id && p.PontosVida > 0).ToList();
-                    Personagem atacante = atacante[new Random().Next(atacantes.Count)];
-                    d.AtacanteId = atacante.Id;
+                    Personagem oponente = oponentes[new Random().Next(oponentes.Count)];
+                    d.OponenteId = oponente.Id;
 
                     int dano = 0;
                     string ataqueUsado = string.Empty;
@@ -149,13 +149,55 @@ namespace RpgApi.Controllers
                     bool ataqueUsaArma = (new Random().Next(1) == 0);
                     if(ataqueUsaArma && atacante.Armas != null)
                     {
+                        dano = atacante.Armas.Dano + (new Random().Next(atacante.Forca));
+                        dano = dano - (new Random().Next(oponente.Defesa));
+                        ataqueUsado = atacante.Armas.Nome;
 
+                        if(dano > 0)
+                            oponente.PontosVida = oponente.PontosVida - (int)dano;
+                        
+                        resultado = string.Format($"{atacante.Nome} atacou {oponente.Nome} usando {ataqueUsado} com dano {dano}");
+                        d.Narracao += resultado; //Concatena o resultado com as narrações existentes
+                        d.Resultados.Add(resultado); //Adiciona o resultado atual na lista de resultados
                     }
                     else if(atacante.PersonagemHabilidades.Count != 0)
                     {
+                        int sorteioHabilidadeId = new Random().Next(atacante.PersonagemHabilidades.Count); 
+                        Habilidade habilidadeEscolhida = atacante.PersonagemHabilidades[sorteioHabilidadeId].Habilidade;
+                        ataqueUsado = habilidadeEscolhida.Nome;
 
+                        dano = habilidadeEscolhida.Dano + (new Random().Next(atacante.Inteligencia));
+                        dano = dano - (new Random().Next(oponente.Defesa));
+
+                        if(dano > 0)
+                            oponente.PontosVida = oponente.PontosVida - (int)dano;
+                        
+                        resultado = string.Format($"{atacante.Nome} atacou {oponente.Nome} usando {ataqueUsado} com dano {dano}");
+                        d.Narracao += resultado; //Concatena o resultado com as narrações existentes
+                        d.Resultados.Add(resultado); //Adiciona o resultado atual na lista de resultados
                     }
-                    
+                    if(!string.IsNullOrEmpty(ataqueUsado))
+                    {
+                        atacante.Vitorias++;
+                        oponente.Derrotas++;
+                        atacante.Disputas++;
+                        oponente.Disputas++;
+                        
+                        d.Id = 0;
+                        d.DataDisputa = DateTime.Now;
+                        _context.Disputas.Add(d);
+                        await _context.SaveChangesAsync();
+                    }
+                    qtdePersonagemVivos = ps.FindAll(p => p.PontosVida > 0).Count;
+
+                    if(qtdePersonagemVivos == 1)
+                    {
+                        string resultadoFinal = $"{atacante.Nome.ToUpper()} é o CAMPEÃO com {atacante.PontosVida} pontos de vida restante!";
+                        d.Narracao += resultadoFinal;
+                        d.Resultados.Add(resultadoFinal);
+
+                        break;
+                    }
                 }
                 _context.Personagens.UpdateRange(ps);
                 await _context.SaveChangesAsync();
