@@ -20,6 +20,14 @@ namespace RpgApi.Controllers
             _context = context;
         }
 
+        public async Task<bool> PersonagemExistente(string userName)
+        {
+            if(await _context.Personagens.AnyAsync(x => x.Nome.ToLower() == userName.ToLower()))
+                return true;
+            return false;
+        }
+        
+
         //Primeira função
         [HttpGet("{Id}")]
         public async Task<IActionResult> GetSingle(int id)
@@ -56,6 +64,8 @@ namespace RpgApi.Controllers
         {
             try 
             {
+                if(await PersonagemExistente(novoPersonagem.Nome))
+                    throw new Exception("Personagem ja existe, coloca mais criatividade aê!");
                 if (novoPersonagem.PontosVida > 100)
                 {
                     throw new Exception("Pontos de vida não pode ser maior que 100.");
