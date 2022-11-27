@@ -10,7 +10,6 @@ namespace RpgApi.Controllers
     [ApiController]
 
     [Route("[Controller]")]//Nunca ESQUEÇA dos colchete entre o controller 
-
     public class PersonagensController : ControllerBase
     {
         private readonly DataContext _context;
@@ -95,6 +94,36 @@ namespace RpgApi.Controllers
                 return Ok(linhasAfetadas);
             }
             catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+        }
+        [HttpPut("{id}")]
+        public async Task<IActionResult> updateAsync(int id, Personagem p)
+        {
+            try
+            {
+                Personagem pBusca = await _context.Personagens.FirstOrDefaultAsync(x => x.Id == id);
+
+                if(pBusca != null)
+                {
+                    pBusca.Nome           = p.Nome;
+                    pBusca.Armas          = p.Armas;
+                    pBusca.Classe         = p.Classe;
+                    pBusca.PontosVida     = p.PontosVida;
+                    pBusca.Inteligencia   = p.Inteligencia;
+                    pBusca.Defesa         = p.Defesa;
+                    pBusca.Forca          = p.Forca;
+                    pBusca.FotoPersonagem = p.FotoPersonagem;
+                    await _context.SaveChangesAsync();
+                    return Ok("Dados atualizados");
+                }
+                else
+                {
+                    throw new Exception("Personagem não encontrado =)");
+                }
+            }
+            catch(Exception ex)
             {
                 return BadRequest(ex.Message);
             }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "U/U3+Hl9fl4TymXnX2W8RSb0GPN8+pq1vbBne9uaBgTErocXu4OUKTO4p2eD2rvB8wqHQE/tK6+LfDVhpWm8Pg==",
+  "dgSpecHash": "fzTi4zuzgIwEy3Rc0HfUWNIVTZsslaXrP41Ujcukea0SHopIbutTW83of8cSkA66diycS4Cegp1acXgo7u0VeQ==",
   "success": true,
-  "projectFilePath": "D:\\ETEC\\etec2\\DS-I\\RPGapi\\Back-end\\APIs\\RpgApi\\RpgApi.csproj",
+  "projectFilePath": "D:\\ETEC\\etec2\\DS-I\\RPGapi\\Back-end\\RpgApi\\RpgApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\DanMarzoGil\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\DanMarzoGil\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
