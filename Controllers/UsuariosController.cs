@@ -69,6 +69,31 @@ namespace RpgApi.Controllers
             }
             
         }
+
+        [HttpPut("AtualizarEmail")]
+        public async Task<IActionResult> AtualizarEmail(Usuario u)
+        {
+            try
+            {
+                Usuario usuario = await _context.Usuarios.FirstOrDefaultAsync(x => x.Id == u.Id);
+                
+                usuario.Email = u.Email;
+
+                var attach = _context.Attach(usuario);
+
+                attach.Property(x => x.Id).IsModified = false;
+                attach.Property(x => x.Email).IsModified = true;
+                
+                int linhasAfetadas = await _context.SaveChangesAsync();
+                return Ok(linhasAfetadas);
+
+            }
+            catch(Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+        }
+
         [HttpPost("AlterarSenha")]
 
         public async Task<IActionResult> AlterarSenha(Usuario dadosUse) { 
@@ -118,13 +143,13 @@ namespace RpgApi.Controllers
                     _context.Usuarios.Update(pesquisaDados);
                     await _context.SaveChangesAsync();//confirmar a alteração no banco de dados
                     return Ok(pesquisaDados.Id);
-                }
+                }       
             }catch (System.Exception ex) {
                 return BadRequest(ex.Message);
             }
         }
         [HttpGet("{id}")]
-        public async Task<IActionResult> GetSingle(int id) {
+        public async Task<IActionResult> GetByLogin(int id) {
             try {
                 Personagem findId = await _context.Personagens
                 .Include(ar => ar.Armas) //o .Include faz a inclusao de outro objeto tipo inner join 
@@ -153,8 +178,8 @@ namespace RpgApi.Controllers
                 return BadRequest(ex.Message);
             }
         }
-        [HttpGet("GetHabilidades")]
 
+        [HttpGet("GetHabilidades")]
         public async Task<IActionResult> ListarHabilidades() 
         {
             try
@@ -188,5 +213,61 @@ namespace RpgApi.Controllers
             }
         }
 
+        
+        [HttpGet("{usuarioId}")]
+        public async Task<IActionResult> GetUsuario(int usuarioId)
+        {
+            try
+            {
+                //List exigirá o using System.Collections.Generic
+                Usuario usuario = await _context.Usuarios.FirstOrDefaultAsync(x => x.Id == usuarioId);
+                 //Busca o usuário no banco através do Id
+
+                return Ok(usuario);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+        }
+
+        [HttpGet("GetByLogin/{login}")]
+        public async Task<IActionResult> GetUsuario(string login)
+        {
+            try
+            {
+            //List exigirá o using System.Collections.Generic
+                Usuario usuario = await _context.Usuarios.FirstOrDefaultAsync(x => x.UserName.ToLower() == login.ToLower()); //Busca o usuário no banco através do login
+        
+                return Ok(usuario);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+        }
+
+        //Método para alteração da geolocalização
+        [HttpPut("AtualizarLocalizacao")]
+        public async Task<IActionResult> AtualizarLocalizacao(Usuario u)
+        {
+            try
+            {
+                Usuario usuario = await _context.Usuarios //Busca o usuário no banco através do Id
+                .FirstOrDefaultAsync(x => x.Id == u.Id);
+                usuario.Latitude = u.Latitude;
+                usuario.Longitude = u.Longitude;
+                var attach = _context.Attach(usuario);
+                attach.Property(x => x.Id).IsModified = false;
+                attach.Property(x => x.Latitude).IsModified = true;
+                attach.Property(x => x.Longitude).IsModified = true;
+                int linhasAfetadas = await _context.SaveChangesAsync(); //Confirma a alteração no banco
+                return Ok(linhasAfetadas); //Retorna as linhas afetadas (Geralmente sempre 1 linha msm)
+            }
+            catch (System.Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+        }
     }
 }

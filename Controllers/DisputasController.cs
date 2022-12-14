@@ -11,10 +11,7 @@ namespace RpgApi.Controllers
     public class DisputasController : ControllerBase
     {
         private readonly DataContext _context;
-        public DisputasController(DataContext context)
-        {
-            _context = context;
-        }
+        public DisputasController(DataContext context){ _context = context; }
         [HttpPost("Arma")]
         public async Task<IActionResult> AtaqueComArmaAsync(Disputa d)
         {
@@ -118,6 +115,7 @@ namespace RpgApi.Controllers
 
             return Ok(msg);
         }
+
         [HttpPost("DisputaEmGrupo")]
         public async Task<IActionResult> DisputaEmGrupoAsync(Disputa d)
         {
@@ -208,5 +206,36 @@ namespace RpgApi.Controllers
                 return BadRequest(ex.Message);
             }
         }
+        [HttpDelete("ApagarDisputas")]
+        public async Task<IActionResult> DeleteAsync()
+        {
+            try
+            {
+                List<Disputa> disputas = await _context.Disputas.ToListAsync();
+
+                _context.Disputas.RemoveRange(disputas);
+                await _context.SaveChangesAsync();
+                return Ok("Disputas apagadas");
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+        }
+
+        [HttpGet("Listar")]
+        public async Task<IActionResult> ListarAsync()
+        {
+            try
+            {
+                List<Disputa> disputas = await _context.Disputas.ToListAsync();
+                return Ok(disputas);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+        }
+
     }
 }
