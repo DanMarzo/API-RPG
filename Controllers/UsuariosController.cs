@@ -170,7 +170,7 @@ namespace RpgApi.Controllers
             }
         }
     
-        [HttpGet("personagemId/{personagemId}")]
+        /*[HttpGet("personagemId/{personagemId}")]
         public async Task<IActionResult> GetHabilidadesPersonagem(int persoId) {
             try{
                 List<PersonagemHabilidade> persoLista = new List<PersonagemHabilidade>();
@@ -183,7 +183,7 @@ namespace RpgApi.Controllers
             catch(System.Exception ex) {
                 return BadRequest(ex.Message);
             }
-        }
+        }*/
 
         [HttpGet("GetHabilidades")]
         public async Task<IActionResult> ListarHabilidades() 
@@ -275,5 +275,8 @@ namespace RpgApi.Controllers
                 return BadRequest(ex.Message);
             }
         }
+
+       
+
     }
 }
