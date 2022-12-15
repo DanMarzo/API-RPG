@@ -60,8 +60,12 @@ namespace RpgApi.Controllers
                     throw new System.Exception("Usuário não encontrado"); // throw espera que aconteça um erro, se o mesmo for detectado ele pula para o CATCH
                 else if (!Criptografia.VerificarPasswordHash(credenciais.PasswordString, usuario.PasswordHash, usuario.PasswordSalt))
                     throw new System.Exception("Senha incorreta");
-                else
-                    return Ok(usuario.Id);
+
+                usuario.DataAcesso = DateTime.Now;
+                _context.Usuarios.Update(usuario);
+                await _context.SaveChangesAsync();
+                
+                return Ok(usuario.Id);
             }
             catch (System.Exception ex)
             {
@@ -95,7 +99,6 @@ namespace RpgApi.Controllers
         }
 
         [HttpPost("AlterarSenha")]
-
         public async Task<IActionResult> AlterarSenha(Usuario dadosUse) { 
             
             try {
@@ -129,6 +132,7 @@ namespace RpgApi.Controllers
                 return BadRequest(e.Message);
             }         
         }
+       
         [HttpPost("AutenticarUsuario")]
         public async Task<IActionResult> ValidarUsuario (Usuario validaDados) {
             try {
@@ -148,6 +152,7 @@ namespace RpgApi.Controllers
                 return BadRequest(ex.Message);
             }
         }
+  
         [HttpGet("{id}")]
         public async Task<IActionResult> GetByLogin(int id) {
             try {
@@ -164,6 +169,7 @@ namespace RpgApi.Controllers
                 return BadRequest(ex.Message);
             }
         }
+    
         [HttpGet("personagemId/{personagemId}")]
         public async Task<IActionResult> GetHabilidadesPersonagem(int persoId) {
             try{
@@ -193,6 +199,7 @@ namespace RpgApi.Controllers
                 return BadRequest(ex.Message);
             }
         }
+       
         [HttpPost("DeletePersonagemHabilidade")]
         public async Task<IActionResult> DeletarPersonagemHabilidade(PersonagemHabilidade ph) 
         {
@@ -212,7 +219,6 @@ namespace RpgApi.Controllers
                 return BadRequest(ex.Message);
             }
         }
-
         
         [HttpGet("{usuarioId}")]
         public async Task<IActionResult> GetUsuario(int usuarioId)

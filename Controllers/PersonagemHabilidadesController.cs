@@ -43,5 +43,63 @@ namespace RpgApi.Controllers
                 return BadRequest(ex.Message);
             }
         }
+    
+        [HttpGet("{id}")]
+        public async Task<IActionResult> GetById(int id)
+        {
+            try
+            {
+                List<PersonagemHabilidade> ph = new List<PersonagemHabilidade>();
+                ph = await _context.PersonagemHabilidades.Where(x => x.PersonagemId == id).ToListAsync();
+
+                if(ph == null)
+                    throw new Exception("Nada foi encontrado +_+");
+                return Ok(ph);
+            }
+            catch(Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+        } 
+
+        [HttpGet("GetHabilidades")]
+        public async Task<IActionResult> GetHabilidades()
+        {
+            try
+            {
+                List<Habilidade> habilidades = new List<Habilidade>(); 
+                habilidades = await _context.Habilidade.ToListAsync();
+                if(habilidades == null)
+                    throw new Exception("Nada Foi encontrado");
+                return Ok(habilidades);
+            }
+            catch(Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+        }
+
+        [HttpPost("DeletePersonagemHabilidade")]
+        public async Task<IActionResult> DeletePersonagemHabilidade(PersonagemHabilidade ph)
+        {
+            try
+            {
+                PersonagemHabilidade deletePh = await _context.PersonagemHabilidades.FirstOrDefaultAsync(x => x.HabilidadeId == ph.HabilidadeId && x.PersonagemId == ph.PersonagemId);
+
+                if(deletePh == null)
+                    throw new Exception("Nada foi encontrado =(");
+
+                _context.PersonagemHabilidades.Remove(deletePh);
+                await _context.SaveChangesAsync();
+
+                return Ok($"O Personagem {ph.PersonagemId} e a Habilidade: {ph.HabilidadeId}, foram excluidas!");
+            }
+            catch(Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+        }
+
+        
     }
 }
