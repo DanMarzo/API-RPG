@@ -12,6 +12,7 @@ namespace RpgApi.Controllers
     {
         private readonly DataContext _context;
         public DisputasController(DataContext context){ _context = context; }
+       
         [HttpPost("Arma")]
         public async Task<IActionResult> AtaqueComArmaAsync(Disputa d)
         {
@@ -53,6 +54,7 @@ namespace RpgApi.Controllers
                 return BadRequest(ex.Message);
             }
         }
+       
         [HttpPost("Habilidade")]
         public async Task<IActionResult> AtaqueComHabilidadeAsync(Disputa d)
         {
@@ -104,6 +106,7 @@ namespace RpgApi.Controllers
                 return BadRequest(ex.Message);
             }
         }
+       
         [HttpGet("PersonagemRandom")]
         public async Task<IActionResult> Sorteio()
         {
@@ -170,7 +173,7 @@ namespace RpgApi.Controllers
                         if(dano > 0)
                             oponente.PontosVida = oponente.PontosVida - (int)dano;
                         
-                        resultado = string.Format($"{atacante.Nome} atacou {oponente.Nome} usando {ataqueUsado} com dano {dano}");
+                        resultado = string.Format($"{atacante.Nome} atacou {oponente.Nome} usando {ataqueUsado} com dano {dano} ");
                         d.Narracao += resultado; //Concatena o resultado com as narrações existentes
                         d.Resultados.Add(resultado); //Adiciona o resultado atual na lista de resultados
                     }
@@ -206,6 +209,7 @@ namespace RpgApi.Controllers
                 return BadRequest(ex.Message);
             }
         }
+      
         [HttpDelete("ApagarDisputas")]
         public async Task<IActionResult> DeleteAsync()
         {
@@ -229,6 +233,9 @@ namespace RpgApi.Controllers
             try
             {
                 List<Disputa> disputas = await _context.Disputas.ToListAsync();
+                if(disputas == null)
+                    throw new Exception("Nada foi encontrado");
+                
                 return Ok(disputas);
             }
             catch (Exception ex)
@@ -237,5 +244,6 @@ namespace RpgApi.Controllers
             }
         }
 
+        
     }
 }

@@ -20,12 +20,12 @@ namespace RpgApi.Models
         [Column("OponenteId")]
         public int OponenteId { get; set; }
 
-        [Column("TX_Narracao")]
+        [Column("Tx_Narracao")]
         public string Narracao { get; set; }
 
         [NotMapped]
         public int HabilidadeId { get; set; }
-        [NotMapped]
+        [NotMapped] //é ignorado e nao jogado no banco de dados
         public List<int> ListaIdPersonagens { get; set;}
         [NotMapped]
         public List<string> Resultados { get; set; }
