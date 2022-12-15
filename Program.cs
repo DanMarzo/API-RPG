@@ -1,6 +1,6 @@
 using RpgApi.Data; //chamando o NameSpace
 using Microsoft.EntityFrameworkCore; //Entity para SQLSERVER
-using Microsoft.Extensions.Configuration;
+
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -16,6 +16,10 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+builder.Services.AddControllers().AddNewtonsoftJson(
+    options => options.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore
+);//Quando a referencia entre si nas tabelas gera Looping, adicione dotnet add package Microsoft.AspNetCore.Mvc.NewtonsoftJson --version 6.0, e use o bloca acima de codigo, ele evita o looping
 
 var app = builder.Build();
 
