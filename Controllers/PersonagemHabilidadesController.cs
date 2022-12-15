@@ -44,13 +44,16 @@ namespace RpgApi.Controllers
             }
         }
     
-        [HttpGet("{id}")]
-        public async Task<IActionResult> GetById(int id)
+        [HttpGet("{personagemId}")]
+        public async Task<IActionResult> GetById(int personagemId)
         {
             try
             {
                 List<PersonagemHabilidade> ph = new List<PersonagemHabilidade>();
-                ph = await _context.PersonagemHabilidades.Where(x => x.PersonagemId == id).ToListAsync();
+                ph = await _context.PersonagemHabilidades
+                .Include(x => x.Personagem)
+                .Include(p => p.Habilidade)
+                .Where(x => x.PersonagemId == personagemId).ToListAsync();
 
                 if(ph == null)
                     throw new Exception("Nada foi encontrado +_+");
