@@ -22,7 +22,6 @@ namespace RpgApi.Controllers
             return false;
         }
         
-
         //Primeira função
         [HttpGet("{Id}")]
         public async Task<IActionResult> GetSingle(int id)
