@@ -589,3 +589,7 @@ D:\ETEC\etec2\DS-I\RPGapi\Back-end\RpgApi\obj\Debug\net6.0\staticwebassets\msbui
 D:\ETEC\etec2\DS-I\RPGapi\Back-end\RpgApi\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.RpgApi.props
 D:\ETEC\etec2\DS-I\RPGapi\Back-end\RpgApi\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.RpgApi.props
 D:\ETEC\etec2\DS-I\RPGapi\Back-end\RpgApi\obj\Debug\net6.0\staticwebassets.pack.json
+D:\ETEC\etec2\DS-I\RPGapi\Back-end\RpgApi\bin\Debug\net6.0\Microsoft.AspNetCore.JsonPatch.dll
+D:\ETEC\etec2\DS-I\RPGapi\Back-end\RpgApi\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+D:\ETEC\etec2\DS-I\RPGapi\Back-end\RpgApi\bin\Debug\net6.0\Newtonsoft.Json.dll
+D:\ETEC\etec2\DS-I\RPGapi\Back-end\RpgApi\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
