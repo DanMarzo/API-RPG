@@ -23,7 +23,7 @@ namespace RpgApi.Controllers
         }
         
         //Primeira função
-        [HttpGet("{Id}")]
+        [HttpGet("{id}")]
         public async Task<IActionResult> GetSingle(int id)
         {
             try
@@ -34,6 +34,9 @@ namespace RpgApi.Controllers
                         .ThenInclude(h => h.Habilidade) // Inclui na lista de personagemHabilidade de p
                     .FirstOrDefaultAsync(pBusca => pBusca.Id == id);
                 
+                if(p == null)
+                    throw new Exception("Nada foi encontrado =(");
+
                 return Ok(p);
             }
             catch(Exception ex)
@@ -157,6 +160,9 @@ namespace RpgApi.Controllers
             {
                 int linhasAfetadas = 0;
                 Personagem pEncontrado = await _context.Personagens.FirstOrDefaultAsync(pBusca => pBusca.Id == p.Id);
+                if(pEncontrado == null)
+                    throw new Exception("Nada foi encontrado!");
+                
                 pEncontrado.PontosVida = 100;
 
                 bool atualizou = await TryUpdateModelAsync<Personagem>(pEncontrado, "p", pAtualizar => pAtualizar.PontosVida);
@@ -239,7 +245,9 @@ namespace RpgApi.Controllers
             {
                 Usuario usuario = await _context.Usuarios
                 .FirstOrDefaultAsync(x => x.Id == userId);
+
                 List<Personagem> lista = new List<Personagem>();
+                
                 if(usuario.Perfil == "Admin")
                     lista = await _context.Personagens.ToListAsync();
                 else
@@ -251,8 +259,6 @@ namespace RpgApi.Controllers
                 return BadRequest(ex.Message);
             }
         }
-
-
 
     }
 }
