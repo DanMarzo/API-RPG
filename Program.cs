@@ -6,7 +6,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddDbContext<DataContext>(options =>
 {
-   options.UseSqlServer(builder.Configuration.GetConnectionString("ConexaoAsp")); //no ConexaoLocal é onde eu escolho o banco de dados
+   options.UseSqlServer(builder.Configuration.GetConnectionString("ConexaoSomee")); //no ConexaoLocal é onde eu escolho o banco de dados
 });
 //Comando para criar o script - dotnet ef migrations script -o ./script01_TabelaPersonagens.sql
 //Comando para publicar a API - dotnet publish -c release -o ./publish
