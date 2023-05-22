@@ -1,0 +1,855 @@
+D:\Work\Etec\2022_2-DS\RpgApi\bin\Debug\net6.0\appsettings.Development.json
+D:\Work\Etec\2022_2-DS\RpgApi\bin\Debug\net6.0\appsettings.json
+D:\Work\Etec\2022_2-DS\RpgApi\bin\Debug\net6.0\RpgApi.exe
+D:\Work\Etec\2022_2-DS\RpgApi\bin\Debug\net6.0\RpgApi.deps.json
+D:\Work\Etec\2022_2-DS\RpgApi\bin\Debug\net6.0\RpgApi.runtimeconfig.json
+D:\Work\Etec\2022_2-DS\RpgApi\bin\Debug\net6.0\RpgApi.dll
+D:\Work\Etec\2022_2-DS\RpgApi\bin\Debug\net6.0\RpgApi.pdb
+D:\Work\Etec\2022_2-DS\RpgApi\bin\Debug\net6.0\Microsoft.OpenApi.dll
+D:\Work\Etec\2022_2-DS\RpgApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Work\Etec\2022_2-DS\RpgApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Work\Etec\2022_2-DS\RpgApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Work\Etec\2022_2-DS\RpgApi\obj\Debug\net6.0\RpgApi.csproj.AssemblyReference.cache
+D:\Work\Etec\2022_2-DS\RpgApi\obj\Debug\net6.0\RpgApi.GeneratedMSBuildEditorConfig.editorconfig
+D:\Work\Etec\2022_2-DS\RpgApi\obj\Debug\net6.0\RpgApi.AssemblyInfoInputs.cache
+D:\Work\Etec\2022_2-DS\RpgApi\obj\Debug\net6.0\RpgApi.AssemblyInfo.cs
+D:\Work\Etec\2022_2-DS\RpgApi\obj\Debug\net6.0\RpgApi.csproj.CoreCompileInputs.cache
+D:\Work\Etec\2022_2-DS\RpgApi\obj\Debug\net6.0\RpgApi.MvcApplicationPartsAssemblyInfo.cs
+D:\Work\Etec\2022_2-DS\RpgApi\obj\Debug\net6.0\RpgApi.MvcApplicationPartsAssemblyInfo.cache
+D:\Work\Etec\2022_2-DS\RpgApi\obj\Debug\net6.0\staticwebassets.build.json
+D:\Work\Etec\2022_2-DS\RpgApi\obj\Debug\net6.0\staticwebassets.development.json
+D:\Work\Etec\2022_2-DS\RpgApi\obj\Debug\net6.0\scopedcss\bundle\RpgApi.styles.css
+D:\Work\Etec\2022_2-DS\RpgApi\obj\Debug\net6.0\RpgApi.csproj.CopyComplete
+D:\Work\Etec\2022_2-DS\RpgApi\obj\Debug\net6.0\RpgApi.dll
+D:\Work\Etec\2022_2-DS\RpgApi\obj\Debug\net6.0\refint\RpgApi.dll
+D:\Work\Etec\2022_2-DS\RpgApi\obj\Debug\net6.0\RpgApi.pdb
+D:\Work\Etec\2022_2-DS\RpgApi\obj\Debug\net6.0\RpgApi.genruntimeconfig.cache
+D:\Work\Etec\2022_2-DS\RpgApi\obj\Debug\net6.0\ref\RpgApi.dll
+E:\has\DS_2022-2\Aula05_Remota\RpgApi\bin\Debug\net6.0\appsettings.Development.json
+E:\has\DS_2022-2\Aula05_Remota\RpgApi\bin\Debug\net6.0\appsettings.json
+E:\has\DS_2022-2\Aula05_Remota\RpgApi\bin\Debug\net6.0\RpgApi.exe
+E:\has\DS_2022-2\Aula05_Remota\RpgApi\bin\Debug\net6.0\RpgApi.deps.json
+E:\has\DS_2022-2\Aula05_Remota\RpgApi\bin\Debug\net6.0\RpgApi.runtimeconfig.json
+E:\has\DS_2022-2\Aula05_Remota\RpgApi\bin\Debug\net6.0\RpgApi.dll
+E:\has\DS_2022-2\Aula05_Remota\RpgApi\bin\Debug\net6.0\RpgApi.pdb
+E:\has\DS_2022-2\Aula05_Remota\RpgApi\bin\Debug\net6.0\Microsoft.OpenApi.dll
+E:\has\DS_2022-2\Aula05_Remota\RpgApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+E:\has\DS_2022-2\Aula05_Remota\RpgApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+E:\has\DS_2022-2\Aula05_Remota\RpgApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+E:\has\DS_2022-2\Aula05_Remota\RpgApi\obj\Debug\net6.0\RpgApi.csproj.AssemblyReference.cache
+E:\has\DS_2022-2\Aula05_Remota\RpgApi\obj\Debug\net6.0\RpgApi.GeneratedMSBuildEditorConfig.editorconfig
+E:\has\DS_2022-2\Aula05_Remota\RpgApi\obj\Debug\net6.0\RpgApi.AssemblyInfoInputs.cache
+E:\has\DS_2022-2\Aula05_Remota\RpgApi\obj\Debug\net6.0\RpgApi.AssemblyInfo.cs
+E:\has\DS_2022-2\Aula05_Remota\RpgApi\obj\Debug\net6.0\RpgApi.csproj.CoreCompileInputs.cache
+E:\has\DS_2022-2\Aula05_Remota\RpgApi\obj\Debug\net6.0\RpgApi.MvcApplicationPartsAssemblyInfo.cs
+E:\has\DS_2022-2\Aula05_Remota\RpgApi\obj\Debug\net6.0\RpgApi.MvcApplicationPartsAssemblyInfo.cache
+E:\has\DS_2022-2\Aula05_Remota\RpgApi\obj\Debug\net6.0\staticwebassets.build.json
+E:\has\DS_2022-2\Aula05_Remota\RpgApi\obj\Debug\net6.0\staticwebassets.development.json
+E:\has\DS_2022-2\Aula05_Remota\RpgApi\obj\Debug\net6.0\scopedcss\bundle\RpgApi.styles.css
+E:\has\DS_2022-2\Aula05_Remota\RpgApi\obj\Debug\net6.0\RpgApi.csproj.CopyComplete
+E:\has\DS_2022-2\Aula05_Remota\RpgApi\obj\Debug\net6.0\RpgApi.dll
+E:\has\DS_2022-2\Aula05_Remota\RpgApi\obj\Debug\net6.0\refint\RpgApi.dll
+E:\has\DS_2022-2\Aula05_Remota\RpgApi\obj\Debug\net6.0\RpgApi.pdb
+E:\has\DS_2022-2\Aula05_Remota\RpgApi\obj\Debug\net6.0\RpgApi.genruntimeconfig.cache
+E:\has\DS_2022-2\Aula05_Remota\RpgApi\obj\Debug\net6.0\ref\RpgApi.dll
+D:\Etec - DS\2DS\DS I - Luis e Quiteria\Aula06\RpgApi\obj\Debug\net6.0\RpgApi.csproj.AssemblyReference.cache
+D:\Etec - DS\2DS\DS I - Luis e Quiteria\Aula06\RpgApi\obj\Debug\net6.0\RpgApi.GeneratedMSBuildEditorConfig.editorconfig
+D:\Etec - DS\2DS\DS I - Luis e Quiteria\Aula06\RpgApi\obj\Debug\net6.0\RpgApi.AssemblyInfoInputs.cache
+D:\Etec - DS\2DS\DS I - Luis e Quiteria\Aula06\RpgApi\obj\Debug\net6.0\RpgApi.AssemblyInfo.cs
+D:\Etec - DS\2DS\DS I - Luis e Quiteria\Aula06\RpgApi\obj\Debug\net6.0\RpgApi.csproj.CoreCompileInputs.cache
+D:\Etec - DS\2DS\DS I - Luis e Quiteria\Aula06\RpgApi\obj\Debug\net6.0\RpgApi.MvcApplicationPartsAssemblyInfo.cs
+D:\Etec - DS\2DS\DS I - Luis e Quiteria\Aula06\RpgApi\obj\Debug\net6.0\RpgApi.MvcApplicationPartsAssemblyInfo.cache
+D:\Etec - DS\2DS\DS I - Luis e Quiteria\Aula06\RpgApi\obj\Debug\net6.0\RpgApi.dll
+D:\Etec - DS\2DS\DS I - Luis e Quiteria\Aula06\RpgApi\obj\Debug\net6.0\refint\RpgApi.dll
+D:\Etec - DS\2DS\DS I - Luis e Quiteria\Aula06\RpgApi\obj\Debug\net6.0\RpgApi.pdb
+D:\Etec - DS\2DS\DS I - Luis e Quiteria\Aula06\RpgApi\bin\Debug\net6.0\appsettings.Development.json
+D:\Etec - DS\2DS\DS I - Luis e Quiteria\Aula06\RpgApi\bin\Debug\net6.0\appsettings.json
+D:\Etec - DS\2DS\DS I - Luis e Quiteria\Aula06\RpgApi\bin\Debug\net6.0\RpgApi.exe
+D:\Etec - DS\2DS\DS I - Luis e Quiteria\Aula06\RpgApi\bin\Debug\net6.0\RpgApi.deps.json
+D:\Etec - DS\2DS\DS I - Luis e Quiteria\Aula06\RpgApi\bin\Debug\net6.0\RpgApi.runtimeconfig.json
+D:\Etec - DS\2DS\DS I - Luis e Quiteria\Aula06\RpgApi\bin\Debug\net6.0\RpgApi.dll
+D:\Etec - DS\2DS\DS I - Luis e Quiteria\Aula06\RpgApi\bin\Debug\net6.0\RpgApi.pdb
+D:\Etec - DS\2DS\DS I - Luis e Quiteria\Aula06\RpgApi\bin\Debug\net6.0\Humanizer.dll
+D:\Etec - DS\2DS\DS I - Luis e Quiteria\Aula06\RpgApi\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+D:\Etec - DS\2DS\DS I - Luis e Quiteria\Aula06\RpgApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+D:\Etec - DS\2DS\DS I - Luis e Quiteria\Aula06\RpgApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Etec - DS\2DS\DS I - Luis e Quiteria\Aula06\RpgApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Etec - DS\2DS\DS I - Luis e Quiteria\Aula06\RpgApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Etec - DS\2DS\DS I - Luis e Quiteria\Aula06\RpgApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Etec - DS\2DS\DS I - Luis e Quiteria\Aula06\RpgApi\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+D:\Etec - DS\2DS\DS I - Luis e Quiteria\Aula06\RpgApi\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+D:\Etec - DS\2DS\DS I - Luis e Quiteria\Aula06\RpgApi\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Etec - DS\2DS\DS I - Luis e Quiteria\Aula06\RpgApi\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+D:\Etec - DS\2DS\DS I - Luis e Quiteria\Aula06\RpgApi\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+D:\Etec - DS\2DS\DS I - Luis e Quiteria\Aula06\RpgApi\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Etec - DS\2DS\DS I - Luis e Quiteria\Aula06\RpgApi\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+D:\Etec - DS\2DS\DS I - Luis e Quiteria\Aula06\RpgApi\bin\Debug\net6.0\Microsoft.OpenApi.dll
+D:\Etec - DS\2DS\DS I - Luis e Quiteria\Aula06\RpgApi\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\Etec - DS\2DS\DS I - Luis e Quiteria\Aula06\RpgApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Etec - DS\2DS\DS I - Luis e Quiteria\Aula06\RpgApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Etec - DS\2DS\DS I - Luis e Quiteria\Aula06\RpgApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Etec - DS\2DS\DS I - Luis e Quiteria\Aula06\RpgApi\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+D:\Etec - DS\2DS\DS I - Luis e Quiteria\Aula06\RpgApi\bin\Debug\net6.0\System.Drawing.Common.dll
+D:\Etec - DS\2DS\DS I - Luis e Quiteria\Aula06\RpgApi\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Etec - DS\2DS\DS I - Luis e Quiteria\Aula06\RpgApi\bin\Debug\net6.0\System.Runtime.Caching.dll
+D:\Etec - DS\2DS\DS I - Luis e Quiteria\Aula06\RpgApi\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\Etec - DS\2DS\DS I - Luis e Quiteria\Aula06\RpgApi\bin\Debug\net6.0\System.Security.Permissions.dll
+D:\Etec - DS\2DS\DS I - Luis e Quiteria\Aula06\RpgApi\bin\Debug\net6.0\System.Windows.Extensions.dll
+D:\Etec - DS\2DS\DS I - Luis e Quiteria\Aula06\RpgApi\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Etec - DS\2DS\DS I - Luis e Quiteria\Aula06\RpgApi\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Etec - DS\2DS\DS I - Luis e Quiteria\Aula06\RpgApi\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Etec - DS\2DS\DS I - Luis e Quiteria\Aula06\RpgApi\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Etec - DS\2DS\DS I - Luis e Quiteria\Aula06\RpgApi\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Etec - DS\2DS\DS I - Luis e Quiteria\Aula06\RpgApi\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Etec - DS\2DS\DS I - Luis e Quiteria\Aula06\RpgApi\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\Etec - DS\2DS\DS I - Luis e Quiteria\Aula06\RpgApi\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\Etec - DS\2DS\DS I - Luis e Quiteria\Aula06\RpgApi\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\Etec - DS\2DS\DS I - Luis e Quiteria\Aula06\RpgApi\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\Etec - DS\2DS\DS I - Luis e Quiteria\Aula06\RpgApi\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\Etec - DS\2DS\DS I - Luis e Quiteria\Aula06\RpgApi\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\Etec - DS\2DS\DS I - Luis e Quiteria\Aula06\RpgApi\obj\Debug\net6.0\staticwebassets.build.json
+D:\Etec - DS\2DS\DS I - Luis e Quiteria\Aula06\RpgApi\obj\Debug\net6.0\staticwebassets.development.json
+D:\Etec - DS\2DS\DS I - Luis e Quiteria\Aula06\RpgApi\obj\Debug\net6.0\scopedcss\bundle\RpgApi.styles.css
+D:\Etec - DS\2DS\DS I - Luis e Quiteria\Aula06\RpgApi\obj\Debug\net6.0\RpgApi.csproj.CopyComplete
+D:\Etec - DS\2DS\DS I - Luis e Quiteria\Aula06\RpgApi\obj\Debug\net6.0\RpgApi.genruntimeconfig.cache
+D:\Etec - DS\2DS\DS I - Luis e Quiteria\Aula06\RpgApi\obj\Debug\net6.0\ref\RpgApi.dll
+D:\Materiais Locais\2DS_LuizQuiteria\Aula07\RpgApi\obj\Debug\net6.0\RpgApi.csproj.AssemblyReference.cache
+D:\Materiais Locais\2DS_LuizQuiteria\Aula07\RpgApi\obj\Debug\net6.0\RpgApi.GeneratedMSBuildEditorConfig.editorconfig
+D:\Materiais Locais\2DS_LuizQuiteria\Aula07\RpgApi\obj\Debug\net6.0\RpgApi.AssemblyInfoInputs.cache
+D:\Materiais Locais\2DS_LuizQuiteria\Aula07\RpgApi\obj\Debug\net6.0\RpgApi.AssemblyInfo.cs
+D:\Materiais Locais\2DS_LuizQuiteria\Aula07\RpgApi\obj\Debug\net6.0\RpgApi.csproj.CoreCompileInputs.cache
+D:\Materiais Locais\2DS_LuizQuiteria\Aula07\RpgApi\obj\Debug\net6.0\RpgApi.MvcApplicationPartsAssemblyInfo.cs
+D:\Materiais Locais\2DS_LuizQuiteria\Aula07\RpgApi\obj\Debug\net6.0\RpgApi.MvcApplicationPartsAssemblyInfo.cache
+D:\Materiais Locais\2DS_LuizQuiteria\Aula07\RpgApi\obj\Debug\net6.0\RpgApi.dll
+D:\Materiais Locais\2DS_LuizQuiteria\Aula07\RpgApi\obj\Debug\net6.0\refint\RpgApi.dll
+D:\Materiais Locais\2DS_LuizQuiteria\Aula07\RpgApi\obj\Debug\net6.0\RpgApi.pdb
+D:\Materiais Locais\2DS_LuizQuiteria\Aula07\RpgApi\bin\Debug\net6.0\appsettings.Development.json
+D:\Materiais Locais\2DS_LuizQuiteria\Aula07\RpgApi\bin\Debug\net6.0\appsettings.json
+D:\Materiais Locais\2DS_LuizQuiteria\Aula07\RpgApi\bin\Debug\net6.0\RpgApi.exe
+D:\Materiais Locais\2DS_LuizQuiteria\Aula07\RpgApi\bin\Debug\net6.0\RpgApi.deps.json
+D:\Materiais Locais\2DS_LuizQuiteria\Aula07\RpgApi\bin\Debug\net6.0\RpgApi.runtimeconfig.json
+D:\Materiais Locais\2DS_LuizQuiteria\Aula07\RpgApi\bin\Debug\net6.0\RpgApi.dll
+D:\Materiais Locais\2DS_LuizQuiteria\Aula07\RpgApi\bin\Debug\net6.0\RpgApi.pdb
+D:\Materiais Locais\2DS_LuizQuiteria\Aula07\RpgApi\bin\Debug\net6.0\Humanizer.dll
+D:\Materiais Locais\2DS_LuizQuiteria\Aula07\RpgApi\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+D:\Materiais Locais\2DS_LuizQuiteria\Aula07\RpgApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+D:\Materiais Locais\2DS_LuizQuiteria\Aula07\RpgApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Materiais Locais\2DS_LuizQuiteria\Aula07\RpgApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Materiais Locais\2DS_LuizQuiteria\Aula07\RpgApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Materiais Locais\2DS_LuizQuiteria\Aula07\RpgApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Materiais Locais\2DS_LuizQuiteria\Aula07\RpgApi\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+D:\Materiais Locais\2DS_LuizQuiteria\Aula07\RpgApi\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+D:\Materiais Locais\2DS_LuizQuiteria\Aula07\RpgApi\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Materiais Locais\2DS_LuizQuiteria\Aula07\RpgApi\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+D:\Materiais Locais\2DS_LuizQuiteria\Aula07\RpgApi\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+D:\Materiais Locais\2DS_LuizQuiteria\Aula07\RpgApi\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Materiais Locais\2DS_LuizQuiteria\Aula07\RpgApi\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+D:\Materiais Locais\2DS_LuizQuiteria\Aula07\RpgApi\bin\Debug\net6.0\Microsoft.OpenApi.dll
+D:\Materiais Locais\2DS_LuizQuiteria\Aula07\RpgApi\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\Materiais Locais\2DS_LuizQuiteria\Aula07\RpgApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Materiais Locais\2DS_LuizQuiteria\Aula07\RpgApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Materiais Locais\2DS_LuizQuiteria\Aula07\RpgApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Materiais Locais\2DS_LuizQuiteria\Aula07\RpgApi\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+D:\Materiais Locais\2DS_LuizQuiteria\Aula07\RpgApi\bin\Debug\net6.0\System.Drawing.Common.dll
+D:\Materiais Locais\2DS_LuizQuiteria\Aula07\RpgApi\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Materiais Locais\2DS_LuizQuiteria\Aula07\RpgApi\bin\Debug\net6.0\System.Runtime.Caching.dll
+D:\Materiais Locais\2DS_LuizQuiteria\Aula07\RpgApi\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\Materiais Locais\2DS_LuizQuiteria\Aula07\RpgApi\bin\Debug\net6.0\System.Security.Permissions.dll
+D:\Materiais Locais\2DS_LuizQuiteria\Aula07\RpgApi\bin\Debug\net6.0\System.Windows.Extensions.dll
+D:\Materiais Locais\2DS_LuizQuiteria\Aula07\RpgApi\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Materiais Locais\2DS_LuizQuiteria\Aula07\RpgApi\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Materiais Locais\2DS_LuizQuiteria\Aula07\RpgApi\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Materiais Locais\2DS_LuizQuiteria\Aula07\RpgApi\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Materiais Locais\2DS_LuizQuiteria\Aula07\RpgApi\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Materiais Locais\2DS_LuizQuiteria\Aula07\RpgApi\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Materiais Locais\2DS_LuizQuiteria\Aula07\RpgApi\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\Materiais Locais\2DS_LuizQuiteria\Aula07\RpgApi\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\Materiais Locais\2DS_LuizQuiteria\Aula07\RpgApi\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\Materiais Locais\2DS_LuizQuiteria\Aula07\RpgApi\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\Materiais Locais\2DS_LuizQuiteria\Aula07\RpgApi\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\Materiais Locais\2DS_LuizQuiteria\Aula07\RpgApi\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\Materiais Locais\2DS_LuizQuiteria\Aula07\RpgApi\obj\Debug\net6.0\staticwebassets.build.json
+D:\Materiais Locais\2DS_LuizQuiteria\Aula07\RpgApi\obj\Debug\net6.0\staticwebassets.development.json
+D:\Materiais Locais\2DS_LuizQuiteria\Aula07\RpgApi\obj\Debug\net6.0\scopedcss\bundle\RpgApi.styles.css
+D:\Materiais Locais\2DS_LuizQuiteria\Aula07\RpgApi\obj\Debug\net6.0\RpgApi.csproj.CopyComplete
+D:\Materiais Locais\2DS_LuizQuiteria\Aula07\RpgApi\obj\Debug\net6.0\RpgApi.genruntimeconfig.cache
+D:\Materiais Locais\2DS_LuizQuiteria\Aula07\RpgApi\obj\Debug\net6.0\ref\RpgApi.dll
+E:\Work\Etec\DS_2022-2\Aula07\RpgApi\obj\Debug\net6.0\RpgApi.csproj.AssemblyReference.cache
+E:\Work\Etec\DS_2022-2\Aula07\RpgApi\obj\Debug\net6.0\RpgApi.GeneratedMSBuildEditorConfig.editorconfig
+E:\Work\Etec\DS_2022-2\Aula07\RpgApi\obj\Debug\net6.0\RpgApi.AssemblyInfoInputs.cache
+E:\Work\Etec\DS_2022-2\Aula07\RpgApi\obj\Debug\net6.0\RpgApi.AssemblyInfo.cs
+E:\Work\Etec\DS_2022-2\Aula07\RpgApi\obj\Debug\net6.0\RpgApi.csproj.CoreCompileInputs.cache
+E:\Work\Etec\DS_2022-2\Aula07\RpgApi\obj\Debug\net6.0\RpgApi.MvcApplicationPartsAssemblyInfo.cs
+E:\Work\Etec\DS_2022-2\Aula07\RpgApi\obj\Debug\net6.0\RpgApi.MvcApplicationPartsAssemblyInfo.cache
+E:\Work\Etec\DS_2022-2\Aula07\RpgApi\obj\Debug\net6.0\RpgApi.dll
+E:\Work\Etec\DS_2022-2\Aula07\RpgApi\obj\Debug\net6.0\refint\RpgApi.dll
+E:\Work\Etec\DS_2022-2\Aula07\RpgApi\obj\Debug\net6.0\RpgApi.pdb
+E:\Work\Etec\DS_2022-2\Aula07\RpgApi\bin\Debug\net6.0\appsettings.Development.json
+E:\Work\Etec\DS_2022-2\Aula07\RpgApi\bin\Debug\net6.0\appsettings.json
+E:\Work\Etec\DS_2022-2\Aula07\RpgApi\bin\Debug\net6.0\RpgApi.exe
+E:\Work\Etec\DS_2022-2\Aula07\RpgApi\bin\Debug\net6.0\RpgApi.deps.json
+E:\Work\Etec\DS_2022-2\Aula07\RpgApi\bin\Debug\net6.0\RpgApi.runtimeconfig.json
+E:\Work\Etec\DS_2022-2\Aula07\RpgApi\bin\Debug\net6.0\RpgApi.dll
+E:\Work\Etec\DS_2022-2\Aula07\RpgApi\bin\Debug\net6.0\RpgApi.pdb
+E:\Work\Etec\DS_2022-2\Aula07\RpgApi\bin\Debug\net6.0\Humanizer.dll
+E:\Work\Etec\DS_2022-2\Aula07\RpgApi\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+E:\Work\Etec\DS_2022-2\Aula07\RpgApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+E:\Work\Etec\DS_2022-2\Aula07\RpgApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\Work\Etec\DS_2022-2\Aula07\RpgApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+E:\Work\Etec\DS_2022-2\Aula07\RpgApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+E:\Work\Etec\DS_2022-2\Aula07\RpgApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+E:\Work\Etec\DS_2022-2\Aula07\RpgApi\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+E:\Work\Etec\DS_2022-2\Aula07\RpgApi\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+E:\Work\Etec\DS_2022-2\Aula07\RpgApi\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\Work\Etec\DS_2022-2\Aula07\RpgApi\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+E:\Work\Etec\DS_2022-2\Aula07\RpgApi\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+E:\Work\Etec\DS_2022-2\Aula07\RpgApi\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\Work\Etec\DS_2022-2\Aula07\RpgApi\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+E:\Work\Etec\DS_2022-2\Aula07\RpgApi\bin\Debug\net6.0\Microsoft.OpenApi.dll
+E:\Work\Etec\DS_2022-2\Aula07\RpgApi\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+E:\Work\Etec\DS_2022-2\Aula07\RpgApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+E:\Work\Etec\DS_2022-2\Aula07\RpgApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+E:\Work\Etec\DS_2022-2\Aula07\RpgApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+E:\Work\Etec\DS_2022-2\Aula07\RpgApi\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+E:\Work\Etec\DS_2022-2\Aula07\RpgApi\bin\Debug\net6.0\System.Drawing.Common.dll
+E:\Work\Etec\DS_2022-2\Aula07\RpgApi\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+E:\Work\Etec\DS_2022-2\Aula07\RpgApi\bin\Debug\net6.0\System.Runtime.Caching.dll
+E:\Work\Etec\DS_2022-2\Aula07\RpgApi\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+E:\Work\Etec\DS_2022-2\Aula07\RpgApi\bin\Debug\net6.0\System.Security.Permissions.dll
+E:\Work\Etec\DS_2022-2\Aula07\RpgApi\bin\Debug\net6.0\System.Windows.Extensions.dll
+E:\Work\Etec\DS_2022-2\Aula07\RpgApi\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\Work\Etec\DS_2022-2\Aula07\RpgApi\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\Work\Etec\DS_2022-2\Aula07\RpgApi\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Work\Etec\DS_2022-2\Aula07\RpgApi\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Work\Etec\DS_2022-2\Aula07\RpgApi\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Work\Etec\DS_2022-2\Aula07\RpgApi\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Work\Etec\DS_2022-2\Aula07\RpgApi\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+E:\Work\Etec\DS_2022-2\Aula07\RpgApi\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+E:\Work\Etec\DS_2022-2\Aula07\RpgApi\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+E:\Work\Etec\DS_2022-2\Aula07\RpgApi\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+E:\Work\Etec\DS_2022-2\Aula07\RpgApi\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+E:\Work\Etec\DS_2022-2\Aula07\RpgApi\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+E:\Work\Etec\DS_2022-2\Aula07\RpgApi\obj\Debug\net6.0\staticwebassets.build.json
+E:\Work\Etec\DS_2022-2\Aula07\RpgApi\obj\Debug\net6.0\staticwebassets.development.json
+E:\Work\Etec\DS_2022-2\Aula07\RpgApi\obj\Debug\net6.0\scopedcss\bundle\RpgApi.styles.css
+E:\Work\Etec\DS_2022-2\Aula07\RpgApi\obj\Debug\net6.0\RpgApi.csproj.CopyComplete
+E:\Work\Etec\DS_2022-2\Aula07\RpgApi\obj\Debug\net6.0\RpgApi.genruntimeconfig.cache
+E:\Work\Etec\DS_2022-2\Aula07\RpgApi\obj\Debug\net6.0\ref\RpgApi.dll
+E:\Work\Etec\2022-2_2DS_DSI\Aula08_Avaliacao\RpgApi\bin\Debug\net6.0\appsettings.Development.json
+E:\Work\Etec\2022-2_2DS_DSI\Aula08_Avaliacao\RpgApi\bin\Debug\net6.0\appsettings.json
+E:\Work\Etec\2022-2_2DS_DSI\Aula08_Avaliacao\RpgApi\bin\Debug\net6.0\RpgApi.exe
+E:\Work\Etec\2022-2_2DS_DSI\Aula08_Avaliacao\RpgApi\bin\Debug\net6.0\RpgApi.deps.json
+E:\Work\Etec\2022-2_2DS_DSI\Aula08_Avaliacao\RpgApi\bin\Debug\net6.0\RpgApi.runtimeconfig.json
+E:\Work\Etec\2022-2_2DS_DSI\Aula08_Avaliacao\RpgApi\bin\Debug\net6.0\RpgApi.dll
+E:\Work\Etec\2022-2_2DS_DSI\Aula08_Avaliacao\RpgApi\bin\Debug\net6.0\RpgApi.pdb
+E:\Work\Etec\2022-2_2DS_DSI\Aula08_Avaliacao\RpgApi\bin\Debug\net6.0\Humanizer.dll
+E:\Work\Etec\2022-2_2DS_DSI\Aula08_Avaliacao\RpgApi\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+E:\Work\Etec\2022-2_2DS_DSI\Aula08_Avaliacao\RpgApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+E:\Work\Etec\2022-2_2DS_DSI\Aula08_Avaliacao\RpgApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\Work\Etec\2022-2_2DS_DSI\Aula08_Avaliacao\RpgApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+E:\Work\Etec\2022-2_2DS_DSI\Aula08_Avaliacao\RpgApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+E:\Work\Etec\2022-2_2DS_DSI\Aula08_Avaliacao\RpgApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+E:\Work\Etec\2022-2_2DS_DSI\Aula08_Avaliacao\RpgApi\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+E:\Work\Etec\2022-2_2DS_DSI\Aula08_Avaliacao\RpgApi\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+E:\Work\Etec\2022-2_2DS_DSI\Aula08_Avaliacao\RpgApi\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\Work\Etec\2022-2_2DS_DSI\Aula08_Avaliacao\RpgApi\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+E:\Work\Etec\2022-2_2DS_DSI\Aula08_Avaliacao\RpgApi\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+E:\Work\Etec\2022-2_2DS_DSI\Aula08_Avaliacao\RpgApi\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\Work\Etec\2022-2_2DS_DSI\Aula08_Avaliacao\RpgApi\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+E:\Work\Etec\2022-2_2DS_DSI\Aula08_Avaliacao\RpgApi\bin\Debug\net6.0\Microsoft.OpenApi.dll
+E:\Work\Etec\2022-2_2DS_DSI\Aula08_Avaliacao\RpgApi\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+E:\Work\Etec\2022-2_2DS_DSI\Aula08_Avaliacao\RpgApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+E:\Work\Etec\2022-2_2DS_DSI\Aula08_Avaliacao\RpgApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+E:\Work\Etec\2022-2_2DS_DSI\Aula08_Avaliacao\RpgApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+E:\Work\Etec\2022-2_2DS_DSI\Aula08_Avaliacao\RpgApi\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+E:\Work\Etec\2022-2_2DS_DSI\Aula08_Avaliacao\RpgApi\bin\Debug\net6.0\System.Drawing.Common.dll
+E:\Work\Etec\2022-2_2DS_DSI\Aula08_Avaliacao\RpgApi\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+E:\Work\Etec\2022-2_2DS_DSI\Aula08_Avaliacao\RpgApi\bin\Debug\net6.0\System.Runtime.Caching.dll
+E:\Work\Etec\2022-2_2DS_DSI\Aula08_Avaliacao\RpgApi\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+E:\Work\Etec\2022-2_2DS_DSI\Aula08_Avaliacao\RpgApi\bin\Debug\net6.0\System.Security.Permissions.dll
+E:\Work\Etec\2022-2_2DS_DSI\Aula08_Avaliacao\RpgApi\bin\Debug\net6.0\System.Windows.Extensions.dll
+E:\Work\Etec\2022-2_2DS_DSI\Aula08_Avaliacao\RpgApi\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\Work\Etec\2022-2_2DS_DSI\Aula08_Avaliacao\RpgApi\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\Work\Etec\2022-2_2DS_DSI\Aula08_Avaliacao\RpgApi\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Work\Etec\2022-2_2DS_DSI\Aula08_Avaliacao\RpgApi\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Work\Etec\2022-2_2DS_DSI\Aula08_Avaliacao\RpgApi\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Work\Etec\2022-2_2DS_DSI\Aula08_Avaliacao\RpgApi\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Work\Etec\2022-2_2DS_DSI\Aula08_Avaliacao\RpgApi\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+E:\Work\Etec\2022-2_2DS_DSI\Aula08_Avaliacao\RpgApi\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+E:\Work\Etec\2022-2_2DS_DSI\Aula08_Avaliacao\RpgApi\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+E:\Work\Etec\2022-2_2DS_DSI\Aula08_Avaliacao\RpgApi\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+E:\Work\Etec\2022-2_2DS_DSI\Aula08_Avaliacao\RpgApi\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+E:\Work\Etec\2022-2_2DS_DSI\Aula08_Avaliacao\RpgApi\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+E:\Work\Etec\2022-2_2DS_DSI\Aula08_Avaliacao\RpgApi\obj\Debug\net6.0\RpgApi.csproj.AssemblyReference.cache
+E:\Work\Etec\2022-2_2DS_DSI\Aula08_Avaliacao\RpgApi\obj\Debug\net6.0\RpgApi.GeneratedMSBuildEditorConfig.editorconfig
+E:\Work\Etec\2022-2_2DS_DSI\Aula08_Avaliacao\RpgApi\obj\Debug\net6.0\RpgApi.AssemblyInfoInputs.cache
+E:\Work\Etec\2022-2_2DS_DSI\Aula08_Avaliacao\RpgApi\obj\Debug\net6.0\RpgApi.AssemblyInfo.cs
+E:\Work\Etec\2022-2_2DS_DSI\Aula08_Avaliacao\RpgApi\obj\Debug\net6.0\RpgApi.csproj.CoreCompileInputs.cache
+E:\Work\Etec\2022-2_2DS_DSI\Aula08_Avaliacao\RpgApi\obj\Debug\net6.0\RpgApi.MvcApplicationPartsAssemblyInfo.cs
+E:\Work\Etec\2022-2_2DS_DSI\Aula08_Avaliacao\RpgApi\obj\Debug\net6.0\RpgApi.MvcApplicationPartsAssemblyInfo.cache
+E:\Work\Etec\2022-2_2DS_DSI\Aula08_Avaliacao\RpgApi\obj\Debug\net6.0\staticwebassets.build.json
+E:\Work\Etec\2022-2_2DS_DSI\Aula08_Avaliacao\RpgApi\obj\Debug\net6.0\staticwebassets.development.json
+E:\Work\Etec\2022-2_2DS_DSI\Aula08_Avaliacao\RpgApi\obj\Debug\net6.0\scopedcss\bundle\RpgApi.styles.css
+E:\Work\Etec\2022-2_2DS_DSI\Aula08_Avaliacao\RpgApi\obj\Debug\net6.0\RpgApi.csproj.CopyComplete
+E:\Work\Etec\2022-2_2DS_DSI\Aula08_Avaliacao\RpgApi\obj\Debug\net6.0\RpgApi.dll
+E:\Work\Etec\2022-2_2DS_DSI\Aula08_Avaliacao\RpgApi\obj\Debug\net6.0\refint\RpgApi.dll
+E:\Work\Etec\2022-2_2DS_DSI\Aula08_Avaliacao\RpgApi\obj\Debug\net6.0\RpgApi.pdb
+E:\Work\Etec\2022-2_2DS_DSI\Aula08_Avaliacao\RpgApi\obj\Debug\net6.0\RpgApi.genruntimeconfig.cache
+E:\Work\Etec\2022-2_2DS_DSI\Aula08_Avaliacao\RpgApi\obj\Debug\net6.0\ref\RpgApi.dll
+E:\Work\Etec\2022-2_2DS_DSI\Aula09\RpgApi\bin\Debug\net6.0\appsettings.Development.json
+E:\Work\Etec\2022-2_2DS_DSI\Aula09\RpgApi\bin\Debug\net6.0\appsettings.json
+E:\Work\Etec\2022-2_2DS_DSI\Aula09\RpgApi\bin\Debug\net6.0\RpgApi.exe
+E:\Work\Etec\2022-2_2DS_DSI\Aula09\RpgApi\bin\Debug\net6.0\RpgApi.deps.json
+E:\Work\Etec\2022-2_2DS_DSI\Aula09\RpgApi\bin\Debug\net6.0\RpgApi.runtimeconfig.json
+E:\Work\Etec\2022-2_2DS_DSI\Aula09\RpgApi\bin\Debug\net6.0\RpgApi.dll
+E:\Work\Etec\2022-2_2DS_DSI\Aula09\RpgApi\bin\Debug\net6.0\RpgApi.pdb
+E:\Work\Etec\2022-2_2DS_DSI\Aula09\RpgApi\bin\Debug\net6.0\Humanizer.dll
+E:\Work\Etec\2022-2_2DS_DSI\Aula09\RpgApi\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+E:\Work\Etec\2022-2_2DS_DSI\Aula09\RpgApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+E:\Work\Etec\2022-2_2DS_DSI\Aula09\RpgApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\Work\Etec\2022-2_2DS_DSI\Aula09\RpgApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+E:\Work\Etec\2022-2_2DS_DSI\Aula09\RpgApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+E:\Work\Etec\2022-2_2DS_DSI\Aula09\RpgApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+E:\Work\Etec\2022-2_2DS_DSI\Aula09\RpgApi\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+E:\Work\Etec\2022-2_2DS_DSI\Aula09\RpgApi\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+E:\Work\Etec\2022-2_2DS_DSI\Aula09\RpgApi\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\Work\Etec\2022-2_2DS_DSI\Aula09\RpgApi\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+E:\Work\Etec\2022-2_2DS_DSI\Aula09\RpgApi\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+E:\Work\Etec\2022-2_2DS_DSI\Aula09\RpgApi\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\Work\Etec\2022-2_2DS_DSI\Aula09\RpgApi\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+E:\Work\Etec\2022-2_2DS_DSI\Aula09\RpgApi\bin\Debug\net6.0\Microsoft.OpenApi.dll
+E:\Work\Etec\2022-2_2DS_DSI\Aula09\RpgApi\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+E:\Work\Etec\2022-2_2DS_DSI\Aula09\RpgApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+E:\Work\Etec\2022-2_2DS_DSI\Aula09\RpgApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+E:\Work\Etec\2022-2_2DS_DSI\Aula09\RpgApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+E:\Work\Etec\2022-2_2DS_DSI\Aula09\RpgApi\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+E:\Work\Etec\2022-2_2DS_DSI\Aula09\RpgApi\bin\Debug\net6.0\System.Drawing.Common.dll
+E:\Work\Etec\2022-2_2DS_DSI\Aula09\RpgApi\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+E:\Work\Etec\2022-2_2DS_DSI\Aula09\RpgApi\bin\Debug\net6.0\System.Runtime.Caching.dll
+E:\Work\Etec\2022-2_2DS_DSI\Aula09\RpgApi\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+E:\Work\Etec\2022-2_2DS_DSI\Aula09\RpgApi\bin\Debug\net6.0\System.Security.Permissions.dll
+E:\Work\Etec\2022-2_2DS_DSI\Aula09\RpgApi\bin\Debug\net6.0\System.Windows.Extensions.dll
+E:\Work\Etec\2022-2_2DS_DSI\Aula09\RpgApi\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\Work\Etec\2022-2_2DS_DSI\Aula09\RpgApi\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\Work\Etec\2022-2_2DS_DSI\Aula09\RpgApi\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Work\Etec\2022-2_2DS_DSI\Aula09\RpgApi\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Work\Etec\2022-2_2DS_DSI\Aula09\RpgApi\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Work\Etec\2022-2_2DS_DSI\Aula09\RpgApi\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Work\Etec\2022-2_2DS_DSI\Aula09\RpgApi\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+E:\Work\Etec\2022-2_2DS_DSI\Aula09\RpgApi\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+E:\Work\Etec\2022-2_2DS_DSI\Aula09\RpgApi\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+E:\Work\Etec\2022-2_2DS_DSI\Aula09\RpgApi\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+E:\Work\Etec\2022-2_2DS_DSI\Aula09\RpgApi\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+E:\Work\Etec\2022-2_2DS_DSI\Aula09\RpgApi\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+E:\Work\Etec\2022-2_2DS_DSI\Aula09\RpgApi\obj\Debug\net6.0\RpgApi.csproj.AssemblyReference.cache
+E:\Work\Etec\2022-2_2DS_DSI\Aula09\RpgApi\obj\Debug\net6.0\RpgApi.GeneratedMSBuildEditorConfig.editorconfig
+E:\Work\Etec\2022-2_2DS_DSI\Aula09\RpgApi\obj\Debug\net6.0\RpgApi.AssemblyInfoInputs.cache
+E:\Work\Etec\2022-2_2DS_DSI\Aula09\RpgApi\obj\Debug\net6.0\RpgApi.AssemblyInfo.cs
+E:\Work\Etec\2022-2_2DS_DSI\Aula09\RpgApi\obj\Debug\net6.0\RpgApi.csproj.CoreCompileInputs.cache
+E:\Work\Etec\2022-2_2DS_DSI\Aula09\RpgApi\obj\Debug\net6.0\RpgApi.MvcApplicationPartsAssemblyInfo.cs
+E:\Work\Etec\2022-2_2DS_DSI\Aula09\RpgApi\obj\Debug\net6.0\RpgApi.MvcApplicationPartsAssemblyInfo.cache
+E:\Work\Etec\2022-2_2DS_DSI\Aula09\RpgApi\obj\Debug\net6.0\staticwebassets.build.json
+E:\Work\Etec\2022-2_2DS_DSI\Aula09\RpgApi\obj\Debug\net6.0\staticwebassets.development.json
+E:\Work\Etec\2022-2_2DS_DSI\Aula09\RpgApi\obj\Debug\net6.0\scopedcss\bundle\RpgApi.styles.css
+E:\Work\Etec\2022-2_2DS_DSI\Aula09\RpgApi\obj\Debug\net6.0\RpgApi.csproj.CopyComplete
+E:\Work\Etec\2022-2_2DS_DSI\Aula09\RpgApi\obj\Debug\net6.0\RpgApi.dll
+E:\Work\Etec\2022-2_2DS_DSI\Aula09\RpgApi\obj\Debug\net6.0\refint\RpgApi.dll
+E:\Work\Etec\2022-2_2DS_DSI\Aula09\RpgApi\obj\Debug\net6.0\RpgApi.pdb
+E:\Work\Etec\2022-2_2DS_DSI\Aula09\RpgApi\obj\Debug\net6.0\RpgApi.genruntimeconfig.cache
+E:\Work\Etec\2022-2_2DS_DSI\Aula09\RpgApi\obj\Debug\net6.0\ref\RpgApi.dll
+D:\Work\Etec\2022_2-DS\Aula11\RpgApi\bin\Debug\net6.0\appsettings.Development.json
+D:\Work\Etec\2022_2-DS\Aula11\RpgApi\bin\Debug\net6.0\appsettings.json
+D:\Work\Etec\2022_2-DS\Aula11\RpgApi\bin\Debug\net6.0\RpgApi.exe
+D:\Work\Etec\2022_2-DS\Aula11\RpgApi\bin\Debug\net6.0\RpgApi.deps.json
+D:\Work\Etec\2022_2-DS\Aula11\RpgApi\bin\Debug\net6.0\RpgApi.runtimeconfig.json
+D:\Work\Etec\2022_2-DS\Aula11\RpgApi\bin\Debug\net6.0\RpgApi.dll
+D:\Work\Etec\2022_2-DS\Aula11\RpgApi\bin\Debug\net6.0\RpgApi.pdb
+D:\Work\Etec\2022_2-DS\Aula11\RpgApi\bin\Debug\net6.0\Humanizer.dll
+D:\Work\Etec\2022_2-DS\Aula11\RpgApi\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+D:\Work\Etec\2022_2-DS\Aula11\RpgApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+D:\Work\Etec\2022_2-DS\Aula11\RpgApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Work\Etec\2022_2-DS\Aula11\RpgApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Work\Etec\2022_2-DS\Aula11\RpgApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Work\Etec\2022_2-DS\Aula11\RpgApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Work\Etec\2022_2-DS\Aula11\RpgApi\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+D:\Work\Etec\2022_2-DS\Aula11\RpgApi\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+D:\Work\Etec\2022_2-DS\Aula11\RpgApi\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Work\Etec\2022_2-DS\Aula11\RpgApi\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+D:\Work\Etec\2022_2-DS\Aula11\RpgApi\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+D:\Work\Etec\2022_2-DS\Aula11\RpgApi\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Work\Etec\2022_2-DS\Aula11\RpgApi\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+D:\Work\Etec\2022_2-DS\Aula11\RpgApi\bin\Debug\net6.0\Microsoft.OpenApi.dll
+D:\Work\Etec\2022_2-DS\Aula11\RpgApi\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\Work\Etec\2022_2-DS\Aula11\RpgApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Work\Etec\2022_2-DS\Aula11\RpgApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Work\Etec\2022_2-DS\Aula11\RpgApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Work\Etec\2022_2-DS\Aula11\RpgApi\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+D:\Work\Etec\2022_2-DS\Aula11\RpgApi\bin\Debug\net6.0\System.Drawing.Common.dll
+D:\Work\Etec\2022_2-DS\Aula11\RpgApi\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Work\Etec\2022_2-DS\Aula11\RpgApi\bin\Debug\net6.0\System.Runtime.Caching.dll
+D:\Work\Etec\2022_2-DS\Aula11\RpgApi\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\Work\Etec\2022_2-DS\Aula11\RpgApi\bin\Debug\net6.0\System.Security.Permissions.dll
+D:\Work\Etec\2022_2-DS\Aula11\RpgApi\bin\Debug\net6.0\System.Windows.Extensions.dll
+D:\Work\Etec\2022_2-DS\Aula11\RpgApi\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Work\Etec\2022_2-DS\Aula11\RpgApi\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Work\Etec\2022_2-DS\Aula11\RpgApi\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Work\Etec\2022_2-DS\Aula11\RpgApi\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Work\Etec\2022_2-DS\Aula11\RpgApi\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Work\Etec\2022_2-DS\Aula11\RpgApi\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Work\Etec\2022_2-DS\Aula11\RpgApi\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\Work\Etec\2022_2-DS\Aula11\RpgApi\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\Work\Etec\2022_2-DS\Aula11\RpgApi\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\Work\Etec\2022_2-DS\Aula11\RpgApi\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\Work\Etec\2022_2-DS\Aula11\RpgApi\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\Work\Etec\2022_2-DS\Aula11\RpgApi\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\Work\Etec\2022_2-DS\Aula11\RpgApi\obj\Debug\net6.0\RpgApi.csproj.AssemblyReference.cache
+D:\Work\Etec\2022_2-DS\Aula11\RpgApi\obj\Debug\net6.0\RpgApi.GeneratedMSBuildEditorConfig.editorconfig
+D:\Work\Etec\2022_2-DS\Aula11\RpgApi\obj\Debug\net6.0\RpgApi.AssemblyInfoInputs.cache
+D:\Work\Etec\2022_2-DS\Aula11\RpgApi\obj\Debug\net6.0\RpgApi.AssemblyInfo.cs
+D:\Work\Etec\2022_2-DS\Aula11\RpgApi\obj\Debug\net6.0\RpgApi.csproj.CoreCompileInputs.cache
+D:\Work\Etec\2022_2-DS\Aula11\RpgApi\obj\Debug\net6.0\RpgApi.MvcApplicationPartsAssemblyInfo.cs
+D:\Work\Etec\2022_2-DS\Aula11\RpgApi\obj\Debug\net6.0\RpgApi.MvcApplicationPartsAssemblyInfo.cache
+D:\Work\Etec\2022_2-DS\Aula11\RpgApi\obj\Debug\net6.0\staticwebassets.build.json
+D:\Work\Etec\2022_2-DS\Aula11\RpgApi\obj\Debug\net6.0\staticwebassets.development.json
+D:\Work\Etec\2022_2-DS\Aula11\RpgApi\obj\Debug\net6.0\scopedcss\bundle\RpgApi.styles.css
+D:\Work\Etec\2022_2-DS\Aula11\RpgApi\obj\Debug\net6.0\RpgApi.csproj.CopyComplete
+D:\Work\Etec\2022_2-DS\Aula11\RpgApi\obj\Debug\net6.0\RpgApi.dll
+D:\Work\Etec\2022_2-DS\Aula11\RpgApi\obj\Debug\net6.0\refint\RpgApi.dll
+D:\Work\Etec\2022_2-DS\Aula11\RpgApi\obj\Debug\net6.0\RpgApi.pdb
+D:\Work\Etec\2022_2-DS\Aula11\RpgApi\obj\Debug\net6.0\RpgApi.genruntimeconfig.cache
+D:\Work\Etec\2022_2-DS\Aula11\RpgApi\obj\Debug\net6.0\ref\RpgApi.dll
+D:\Work\Etec\2022_2-DS\Aula11\RpgApi\bin\Debug\net6.0\Publish\web.config
+D:\Work\Etec\2022_2-DS\Aula11\RpgApi\bin\Debug\net6.0\Publish\appsettings.Development.json
+D:\Work\Etec\2022_2-DS\Aula11\RpgApi\bin\Debug\net6.0\Publish\appsettings.json
+D:\Work\Etec\2022_2-DS\Aula11\RpgApi\bin\Debug\net6.0\Publish\RpgApi.deps.json
+D:\Work\Etec\2022_2-DS\Aula11\RpgApi\bin\Debug\net6.0\Publish\RpgApi.runtimeconfig.json
+D:\Work\Etec\2022_2-DS\Aula11\RpgApi\bin\Debug\net6.0\Microsoft.AspNetCore.JsonPatch.dll
+D:\Work\Etec\2022_2-DS\Aula11\RpgApi\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+D:\Work\Etec\2022_2-DS\Aula11\RpgApi\bin\Debug\net6.0\Newtonsoft.Json.dll
+D:\Work\Etec\2022_2-DS\Aula11\RpgApi\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
+D:\Work\Etec\2022_2-DS\Aula12\InicioComDesafio\RpgApi\bin\Debug\net6.0\appsettings.Development.json
+D:\Work\Etec\2022_2-DS\Aula12\InicioComDesafio\RpgApi\bin\Debug\net6.0\Publish\appsettings.Development.json
+D:\Work\Etec\2022_2-DS\Aula12\InicioComDesafio\RpgApi\bin\Debug\net6.0\Publish\web.config
+D:\Work\Etec\2022_2-DS\Aula12\InicioComDesafio\RpgApi\bin\Debug\net6.0\appsettings.json
+D:\Work\Etec\2022_2-DS\Aula12\InicioComDesafio\RpgApi\bin\Debug\net6.0\Publish\appsettings.json
+D:\Work\Etec\2022_2-DS\Aula12\InicioComDesafio\RpgApi\bin\Debug\net6.0\Publish\RpgApi.deps.json
+D:\Work\Etec\2022_2-DS\Aula12\InicioComDesafio\RpgApi\bin\Debug\net6.0\Publish\RpgApi.runtimeconfig.json
+D:\Work\Etec\2022_2-DS\Aula12\InicioComDesafio\RpgApi\bin\Debug\net6.0\RpgApi.exe
+D:\Work\Etec\2022_2-DS\Aula12\InicioComDesafio\RpgApi\bin\Debug\net6.0\RpgApi.deps.json
+D:\Work\Etec\2022_2-DS\Aula12\InicioComDesafio\RpgApi\bin\Debug\net6.0\RpgApi.runtimeconfig.json
+D:\Work\Etec\2022_2-DS\Aula12\InicioComDesafio\RpgApi\bin\Debug\net6.0\RpgApi.dll
+D:\Work\Etec\2022_2-DS\Aula12\InicioComDesafio\RpgApi\bin\Debug\net6.0\RpgApi.pdb
+D:\Work\Etec\2022_2-DS\Aula12\InicioComDesafio\RpgApi\bin\Debug\net6.0\Humanizer.dll
+D:\Work\Etec\2022_2-DS\Aula12\InicioComDesafio\RpgApi\bin\Debug\net6.0\Microsoft.AspNetCore.JsonPatch.dll
+D:\Work\Etec\2022_2-DS\Aula12\InicioComDesafio\RpgApi\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+D:\Work\Etec\2022_2-DS\Aula12\InicioComDesafio\RpgApi\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+D:\Work\Etec\2022_2-DS\Aula12\InicioComDesafio\RpgApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+D:\Work\Etec\2022_2-DS\Aula12\InicioComDesafio\RpgApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Work\Etec\2022_2-DS\Aula12\InicioComDesafio\RpgApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Work\Etec\2022_2-DS\Aula12\InicioComDesafio\RpgApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Work\Etec\2022_2-DS\Aula12\InicioComDesafio\RpgApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Work\Etec\2022_2-DS\Aula12\InicioComDesafio\RpgApi\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+D:\Work\Etec\2022_2-DS\Aula12\InicioComDesafio\RpgApi\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+D:\Work\Etec\2022_2-DS\Aula12\InicioComDesafio\RpgApi\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Work\Etec\2022_2-DS\Aula12\InicioComDesafio\RpgApi\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+D:\Work\Etec\2022_2-DS\Aula12\InicioComDesafio\RpgApi\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+D:\Work\Etec\2022_2-DS\Aula12\InicioComDesafio\RpgApi\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Work\Etec\2022_2-DS\Aula12\InicioComDesafio\RpgApi\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+D:\Work\Etec\2022_2-DS\Aula12\InicioComDesafio\RpgApi\bin\Debug\net6.0\Microsoft.OpenApi.dll
+D:\Work\Etec\2022_2-DS\Aula12\InicioComDesafio\RpgApi\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\Work\Etec\2022_2-DS\Aula12\InicioComDesafio\RpgApi\bin\Debug\net6.0\Newtonsoft.Json.dll
+D:\Work\Etec\2022_2-DS\Aula12\InicioComDesafio\RpgApi\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
+D:\Work\Etec\2022_2-DS\Aula12\InicioComDesafio\RpgApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Work\Etec\2022_2-DS\Aula12\InicioComDesafio\RpgApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Work\Etec\2022_2-DS\Aula12\InicioComDesafio\RpgApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Work\Etec\2022_2-DS\Aula12\InicioComDesafio\RpgApi\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+D:\Work\Etec\2022_2-DS\Aula12\InicioComDesafio\RpgApi\bin\Debug\net6.0\System.Drawing.Common.dll
+D:\Work\Etec\2022_2-DS\Aula12\InicioComDesafio\RpgApi\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Work\Etec\2022_2-DS\Aula12\InicioComDesafio\RpgApi\bin\Debug\net6.0\System.Runtime.Caching.dll
+D:\Work\Etec\2022_2-DS\Aula12\InicioComDesafio\RpgApi\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\Work\Etec\2022_2-DS\Aula12\InicioComDesafio\RpgApi\bin\Debug\net6.0\System.Security.Permissions.dll
+D:\Work\Etec\2022_2-DS\Aula12\InicioComDesafio\RpgApi\bin\Debug\net6.0\System.Windows.Extensions.dll
+D:\Work\Etec\2022_2-DS\Aula12\InicioComDesafio\RpgApi\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Work\Etec\2022_2-DS\Aula12\InicioComDesafio\RpgApi\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Work\Etec\2022_2-DS\Aula12\InicioComDesafio\RpgApi\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Work\Etec\2022_2-DS\Aula12\InicioComDesafio\RpgApi\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Work\Etec\2022_2-DS\Aula12\InicioComDesafio\RpgApi\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Work\Etec\2022_2-DS\Aula12\InicioComDesafio\RpgApi\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Work\Etec\2022_2-DS\Aula12\InicioComDesafio\RpgApi\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\Work\Etec\2022_2-DS\Aula12\InicioComDesafio\RpgApi\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\Work\Etec\2022_2-DS\Aula12\InicioComDesafio\RpgApi\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\Work\Etec\2022_2-DS\Aula12\InicioComDesafio\RpgApi\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\Work\Etec\2022_2-DS\Aula12\InicioComDesafio\RpgApi\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\Work\Etec\2022_2-DS\Aula12\InicioComDesafio\RpgApi\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\Work\Etec\2022_2-DS\Aula12\InicioComDesafio\RpgApi\obj\Debug\net6.0\RpgApi.csproj.AssemblyReference.cache
+D:\Work\Etec\2022_2-DS\Aula12\InicioComDesafio\RpgApi\obj\Debug\net6.0\RpgApi.GeneratedMSBuildEditorConfig.editorconfig
+D:\Work\Etec\2022_2-DS\Aula12\InicioComDesafio\RpgApi\obj\Debug\net6.0\RpgApi.AssemblyInfoInputs.cache
+D:\Work\Etec\2022_2-DS\Aula12\InicioComDesafio\RpgApi\obj\Debug\net6.0\RpgApi.AssemblyInfo.cs
+D:\Work\Etec\2022_2-DS\Aula12\InicioComDesafio\RpgApi\obj\Debug\net6.0\RpgApi.csproj.CoreCompileInputs.cache
+D:\Work\Etec\2022_2-DS\Aula12\InicioComDesafio\RpgApi\obj\Debug\net6.0\RpgApi.MvcApplicationPartsAssemblyInfo.cs
+D:\Work\Etec\2022_2-DS\Aula12\InicioComDesafio\RpgApi\obj\Debug\net6.0\RpgApi.MvcApplicationPartsAssemblyInfo.cache
+D:\Work\Etec\2022_2-DS\Aula12\InicioComDesafio\RpgApi\obj\Debug\net6.0\staticwebassets.build.json
+D:\Work\Etec\2022_2-DS\Aula12\InicioComDesafio\RpgApi\obj\Debug\net6.0\staticwebassets.development.json
+D:\Work\Etec\2022_2-DS\Aula12\InicioComDesafio\RpgApi\obj\Debug\net6.0\scopedcss\bundle\RpgApi.styles.css
+D:\Work\Etec\2022_2-DS\Aula12\InicioComDesafio\RpgApi\obj\Debug\net6.0\RpgApi.csproj.CopyComplete
+D:\Work\Etec\2022_2-DS\Aula12\InicioComDesafio\RpgApi\obj\Debug\net6.0\RpgApi.dll
+D:\Work\Etec\2022_2-DS\Aula12\InicioComDesafio\RpgApi\obj\Debug\net6.0\refint\RpgApi.dll
+D:\Work\Etec\2022_2-DS\Aula12\InicioComDesafio\RpgApi\obj\Debug\net6.0\RpgApi.pdb
+D:\Work\Etec\2022_2-DS\Aula12\InicioComDesafio\RpgApi\obj\Debug\net6.0\RpgApi.genruntimeconfig.cache
+D:\Work\Etec\2022_2-DS\Aula12\InicioComDesafio\RpgApi\obj\Debug\net6.0\ref\RpgApi.dll
+F:\Work\Etec\2022-2_2DS_DSI\Aula12\RpgApi\bin\Debug\net6.0\appsettings.Development.json
+F:\Work\Etec\2022-2_2DS_DSI\Aula12\RpgApi\bin\Debug\net6.0\appsettings.json
+F:\Work\Etec\2022-2_2DS_DSI\Aula12\RpgApi\bin\Debug\net6.0\RpgApi.exe
+F:\Work\Etec\2022-2_2DS_DSI\Aula12\RpgApi\bin\Debug\net6.0\RpgApi.deps.json
+F:\Work\Etec\2022-2_2DS_DSI\Aula12\RpgApi\bin\Debug\net6.0\RpgApi.runtimeconfig.json
+F:\Work\Etec\2022-2_2DS_DSI\Aula12\RpgApi\bin\Debug\net6.0\RpgApi.dll
+F:\Work\Etec\2022-2_2DS_DSI\Aula12\RpgApi\bin\Debug\net6.0\RpgApi.pdb
+F:\Work\Etec\2022-2_2DS_DSI\Aula12\RpgApi\bin\Debug\net6.0\Humanizer.dll
+F:\Work\Etec\2022-2_2DS_DSI\Aula12\RpgApi\bin\Debug\net6.0\Microsoft.AspNetCore.JsonPatch.dll
+F:\Work\Etec\2022-2_2DS_DSI\Aula12\RpgApi\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+F:\Work\Etec\2022-2_2DS_DSI\Aula12\RpgApi\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+F:\Work\Etec\2022-2_2DS_DSI\Aula12\RpgApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+F:\Work\Etec\2022-2_2DS_DSI\Aula12\RpgApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+F:\Work\Etec\2022-2_2DS_DSI\Aula12\RpgApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+F:\Work\Etec\2022-2_2DS_DSI\Aula12\RpgApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+F:\Work\Etec\2022-2_2DS_DSI\Aula12\RpgApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+F:\Work\Etec\2022-2_2DS_DSI\Aula12\RpgApi\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+F:\Work\Etec\2022-2_2DS_DSI\Aula12\RpgApi\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+F:\Work\Etec\2022-2_2DS_DSI\Aula12\RpgApi\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+F:\Work\Etec\2022-2_2DS_DSI\Aula12\RpgApi\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+F:\Work\Etec\2022-2_2DS_DSI\Aula12\RpgApi\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+F:\Work\Etec\2022-2_2DS_DSI\Aula12\RpgApi\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+F:\Work\Etec\2022-2_2DS_DSI\Aula12\RpgApi\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+F:\Work\Etec\2022-2_2DS_DSI\Aula12\RpgApi\bin\Debug\net6.0\Microsoft.OpenApi.dll
+F:\Work\Etec\2022-2_2DS_DSI\Aula12\RpgApi\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+F:\Work\Etec\2022-2_2DS_DSI\Aula12\RpgApi\bin\Debug\net6.0\Newtonsoft.Json.dll
+F:\Work\Etec\2022-2_2DS_DSI\Aula12\RpgApi\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
+F:\Work\Etec\2022-2_2DS_DSI\Aula12\RpgApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+F:\Work\Etec\2022-2_2DS_DSI\Aula12\RpgApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+F:\Work\Etec\2022-2_2DS_DSI\Aula12\RpgApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+F:\Work\Etec\2022-2_2DS_DSI\Aula12\RpgApi\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+F:\Work\Etec\2022-2_2DS_DSI\Aula12\RpgApi\bin\Debug\net6.0\System.Drawing.Common.dll
+F:\Work\Etec\2022-2_2DS_DSI\Aula12\RpgApi\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+F:\Work\Etec\2022-2_2DS_DSI\Aula12\RpgApi\bin\Debug\net6.0\System.Runtime.Caching.dll
+F:\Work\Etec\2022-2_2DS_DSI\Aula12\RpgApi\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+F:\Work\Etec\2022-2_2DS_DSI\Aula12\RpgApi\bin\Debug\net6.0\System.Security.Permissions.dll
+F:\Work\Etec\2022-2_2DS_DSI\Aula12\RpgApi\bin\Debug\net6.0\System.Windows.Extensions.dll
+F:\Work\Etec\2022-2_2DS_DSI\Aula12\RpgApi\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+F:\Work\Etec\2022-2_2DS_DSI\Aula12\RpgApi\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+F:\Work\Etec\2022-2_2DS_DSI\Aula12\RpgApi\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+F:\Work\Etec\2022-2_2DS_DSI\Aula12\RpgApi\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+F:\Work\Etec\2022-2_2DS_DSI\Aula12\RpgApi\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+F:\Work\Etec\2022-2_2DS_DSI\Aula12\RpgApi\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+F:\Work\Etec\2022-2_2DS_DSI\Aula12\RpgApi\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+F:\Work\Etec\2022-2_2DS_DSI\Aula12\RpgApi\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+F:\Work\Etec\2022-2_2DS_DSI\Aula12\RpgApi\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+F:\Work\Etec\2022-2_2DS_DSI\Aula12\RpgApi\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+F:\Work\Etec\2022-2_2DS_DSI\Aula12\RpgApi\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+F:\Work\Etec\2022-2_2DS_DSI\Aula12\RpgApi\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+F:\Work\Etec\2022-2_2DS_DSI\Aula12\RpgApi\obj\Debug\net6.0\RpgApi.csproj.AssemblyReference.cache
+F:\Work\Etec\2022-2_2DS_DSI\Aula12\RpgApi\obj\Debug\net6.0\RpgApi.GeneratedMSBuildEditorConfig.editorconfig
+F:\Work\Etec\2022-2_2DS_DSI\Aula12\RpgApi\obj\Debug\net6.0\RpgApi.AssemblyInfoInputs.cache
+F:\Work\Etec\2022-2_2DS_DSI\Aula12\RpgApi\obj\Debug\net6.0\RpgApi.AssemblyInfo.cs
+F:\Work\Etec\2022-2_2DS_DSI\Aula12\RpgApi\obj\Debug\net6.0\RpgApi.csproj.CoreCompileInputs.cache
+F:\Work\Etec\2022-2_2DS_DSI\Aula12\RpgApi\obj\Debug\net6.0\RpgApi.MvcApplicationPartsAssemblyInfo.cs
+F:\Work\Etec\2022-2_2DS_DSI\Aula12\RpgApi\obj\Debug\net6.0\RpgApi.MvcApplicationPartsAssemblyInfo.cache
+F:\Work\Etec\2022-2_2DS_DSI\Aula12\RpgApi\obj\Debug\net6.0\staticwebassets.build.json
+F:\Work\Etec\2022-2_2DS_DSI\Aula12\RpgApi\obj\Debug\net6.0\staticwebassets.development.json
+F:\Work\Etec\2022-2_2DS_DSI\Aula12\RpgApi\obj\Debug\net6.0\scopedcss\bundle\RpgApi.styles.css
+F:\Work\Etec\2022-2_2DS_DSI\Aula12\RpgApi\obj\Debug\net6.0\RpgApi.csproj.CopyComplete
+F:\Work\Etec\2022-2_2DS_DSI\Aula12\RpgApi\obj\Debug\net6.0\RpgApi.dll
+F:\Work\Etec\2022-2_2DS_DSI\Aula12\RpgApi\obj\Debug\net6.0\refint\RpgApi.dll
+F:\Work\Etec\2022-2_2DS_DSI\Aula12\RpgApi\obj\Debug\net6.0\RpgApi.pdb
+F:\Work\Etec\2022-2_2DS_DSI\Aula12\RpgApi\obj\Debug\net6.0\RpgApi.genruntimeconfig.cache
+F:\Work\Etec\2022-2_2DS_DSI\Aula12\RpgApi\obj\Debug\net6.0\ref\RpgApi.dll
+E:\Work\Etec\2022-2_2DS_DSI\Aula13\RpgApi\bin\Debug\net6.0\appsettings.Development.json
+E:\Work\Etec\2022-2_2DS_DSI\Aula13\RpgApi\bin\Debug\net6.0\appsettings.json
+E:\Work\Etec\2022-2_2DS_DSI\Aula13\RpgApi\bin\Debug\net6.0\Publish\web.config
+E:\Work\Etec\2022-2_2DS_DSI\Aula13\RpgApi\bin\Debug\net6.0\Publish\appsettings.Development.json
+E:\Work\Etec\2022-2_2DS_DSI\Aula13\RpgApi\bin\Debug\net6.0\Publish\appsettings.json
+E:\Work\Etec\2022-2_2DS_DSI\Aula13\RpgApi\bin\Debug\net6.0\Publish\RpgApi.deps.json
+E:\Work\Etec\2022-2_2DS_DSI\Aula13\RpgApi\bin\Debug\net6.0\Publish\RpgApi.runtimeconfig.json
+E:\Work\Etec\2022-2_2DS_DSI\Aula13\RpgApi\bin\Debug\net6.0\RpgApi.exe
+E:\Work\Etec\2022-2_2DS_DSI\Aula13\RpgApi\bin\Debug\net6.0\RpgApi.deps.json
+E:\Work\Etec\2022-2_2DS_DSI\Aula13\RpgApi\bin\Debug\net6.0\RpgApi.runtimeconfig.json
+E:\Work\Etec\2022-2_2DS_DSI\Aula13\RpgApi\bin\Debug\net6.0\RpgApi.dll
+E:\Work\Etec\2022-2_2DS_DSI\Aula13\RpgApi\bin\Debug\net6.0\RpgApi.pdb
+E:\Work\Etec\2022-2_2DS_DSI\Aula13\RpgApi\bin\Debug\net6.0\Humanizer.dll
+E:\Work\Etec\2022-2_2DS_DSI\Aula13\RpgApi\bin\Debug\net6.0\Microsoft.AspNetCore.JsonPatch.dll
+E:\Work\Etec\2022-2_2DS_DSI\Aula13\RpgApi\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+E:\Work\Etec\2022-2_2DS_DSI\Aula13\RpgApi\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+E:\Work\Etec\2022-2_2DS_DSI\Aula13\RpgApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+E:\Work\Etec\2022-2_2DS_DSI\Aula13\RpgApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\Work\Etec\2022-2_2DS_DSI\Aula13\RpgApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+E:\Work\Etec\2022-2_2DS_DSI\Aula13\RpgApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+E:\Work\Etec\2022-2_2DS_DSI\Aula13\RpgApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+E:\Work\Etec\2022-2_2DS_DSI\Aula13\RpgApi\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+E:\Work\Etec\2022-2_2DS_DSI\Aula13\RpgApi\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+E:\Work\Etec\2022-2_2DS_DSI\Aula13\RpgApi\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\Work\Etec\2022-2_2DS_DSI\Aula13\RpgApi\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+E:\Work\Etec\2022-2_2DS_DSI\Aula13\RpgApi\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+E:\Work\Etec\2022-2_2DS_DSI\Aula13\RpgApi\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\Work\Etec\2022-2_2DS_DSI\Aula13\RpgApi\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+E:\Work\Etec\2022-2_2DS_DSI\Aula13\RpgApi\bin\Debug\net6.0\Microsoft.OpenApi.dll
+E:\Work\Etec\2022-2_2DS_DSI\Aula13\RpgApi\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+E:\Work\Etec\2022-2_2DS_DSI\Aula13\RpgApi\bin\Debug\net6.0\Newtonsoft.Json.dll
+E:\Work\Etec\2022-2_2DS_DSI\Aula13\RpgApi\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
+E:\Work\Etec\2022-2_2DS_DSI\Aula13\RpgApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+E:\Work\Etec\2022-2_2DS_DSI\Aula13\RpgApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+E:\Work\Etec\2022-2_2DS_DSI\Aula13\RpgApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+E:\Work\Etec\2022-2_2DS_DSI\Aula13\RpgApi\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+E:\Work\Etec\2022-2_2DS_DSI\Aula13\RpgApi\bin\Debug\net6.0\System.Drawing.Common.dll
+E:\Work\Etec\2022-2_2DS_DSI\Aula13\RpgApi\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+E:\Work\Etec\2022-2_2DS_DSI\Aula13\RpgApi\bin\Debug\net6.0\System.Runtime.Caching.dll
+E:\Work\Etec\2022-2_2DS_DSI\Aula13\RpgApi\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+E:\Work\Etec\2022-2_2DS_DSI\Aula13\RpgApi\bin\Debug\net6.0\System.Security.Permissions.dll
+E:\Work\Etec\2022-2_2DS_DSI\Aula13\RpgApi\bin\Debug\net6.0\System.Windows.Extensions.dll
+E:\Work\Etec\2022-2_2DS_DSI\Aula13\RpgApi\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\Work\Etec\2022-2_2DS_DSI\Aula13\RpgApi\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\Work\Etec\2022-2_2DS_DSI\Aula13\RpgApi\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Work\Etec\2022-2_2DS_DSI\Aula13\RpgApi\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Work\Etec\2022-2_2DS_DSI\Aula13\RpgApi\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Work\Etec\2022-2_2DS_DSI\Aula13\RpgApi\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Work\Etec\2022-2_2DS_DSI\Aula13\RpgApi\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+E:\Work\Etec\2022-2_2DS_DSI\Aula13\RpgApi\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+E:\Work\Etec\2022-2_2DS_DSI\Aula13\RpgApi\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+E:\Work\Etec\2022-2_2DS_DSI\Aula13\RpgApi\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+E:\Work\Etec\2022-2_2DS_DSI\Aula13\RpgApi\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+E:\Work\Etec\2022-2_2DS_DSI\Aula13\RpgApi\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+E:\Work\Etec\2022-2_2DS_DSI\Aula13\RpgApi\obj\Debug\net6.0\RpgApi.csproj.AssemblyReference.cache
+E:\Work\Etec\2022-2_2DS_DSI\Aula13\RpgApi\obj\Debug\net6.0\RpgApi.GeneratedMSBuildEditorConfig.editorconfig
+E:\Work\Etec\2022-2_2DS_DSI\Aula13\RpgApi\obj\Debug\net6.0\RpgApi.AssemblyInfoInputs.cache
+E:\Work\Etec\2022-2_2DS_DSI\Aula13\RpgApi\obj\Debug\net6.0\RpgApi.AssemblyInfo.cs
+E:\Work\Etec\2022-2_2DS_DSI\Aula13\RpgApi\obj\Debug\net6.0\RpgApi.csproj.CoreCompileInputs.cache
+E:\Work\Etec\2022-2_2DS_DSI\Aula13\RpgApi\obj\Debug\net6.0\RpgApi.MvcApplicationPartsAssemblyInfo.cs
+E:\Work\Etec\2022-2_2DS_DSI\Aula13\RpgApi\obj\Debug\net6.0\RpgApi.MvcApplicationPartsAssemblyInfo.cache
+E:\Work\Etec\2022-2_2DS_DSI\Aula13\RpgApi\obj\Debug\net6.0\staticwebassets\msbuild.RpgApi.Microsoft.AspNetCore.StaticWebAssets.props
+E:\Work\Etec\2022-2_2DS_DSI\Aula13\RpgApi\obj\Debug\net6.0\staticwebassets\msbuild.build.RpgApi.props
+E:\Work\Etec\2022-2_2DS_DSI\Aula13\RpgApi\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.RpgApi.props
+E:\Work\Etec\2022-2_2DS_DSI\Aula13\RpgApi\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.RpgApi.props
+E:\Work\Etec\2022-2_2DS_DSI\Aula13\RpgApi\obj\Debug\net6.0\staticwebassets.pack.json
+E:\Work\Etec\2022-2_2DS_DSI\Aula13\RpgApi\obj\Debug\net6.0\staticwebassets.build.json
+E:\Work\Etec\2022-2_2DS_DSI\Aula13\RpgApi\obj\Debug\net6.0\staticwebassets.development.json
+E:\Work\Etec\2022-2_2DS_DSI\Aula13\RpgApi\obj\Debug\net6.0\scopedcss\bundle\RpgApi.styles.css
+E:\Work\Etec\2022-2_2DS_DSI\Aula13\RpgApi\obj\Debug\net6.0\RpgApi.csproj.CopyComplete
+E:\Work\Etec\2022-2_2DS_DSI\Aula13\RpgApi\obj\Debug\net6.0\RpgApi.dll
+E:\Work\Etec\2022-2_2DS_DSI\Aula13\RpgApi\obj\Debug\net6.0\refint\RpgApi.dll
+E:\Work\Etec\2022-2_2DS_DSI\Aula13\RpgApi\obj\Debug\net6.0\RpgApi.pdb
+E:\Work\Etec\2022-2_2DS_DSI\Aula13\RpgApi\obj\Debug\net6.0\RpgApi.genruntimeconfig.cache
+E:\Work\Etec\2022-2_2DS_DSI\Aula13\RpgApi\obj\Debug\net6.0\ref\RpgApi.dll
+D:\3ds_Dan_Marzo\PM-II\RpgApi\RpgApi\bin\Debug\net6.0\appsettings.Development.json
+D:\3ds_Dan_Marzo\PM-II\RpgApi\RpgApi\bin\Debug\net6.0\appsettings.json
+D:\3ds_Dan_Marzo\PM-II\RpgApi\RpgApi\bin\Debug\net6.0\RpgApi.exe
+D:\3ds_Dan_Marzo\PM-II\RpgApi\RpgApi\bin\Debug\net6.0\RpgApi.deps.json
+D:\3ds_Dan_Marzo\PM-II\RpgApi\RpgApi\bin\Debug\net6.0\RpgApi.runtimeconfig.json
+D:\3ds_Dan_Marzo\PM-II\RpgApi\RpgApi\bin\Debug\net6.0\RpgApi.dll
+D:\3ds_Dan_Marzo\PM-II\RpgApi\RpgApi\bin\Debug\net6.0\RpgApi.pdb
+D:\3ds_Dan_Marzo\PM-II\RpgApi\RpgApi\bin\Debug\net6.0\Humanizer.dll
+D:\3ds_Dan_Marzo\PM-II\RpgApi\RpgApi\bin\Debug\net6.0\Microsoft.AspNetCore.JsonPatch.dll
+D:\3ds_Dan_Marzo\PM-II\RpgApi\RpgApi\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+D:\3ds_Dan_Marzo\PM-II\RpgApi\RpgApi\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+D:\3ds_Dan_Marzo\PM-II\RpgApi\RpgApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+D:\3ds_Dan_Marzo\PM-II\RpgApi\RpgApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\3ds_Dan_Marzo\PM-II\RpgApi\RpgApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\3ds_Dan_Marzo\PM-II\RpgApi\RpgApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\3ds_Dan_Marzo\PM-II\RpgApi\RpgApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\3ds_Dan_Marzo\PM-II\RpgApi\RpgApi\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+D:\3ds_Dan_Marzo\PM-II\RpgApi\RpgApi\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+D:\3ds_Dan_Marzo\PM-II\RpgApi\RpgApi\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\3ds_Dan_Marzo\PM-II\RpgApi\RpgApi\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+D:\3ds_Dan_Marzo\PM-II\RpgApi\RpgApi\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+D:\3ds_Dan_Marzo\PM-II\RpgApi\RpgApi\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\3ds_Dan_Marzo\PM-II\RpgApi\RpgApi\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+D:\3ds_Dan_Marzo\PM-II\RpgApi\RpgApi\bin\Debug\net6.0\Microsoft.OpenApi.dll
+D:\3ds_Dan_Marzo\PM-II\RpgApi\RpgApi\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\3ds_Dan_Marzo\PM-II\RpgApi\RpgApi\bin\Debug\net6.0\Newtonsoft.Json.dll
+D:\3ds_Dan_Marzo\PM-II\RpgApi\RpgApi\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
+D:\3ds_Dan_Marzo\PM-II\RpgApi\RpgApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\3ds_Dan_Marzo\PM-II\RpgApi\RpgApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\3ds_Dan_Marzo\PM-II\RpgApi\RpgApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\3ds_Dan_Marzo\PM-II\RpgApi\RpgApi\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+D:\3ds_Dan_Marzo\PM-II\RpgApi\RpgApi\bin\Debug\net6.0\System.Drawing.Common.dll
+D:\3ds_Dan_Marzo\PM-II\RpgApi\RpgApi\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+D:\3ds_Dan_Marzo\PM-II\RpgApi\RpgApi\bin\Debug\net6.0\System.Runtime.Caching.dll
+D:\3ds_Dan_Marzo\PM-II\RpgApi\RpgApi\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\3ds_Dan_Marzo\PM-II\RpgApi\RpgApi\bin\Debug\net6.0\System.Security.Permissions.dll
+D:\3ds_Dan_Marzo\PM-II\RpgApi\RpgApi\bin\Debug\net6.0\System.Windows.Extensions.dll
+D:\3ds_Dan_Marzo\PM-II\RpgApi\RpgApi\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\3ds_Dan_Marzo\PM-II\RpgApi\RpgApi\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\3ds_Dan_Marzo\PM-II\RpgApi\RpgApi\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\3ds_Dan_Marzo\PM-II\RpgApi\RpgApi\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\3ds_Dan_Marzo\PM-II\RpgApi\RpgApi\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\3ds_Dan_Marzo\PM-II\RpgApi\RpgApi\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\3ds_Dan_Marzo\PM-II\RpgApi\RpgApi\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\3ds_Dan_Marzo\PM-II\RpgApi\RpgApi\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\3ds_Dan_Marzo\PM-II\RpgApi\RpgApi\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\3ds_Dan_Marzo\PM-II\RpgApi\RpgApi\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\3ds_Dan_Marzo\PM-II\RpgApi\RpgApi\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\3ds_Dan_Marzo\PM-II\RpgApi\RpgApi\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\3ds_Dan_Marzo\PM-II\RpgApi\RpgApi\obj\Debug\net6.0\RpgApi.csproj.AssemblyReference.cache
+D:\3ds_Dan_Marzo\PM-II\RpgApi\RpgApi\obj\Debug\net6.0\RpgApi.GeneratedMSBuildEditorConfig.editorconfig
+D:\3ds_Dan_Marzo\PM-II\RpgApi\RpgApi\obj\Debug\net6.0\RpgApi.AssemblyInfoInputs.cache
+D:\3ds_Dan_Marzo\PM-II\RpgApi\RpgApi\obj\Debug\net6.0\RpgApi.AssemblyInfo.cs
+D:\3ds_Dan_Marzo\PM-II\RpgApi\RpgApi\obj\Debug\net6.0\RpgApi.csproj.CoreCompileInputs.cache
+D:\3ds_Dan_Marzo\PM-II\RpgApi\RpgApi\obj\Debug\net6.0\RpgApi.MvcApplicationPartsAssemblyInfo.cs
+D:\3ds_Dan_Marzo\PM-II\RpgApi\RpgApi\obj\Debug\net6.0\RpgApi.MvcApplicationPartsAssemblyInfo.cache
+D:\3ds_Dan_Marzo\PM-II\RpgApi\RpgApi\obj\Debug\net6.0\staticwebassets\msbuild.RpgApi.Microsoft.AspNetCore.StaticWebAssets.props
+D:\3ds_Dan_Marzo\PM-II\RpgApi\RpgApi\obj\Debug\net6.0\staticwebassets\msbuild.build.RpgApi.props
+D:\3ds_Dan_Marzo\PM-II\RpgApi\RpgApi\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.RpgApi.props
+D:\3ds_Dan_Marzo\PM-II\RpgApi\RpgApi\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.RpgApi.props
+D:\3ds_Dan_Marzo\PM-II\RpgApi\RpgApi\obj\Debug\net6.0\staticwebassets.pack.json
+D:\3ds_Dan_Marzo\PM-II\RpgApi\RpgApi\obj\Debug\net6.0\staticwebassets.build.json
+D:\3ds_Dan_Marzo\PM-II\RpgApi\RpgApi\obj\Debug\net6.0\staticwebassets.development.json
+D:\3ds_Dan_Marzo\PM-II\RpgApi\RpgApi\obj\Debug\net6.0\scopedcss\bundle\RpgApi.styles.css
+D:\3ds_Dan_Marzo\PM-II\RpgApi\RpgApi\obj\Debug\net6.0\RpgApi.csproj.CopyComplete
+D:\3ds_Dan_Marzo\PM-II\RpgApi\RpgApi\obj\Debug\net6.0\RpgApi.dll
+D:\3ds_Dan_Marzo\PM-II\RpgApi\RpgApi\obj\Debug\net6.0\refint\RpgApi.dll
+D:\3ds_Dan_Marzo\PM-II\RpgApi\RpgApi\obj\Debug\net6.0\RpgApi.pdb
+D:\3ds_Dan_Marzo\PM-II\RpgApi\RpgApi\obj\Debug\net6.0\RpgApi.genruntimeconfig.cache
+D:\3ds_Dan_Marzo\PM-II\RpgApi\RpgApi\obj\Debug\net6.0\ref\RpgApi.dll
+D:\3ds_Dan_Marzo\PM-II\RpgApi\RpgApi\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\3ds_Dan_Marzo\PM-II\RpgApi\RpgApi\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+D:\ETEC\etec3\PM-II\jwt\RpgApi\RpgApi\bin\Debug\net6.0\appsettings.Development.json
+D:\ETEC\etec3\PM-II\jwt\RpgApi\RpgApi\bin\Debug\net6.0\appsettings.json
+D:\ETEC\etec3\PM-II\jwt\RpgApi\RpgApi\bin\Debug\net6.0\RpgApi.exe
+D:\ETEC\etec3\PM-II\jwt\RpgApi\RpgApi\bin\Debug\net6.0\RpgApi.deps.json
+D:\ETEC\etec3\PM-II\jwt\RpgApi\RpgApi\bin\Debug\net6.0\RpgApi.runtimeconfig.json
+D:\ETEC\etec3\PM-II\jwt\RpgApi\RpgApi\bin\Debug\net6.0\RpgApi.dll
+D:\ETEC\etec3\PM-II\jwt\RpgApi\RpgApi\bin\Debug\net6.0\RpgApi.pdb
+D:\ETEC\etec3\PM-II\jwt\RpgApi\RpgApi\bin\Debug\net6.0\Humanizer.dll
+D:\ETEC\etec3\PM-II\jwt\RpgApi\RpgApi\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\ETEC\etec3\PM-II\jwt\RpgApi\RpgApi\bin\Debug\net6.0\Microsoft.AspNetCore.JsonPatch.dll
+D:\ETEC\etec3\PM-II\jwt\RpgApi\RpgApi\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+D:\ETEC\etec3\PM-II\jwt\RpgApi\RpgApi\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+D:\ETEC\etec3\PM-II\jwt\RpgApi\RpgApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+D:\ETEC\etec3\PM-II\jwt\RpgApi\RpgApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\ETEC\etec3\PM-II\jwt\RpgApi\RpgApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\ETEC\etec3\PM-II\jwt\RpgApi\RpgApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\ETEC\etec3\PM-II\jwt\RpgApi\RpgApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\ETEC\etec3\PM-II\jwt\RpgApi\RpgApi\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+D:\ETEC\etec3\PM-II\jwt\RpgApi\RpgApi\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+D:\ETEC\etec3\PM-II\jwt\RpgApi\RpgApi\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+D:\ETEC\etec3\PM-II\jwt\RpgApi\RpgApi\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\ETEC\etec3\PM-II\jwt\RpgApi\RpgApi\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+D:\ETEC\etec3\PM-II\jwt\RpgApi\RpgApi\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+D:\ETEC\etec3\PM-II\jwt\RpgApi\RpgApi\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\ETEC\etec3\PM-II\jwt\RpgApi\RpgApi\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+D:\ETEC\etec3\PM-II\jwt\RpgApi\RpgApi\bin\Debug\net6.0\Microsoft.OpenApi.dll
+D:\ETEC\etec3\PM-II\jwt\RpgApi\RpgApi\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\ETEC\etec3\PM-II\jwt\RpgApi\RpgApi\bin\Debug\net6.0\Newtonsoft.Json.dll
+D:\ETEC\etec3\PM-II\jwt\RpgApi\RpgApi\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
+D:\ETEC\etec3\PM-II\jwt\RpgApi\RpgApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\ETEC\etec3\PM-II\jwt\RpgApi\RpgApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\ETEC\etec3\PM-II\jwt\RpgApi\RpgApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\ETEC\etec3\PM-II\jwt\RpgApi\RpgApi\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+D:\ETEC\etec3\PM-II\jwt\RpgApi\RpgApi\bin\Debug\net6.0\System.Drawing.Common.dll
+D:\ETEC\etec3\PM-II\jwt\RpgApi\RpgApi\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+D:\ETEC\etec3\PM-II\jwt\RpgApi\RpgApi\bin\Debug\net6.0\System.Runtime.Caching.dll
+D:\ETEC\etec3\PM-II\jwt\RpgApi\RpgApi\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\ETEC\etec3\PM-II\jwt\RpgApi\RpgApi\bin\Debug\net6.0\System.Security.Permissions.dll
+D:\ETEC\etec3\PM-II\jwt\RpgApi\RpgApi\bin\Debug\net6.0\System.Windows.Extensions.dll
+D:\ETEC\etec3\PM-II\jwt\RpgApi\RpgApi\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\ETEC\etec3\PM-II\jwt\RpgApi\RpgApi\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\ETEC\etec3\PM-II\jwt\RpgApi\RpgApi\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\ETEC\etec3\PM-II\jwt\RpgApi\RpgApi\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\ETEC\etec3\PM-II\jwt\RpgApi\RpgApi\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\ETEC\etec3\PM-II\jwt\RpgApi\RpgApi\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\ETEC\etec3\PM-II\jwt\RpgApi\RpgApi\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\ETEC\etec3\PM-II\jwt\RpgApi\RpgApi\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\ETEC\etec3\PM-II\jwt\RpgApi\RpgApi\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\ETEC\etec3\PM-II\jwt\RpgApi\RpgApi\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\ETEC\etec3\PM-II\jwt\RpgApi\RpgApi\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\ETEC\etec3\PM-II\jwt\RpgApi\RpgApi\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\ETEC\etec3\PM-II\jwt\RpgApi\RpgApi\obj\Debug\net6.0\RpgApi.csproj.AssemblyReference.cache
+D:\ETEC\etec3\PM-II\jwt\RpgApi\RpgApi\obj\Debug\net6.0\RpgApi.GeneratedMSBuildEditorConfig.editorconfig
+D:\ETEC\etec3\PM-II\jwt\RpgApi\RpgApi\obj\Debug\net6.0\RpgApi.AssemblyInfoInputs.cache
+D:\ETEC\etec3\PM-II\jwt\RpgApi\RpgApi\obj\Debug\net6.0\RpgApi.AssemblyInfo.cs
+D:\ETEC\etec3\PM-II\jwt\RpgApi\RpgApi\obj\Debug\net6.0\RpgApi.csproj.CoreCompileInputs.cache
+D:\ETEC\etec3\PM-II\jwt\RpgApi\RpgApi\obj\Debug\net6.0\RpgApi.MvcApplicationPartsAssemblyInfo.cs
+D:\ETEC\etec3\PM-II\jwt\RpgApi\RpgApi\obj\Debug\net6.0\RpgApi.MvcApplicationPartsAssemblyInfo.cache
+D:\ETEC\etec3\PM-II\jwt\RpgApi\RpgApi\obj\Debug\net6.0\staticwebassets\msbuild.RpgApi.Microsoft.AspNetCore.StaticWebAssets.props
+D:\ETEC\etec3\PM-II\jwt\RpgApi\RpgApi\obj\Debug\net6.0\staticwebassets\msbuild.build.RpgApi.props
+D:\ETEC\etec3\PM-II\jwt\RpgApi\RpgApi\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.RpgApi.props
+D:\ETEC\etec3\PM-II\jwt\RpgApi\RpgApi\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.RpgApi.props
+D:\ETEC\etec3\PM-II\jwt\RpgApi\RpgApi\obj\Debug\net6.0\staticwebassets.pack.json
+D:\ETEC\etec3\PM-II\jwt\RpgApi\RpgApi\obj\Debug\net6.0\staticwebassets.build.json
+D:\ETEC\etec3\PM-II\jwt\RpgApi\RpgApi\obj\Debug\net6.0\staticwebassets.development.json
+D:\ETEC\etec3\PM-II\jwt\RpgApi\RpgApi\obj\Debug\net6.0\scopedcss\bundle\RpgApi.styles.css
+D:\ETEC\etec3\PM-II\jwt\RpgApi\RpgApi\obj\Debug\net6.0\RpgApi.csproj.CopyComplete
+D:\ETEC\etec3\PM-II\jwt\RpgApi\RpgApi\obj\Debug\net6.0\RpgApi.dll
+D:\ETEC\etec3\PM-II\jwt\RpgApi\RpgApi\obj\Debug\net6.0\refint\RpgApi.dll
+D:\ETEC\etec3\PM-II\jwt\RpgApi\RpgApi\obj\Debug\net6.0\RpgApi.pdb
+D:\ETEC\etec3\PM-II\jwt\RpgApi\RpgApi\obj\Debug\net6.0\RpgApi.genruntimeconfig.cache
+D:\ETEC\etec3\PM-II\jwt\RpgApi\RpgApi\obj\Debug\net6.0\ref\RpgApi.dll
+D:\3ds_Dan_Marzo\PM-II\jwt\RpgApi\RpgApi\bin\Debug\net6.0\appsettings.Development.json
+D:\3ds_Dan_Marzo\PM-II\jwt\RpgApi\RpgApi\bin\Debug\net6.0\appsettings.json
+D:\3ds_Dan_Marzo\PM-II\jwt\RpgApi\RpgApi\bin\Debug\net6.0\RpgApi.exe
+D:\3ds_Dan_Marzo\PM-II\jwt\RpgApi\RpgApi\bin\Debug\net6.0\RpgApi.deps.json
+D:\3ds_Dan_Marzo\PM-II\jwt\RpgApi\RpgApi\bin\Debug\net6.0\RpgApi.runtimeconfig.json
+D:\3ds_Dan_Marzo\PM-II\jwt\RpgApi\RpgApi\bin\Debug\net6.0\RpgApi.dll
+D:\3ds_Dan_Marzo\PM-II\jwt\RpgApi\RpgApi\bin\Debug\net6.0\RpgApi.pdb
+D:\3ds_Dan_Marzo\PM-II\jwt\RpgApi\RpgApi\bin\Debug\net6.0\Humanizer.dll
+D:\3ds_Dan_Marzo\PM-II\jwt\RpgApi\RpgApi\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\3ds_Dan_Marzo\PM-II\jwt\RpgApi\RpgApi\bin\Debug\net6.0\Microsoft.AspNetCore.JsonPatch.dll
+D:\3ds_Dan_Marzo\PM-II\jwt\RpgApi\RpgApi\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+D:\3ds_Dan_Marzo\PM-II\jwt\RpgApi\RpgApi\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+D:\3ds_Dan_Marzo\PM-II\jwt\RpgApi\RpgApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+D:\3ds_Dan_Marzo\PM-II\jwt\RpgApi\RpgApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\3ds_Dan_Marzo\PM-II\jwt\RpgApi\RpgApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\3ds_Dan_Marzo\PM-II\jwt\RpgApi\RpgApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\3ds_Dan_Marzo\PM-II\jwt\RpgApi\RpgApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\3ds_Dan_Marzo\PM-II\jwt\RpgApi\RpgApi\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+D:\3ds_Dan_Marzo\PM-II\jwt\RpgApi\RpgApi\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+D:\3ds_Dan_Marzo\PM-II\jwt\RpgApi\RpgApi\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+D:\3ds_Dan_Marzo\PM-II\jwt\RpgApi\RpgApi\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\3ds_Dan_Marzo\PM-II\jwt\RpgApi\RpgApi\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+D:\3ds_Dan_Marzo\PM-II\jwt\RpgApi\RpgApi\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+D:\3ds_Dan_Marzo\PM-II\jwt\RpgApi\RpgApi\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\3ds_Dan_Marzo\PM-II\jwt\RpgApi\RpgApi\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+D:\3ds_Dan_Marzo\PM-II\jwt\RpgApi\RpgApi\bin\Debug\net6.0\Microsoft.OpenApi.dll
+D:\3ds_Dan_Marzo\PM-II\jwt\RpgApi\RpgApi\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\3ds_Dan_Marzo\PM-II\jwt\RpgApi\RpgApi\bin\Debug\net6.0\Newtonsoft.Json.dll
+D:\3ds_Dan_Marzo\PM-II\jwt\RpgApi\RpgApi\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
+D:\3ds_Dan_Marzo\PM-II\jwt\RpgApi\RpgApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\3ds_Dan_Marzo\PM-II\jwt\RpgApi\RpgApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\3ds_Dan_Marzo\PM-II\jwt\RpgApi\RpgApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\3ds_Dan_Marzo\PM-II\jwt\RpgApi\RpgApi\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+D:\3ds_Dan_Marzo\PM-II\jwt\RpgApi\RpgApi\bin\Debug\net6.0\System.Drawing.Common.dll
+D:\3ds_Dan_Marzo\PM-II\jwt\RpgApi\RpgApi\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+D:\3ds_Dan_Marzo\PM-II\jwt\RpgApi\RpgApi\bin\Debug\net6.0\System.Runtime.Caching.dll
+D:\3ds_Dan_Marzo\PM-II\jwt\RpgApi\RpgApi\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\3ds_Dan_Marzo\PM-II\jwt\RpgApi\RpgApi\bin\Debug\net6.0\System.Security.Permissions.dll
+D:\3ds_Dan_Marzo\PM-II\jwt\RpgApi\RpgApi\bin\Debug\net6.0\System.Windows.Extensions.dll
+D:\3ds_Dan_Marzo\PM-II\jwt\RpgApi\RpgApi\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\3ds_Dan_Marzo\PM-II\jwt\RpgApi\RpgApi\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\3ds_Dan_Marzo\PM-II\jwt\RpgApi\RpgApi\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\3ds_Dan_Marzo\PM-II\jwt\RpgApi\RpgApi\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\3ds_Dan_Marzo\PM-II\jwt\RpgApi\RpgApi\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\3ds_Dan_Marzo\PM-II\jwt\RpgApi\RpgApi\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\3ds_Dan_Marzo\PM-II\jwt\RpgApi\RpgApi\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\3ds_Dan_Marzo\PM-II\jwt\RpgApi\RpgApi\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\3ds_Dan_Marzo\PM-II\jwt\RpgApi\RpgApi\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\3ds_Dan_Marzo\PM-II\jwt\RpgApi\RpgApi\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\3ds_Dan_Marzo\PM-II\jwt\RpgApi\RpgApi\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\3ds_Dan_Marzo\PM-II\jwt\RpgApi\RpgApi\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\3ds_Dan_Marzo\PM-II\jwt\RpgApi\RpgApi\obj\Debug\net6.0\RpgApi.csproj.AssemblyReference.cache
+D:\3ds_Dan_Marzo\PM-II\jwt\RpgApi\RpgApi\obj\Debug\net6.0\RpgApi.GeneratedMSBuildEditorConfig.editorconfig
+D:\3ds_Dan_Marzo\PM-II\jwt\RpgApi\RpgApi\obj\Debug\net6.0\RpgApi.AssemblyInfoInputs.cache
+D:\3ds_Dan_Marzo\PM-II\jwt\RpgApi\RpgApi\obj\Debug\net6.0\RpgApi.AssemblyInfo.cs
+D:\3ds_Dan_Marzo\PM-II\jwt\RpgApi\RpgApi\obj\Debug\net6.0\RpgApi.csproj.CoreCompileInputs.cache
+D:\3ds_Dan_Marzo\PM-II\jwt\RpgApi\RpgApi\obj\Debug\net6.0\RpgApi.MvcApplicationPartsAssemblyInfo.cs
+D:\3ds_Dan_Marzo\PM-II\jwt\RpgApi\RpgApi\obj\Debug\net6.0\RpgApi.MvcApplicationPartsAssemblyInfo.cache
+D:\3ds_Dan_Marzo\PM-II\jwt\RpgApi\RpgApi\obj\Debug\net6.0\staticwebassets\msbuild.RpgApi.Microsoft.AspNetCore.StaticWebAssets.props
+D:\3ds_Dan_Marzo\PM-II\jwt\RpgApi\RpgApi\obj\Debug\net6.0\staticwebassets\msbuild.build.RpgApi.props
+D:\3ds_Dan_Marzo\PM-II\jwt\RpgApi\RpgApi\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.RpgApi.props
+D:\3ds_Dan_Marzo\PM-II\jwt\RpgApi\RpgApi\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.RpgApi.props
+D:\3ds_Dan_Marzo\PM-II\jwt\RpgApi\RpgApi\obj\Debug\net6.0\staticwebassets.pack.json
+D:\3ds_Dan_Marzo\PM-II\jwt\RpgApi\RpgApi\obj\Debug\net6.0\staticwebassets.build.json
+D:\3ds_Dan_Marzo\PM-II\jwt\RpgApi\RpgApi\obj\Debug\net6.0\staticwebassets.development.json
+D:\3ds_Dan_Marzo\PM-II\jwt\RpgApi\RpgApi\obj\Debug\net6.0\scopedcss\bundle\RpgApi.styles.css
+D:\3ds_Dan_Marzo\PM-II\jwt\RpgApi\RpgApi\obj\Debug\net6.0\RpgApi.csproj.CopyComplete
+D:\3ds_Dan_Marzo\PM-II\jwt\RpgApi\RpgApi\obj\Debug\net6.0\RpgApi.dll
+D:\3ds_Dan_Marzo\PM-II\jwt\RpgApi\RpgApi\obj\Debug\net6.0\refint\RpgApi.dll
+D:\3ds_Dan_Marzo\PM-II\jwt\RpgApi\RpgApi\obj\Debug\net6.0\RpgApi.pdb
+D:\3ds_Dan_Marzo\PM-II\jwt\RpgApi\RpgApi\obj\Debug\net6.0\RpgApi.genruntimeconfig.cache
+D:\3ds_Dan_Marzo\PM-II\jwt\RpgApi\RpgApi\obj\Debug\net6.0\ref\RpgApi.dll
